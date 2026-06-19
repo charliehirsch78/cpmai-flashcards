@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import Dashboard from './components/Dashboard'
 import Session from './components/Session'
 import { getDeviceId } from './lib/supabase'
-import cardsData from '../../cards.json'
+import cardsData from './data/cards.json'
 
 function App() {
   const [view, setView] = useState('dashboard') // 'dashboard' | 'session'
