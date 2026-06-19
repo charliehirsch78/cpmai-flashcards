@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BookOpen, Trophy, Target, TrendingUp, Play } from 'lucide-react'
+import { BookOpen, Trophy, Target, TrendingUp, Play, Cloud, CloudOff, RefreshCw } from 'lucide-react'
 
 const DOMAIN_COLORS = {
   'I': 'bg-blue-500',
@@ -79,7 +79,7 @@ function getDomainStats(cards, progress, domains) {
   })
 }
 
-export default function Dashboard({ cards, progress, sessionHistory, onStartSession, domains }) {
+export default function Dashboard({ cards, progress, sessionHistory, onStartSession, domains, cloudEnabled, syncStatus, lastSyncTime, onSync }) {
   const [selectedSize, setSelectedSize] = useState(10)
   
   const totalCards = cards.length
@@ -103,6 +103,33 @@ export default function Dashboard({ cards, progress, sessionHistory, onStartSess
             PMI-CPMAI Study Cards
           </h1>
           <p className="text-slate-400 mt-2">Master the CPMAI Methodology</p>
+          
+          {/* Sync Status */}
+          <div className="flex items-center justify-center gap-2 mt-3">
+            {cloudEnabled ? (
+              <button 
+                onClick={onSync}
+                disabled={syncStatus === 'syncing'}
+                className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
+              >
+                {syncStatus === 'syncing' ? (
+                  <RefreshCw size={14} className="animate-spin" />
+                ) : (
+                  <Cloud size={14} className="text-green-400" />
+                )}
+                <span>
+                  {syncStatus === 'syncing' ? 'Syncing...' : 
+                   syncStatus === 'synced' ? `Synced ${lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString() : ''}` :
+                   syncStatus === 'error' ? 'Sync failed' : 'Cloud sync enabled'}
+                </span>
+              </button>
+            ) : (
+              <div className="flex items-center gap-2 text-sm text-slate-500">
+                <CloudOff size={14} />
+                <span>Local only</span>
+              </div>
+            )}
+          </div>
         </div>
 
         {/* Stats Cards */}

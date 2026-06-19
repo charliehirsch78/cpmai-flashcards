@@ -1,7 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Dashboard from './components/Dashboard'
 import Session from './components/Session'
-import { getDeviceId } from './lib/supabase'
+import { 
+  getDeviceId, 
+  isSupabaseConfigured,
+  syncProgressToCloud,
+  fetchProgressFromCloud,
+  saveSessionToCloud,
+  fetchSessionsFromCloud
+} from './lib/supabase'
 import cardsData from './data/cards.json'
 
 function App() {
@@ -9,6 +16,9 @@ function App() {
   const [sessionSize, setSessionSize] = useState(10)
   const [sessionCards, setSessionCards] = useState([])
   const [deviceId] = useState(() => getDeviceId())
+  const [syncStatus, setSyncStatus] = useState('idle') // 'idle' | 'syncing' | 'synced' | 'error'
+  const [lastSyncTime, setLastSyncTime] = useState(null)
+  
   const [progress, setProgress] = useState(() => {
     const saved = localStorage.getItem(`cpmai_progress_${deviceId}`)
     return saved ? JSON.parse(saved) : {}
@@ -19,16 +29,81 @@ function App() {
   })
   
   const cards = cardsData.cards
+  const cloudEnabled = isSupabaseConfigured()
+
+  // Sync from cloud on mount
+  useEffect(() => {
+    if (cloudEnabled) {
+      syncFromCloud()
+    }
+  }, [cloudEnabled])
 
   // Save progress to localStorage whenever it changes
   useEffect(() => {
     localStorage.setItem(`cpmai_progress_${deviceId}`, JSON.stringify(progress))
   }, [progress, deviceId])
 
-  // Save session history
+  // Save session history to localStorage
   useEffect(() => {
     localStorage.setItem(`cpmai_sessions_${deviceId}`, JSON.stringify(sessionHistory))
   }, [sessionHistory, deviceId])
+
+  // Sync from cloud
+  const syncFromCloud = useCallback(async () => {
+    if (!cloudEnabled) return
+    
+    setSyncStatus('syncing')
+    try {
+      // Fetch progress
+      const progressResult = await fetchProgressFromCloud(deviceId)
+      if (progressResult.success && progressResult.data) {
+        // Merge cloud data with local (cloud wins for conflicts based on last_shown)
+        setProgress(prev => {
+          const merged = { ...prev }
+          Object.entries(progressResult.data).forEach(([cardId, cloudData]) => {
+            const local = prev[cardId]
+            if (!local || !local.last_shown || 
+                (cloudData.last_shown && new Date(cloudData.last_shown) > new Date(local.last_shown))) {
+              merged[cardId] = cloudData
+            }
+          })
+          return merged
+        })
+      }
+
+      // Fetch sessions
+      const sessionsResult = await fetchSessionsFromCloud(deviceId)
+      if (sessionsResult.success && sessionsResult.data) {
+        setSessionHistory(prev => {
+          // Merge unique sessions
+          const existingIds = new Set(prev.map(s => s.id))
+          const newSessions = sessionsResult.data.filter(s => !existingIds.has(s.id))
+          return [...newSessions, ...prev].slice(0, 100)
+        })
+      }
+
+      setSyncStatus('synced')
+      setLastSyncTime(new Date())
+    } catch (error) {
+      console.error('Sync from cloud failed:', error)
+      setSyncStatus('error')
+    }
+  }, [cloudEnabled, deviceId])
+
+  // Sync to cloud
+  const syncToCloud = useCallback(async () => {
+    if (!cloudEnabled) return
+    
+    setSyncStatus('syncing')
+    try {
+      await syncProgressToCloud(deviceId, progress)
+      setSyncStatus('synced')
+      setLastSyncTime(new Date())
+    } catch (error) {
+      console.error('Sync to cloud failed:', error)
+      setSyncStatus('error')
+    }
+  }, [cloudEnabled, deviceId, progress])
 
   const startSession = (size) => {
     setSessionSize(size)
@@ -54,7 +129,7 @@ function App() {
     setView('session')
   }
 
-  const endSession = (results) => {
+  const endSession = async (results) => {
     // Update progress based on results
     const newProgress = { ...progress }
     
@@ -118,7 +193,14 @@ function App() {
       cards_incorrect: results.filter(r => !r.correct && !r.skipped).length,
       cards_skipped: results.filter(r => r.skipped).length,
     }
-    setSessionHistory([sessionResult, ...sessionHistory].slice(0, 100)) // Keep last 100 sessions
+    setSessionHistory([sessionResult, ...sessionHistory].slice(0, 100))
+    
+    // Sync to cloud if enabled
+    if (cloudEnabled) {
+      await syncProgressToCloud(deviceId, newProgress)
+      await saveSessionToCloud(deviceId, sessionResult)
+      setLastSyncTime(new Date())
+    }
     
     setView('dashboard')
   }
@@ -140,6 +222,10 @@ function App() {
       sessionHistory={sessionHistory}
       onStartSession={startSession}
       domains={cardsData.metadata.domains}
+      cloudEnabled={cloudEnabled}
+      syncStatus={syncStatus}
+      lastSyncTime={lastSyncTime}
+      onSync={syncToCloud}
     />
   )
 }
