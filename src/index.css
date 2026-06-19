@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+/* Custom domain colors */
+.domain-i { --domain-color: #3B82F6; } /* Blue */
+.domain-ii { --domain-color: #10B981; } /* Green */
+.domain-iii { --domain-color: #F59E0B; } /* Amber */
+.domain-iv { --domain-color: #8B5CF6; } /* Purple */
+.domain-v { --domain-color: #EF4444; } /* Red */
