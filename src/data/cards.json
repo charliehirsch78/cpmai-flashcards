@@ -46,7 +46,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To increase model training speed"
+          "text": "To ensure consistent data quality across training pipelines"
         },
         {
           "id": "b",
@@ -54,11 +54,11 @@
         },
         {
           "id": "c",
-          "text": "To reduce data storage costs"
+          "text": "To establish clear data ownership and access controls"
         },
         {
           "id": "d",
-          "text": "To improve model accuracy"
+          "text": "To enable secure data sharing across organizational boundaries"
         }
       ],
       "correct": "b",
@@ -73,7 +73,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Selecting the machine learning algorithm"
+          "text": "Evaluating model performance metrics against benchmarks"
         },
         {
           "id": "b",
@@ -81,11 +81,11 @@
         },
         {
           "id": "c",
-          "text": "Determining the training data sample size"
+          "text": "Reviewing data classification and retention policies"
         },
         {
           "id": "d",
-          "text": "Scheduling project milestones"
+          "text": "Establishing incident response procedures for data breaches"
         }
       ],
       "correct": "b",
@@ -100,7 +100,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Using open-source algorithms only"
+          "text": "Publishing model performance metrics to stakeholders"
         },
         {
           "id": "b",
@@ -108,11 +108,11 @@
         },
         {
           "id": "c",
-          "text": "Publishing all training data publicly"
+          "text": "Providing access to model training logs and configurations"
         },
         {
           "id": "d",
-          "text": "Allowing unlimited access to AI systems"
+          "text": "Creating user-friendly interfaces for model interpretation"
         }
       ],
       "correct": "b",
@@ -135,7 +135,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the final model outputs"
+          "text": "Final model outputs and prediction distributions"
         },
         {
           "id": "b",
@@ -143,11 +143,11 @@
         },
         {
           "id": "c",
-          "text": "Only the training data"
+          "text": "Training data representativeness and sampling methods"
         },
         {
           "id": "d",
-          "text": "Only the algorithm selection"
+          "text": "Algorithm selection criteria and hyperparameter choices"
         }
       ],
       "correct": "b",
@@ -162,7 +162,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce project costs"
+          "text": "To streamline model development and reduce iteration cycles"
         },
         {
           "id": "b",
@@ -170,11 +170,11 @@
         },
         {
           "id": "c",
-          "text": "To speed up model training"
+          "text": "To enable efficient knowledge transfer between project teams"
         },
         {
           "id": "d",
-          "text": "To eliminate the need for human oversight"
+          "text": "To support model versioning and rollback capabilities"
         }
       ],
       "correct": "b",
@@ -189,7 +189,7 @@
       "options": [
         {
           "id": "a",
-          "text": "SOX (Sarbanes-Oxley Act)"
+          "text": "ISO 27001 (Information Security Management)"
         },
         {
           "id": "b",
@@ -197,11 +197,11 @@
         },
         {
           "id": "c",
-          "text": "PCI-DSS"
+          "text": "SOC 2 (Service Organization Control)"
         },
         {
           "id": "d",
-          "text": "FISMA"
+          "text": "NIST AI RMF (Risk Management Framework)"
         }
       ],
       "correct": "b",
@@ -224,7 +224,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Wait for regulations to be finalized before considering compliance"
+          "text": "Focus on technical implementation while legal teams handle compliance"
         },
         {
           "id": "b",
@@ -232,11 +232,11 @@
         },
         {
           "id": "c",
-          "text": "Focus only on technical implementation"
+          "text": "Implement compliance controls once regulations are finalized"
         },
         {
           "id": "d",
-          "text": "Delegate all compliance matters to the legal department"
+          "text": "Document current compliance status and escalate gaps to leadership"
         }
       ],
       "correct": "b",
@@ -251,7 +251,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The ability to explain AI to non-technical executives only"
+          "text": "The ability to document model architecture for technical teams"
         },
         {
           "id": "b",
@@ -259,11 +259,11 @@
         },
         {
           "id": "c",
-          "text": "Publishing the source code of AI models"
+          "text": "The ability to reproduce model results across different environments"
         },
         {
           "id": "d",
-          "text": "Providing user manuals for AI systems"
+          "text": "The ability to trace predictions back to specific training data"
         }
       ],
       "correct": "b",
@@ -278,7 +278,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Select the AI algorithm"
+          "text": "Evaluate available AI technologies and vendor capabilities"
         },
         {
           "id": "b",
@@ -286,11 +286,11 @@
         },
         {
           "id": "c",
-          "text": "Build the training dataset"
+          "text": "Assess data availability and quality requirements"
         },
         {
           "id": "d",
-          "text": "Deploy the AI model"
+          "text": "Define success criteria and performance metrics"
         }
       ],
       "correct": "b",
@@ -305,7 +305,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The color scheme of the user interface"
+          "text": "Stakeholder alignment and executive sponsorship"
         },
         {
           "id": "b",
@@ -313,11 +313,11 @@
         },
         {
           "id": "c",
-          "text": "The number of team members' certifications"
+          "text": "Team expertise and organizational readiness"
         },
         {
           "id": "d",
-          "text": "The age of existing IT systems"
+          "text": "Timeline constraints and resource availability"
         }
       ],
       "correct": "b",
@@ -332,7 +332,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only financial risks"
+          "text": "Technical implementation risks and mitigation strategies"
         },
         {
           "id": "b",
@@ -340,11 +340,11 @@
         },
         {
           "id": "c",
-          "text": "Only technical risks"
+          "text": "Schedule and budget variance risks"
         },
         {
           "id": "d",
-          "text": "Only schedule risks"
+          "text": "Vendor dependency and integration risks"
         }
       ],
       "correct": "b",
@@ -367,7 +367,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the technical specifications"
+          "text": "Technical architecture and infrastructure requirements"
         },
         {
           "id": "b",
@@ -375,11 +375,11 @@
         },
         {
           "id": "c",
-          "text": "Only the budget"
+          "text": "Resource allocation and team responsibilities"
         },
         {
           "id": "d",
-          "text": "Only the timeline"
+          "text": "Risk register and mitigation strategies"
         }
       ],
       "correct": "b",
@@ -394,7 +394,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the initial development costs"
+          "text": "Development costs and projected timeline to deployment"
         },
         {
           "id": "b",
@@ -402,11 +402,11 @@
         },
         {
           "id": "c",
-          "text": "Only hardware costs"
+          "text": "Infrastructure costs and operational overhead"
         },
         {
           "id": "d",
-          "text": "Only training costs"
+          "text": "Training costs and change management investment"
         }
       ],
       "correct": "b",
@@ -421,7 +421,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Ignoring user resistance"
+          "text": "Focusing primarily on technical integration challenges"
         },
         {
           "id": "b",
@@ -429,11 +429,11 @@
         },
         {
           "id": "c",
-          "text": "Deploying without user training"
+          "text": "Prioritizing system compatibility over user experience"
         },
         {
           "id": "d",
-          "text": "Avoiding integration with existing systems"
+          "text": "Developing comprehensive technical documentation"
         }
       ],
       "correct": "b",
@@ -448,7 +448,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the user interface design"
+          "text": "Detailed user interface mockups and interaction flows"
         },
         {
           "id": "b",
@@ -456,11 +456,11 @@
         },
         {
           "id": "c",
-          "text": "Only the programming language"
+          "text": "Complete technical specifications and API contracts"
         },
         {
           "id": "d",
-          "text": "Only the deployment date"
+          "text": "Infrastructure topology and deployment configurations"
         }
       ],
       "correct": "b",
@@ -483,7 +483,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Number of lines of code written"
+          "text": "Technical milestones and development velocity"
         },
         {
           "id": "b",
@@ -491,11 +491,11 @@
         },
         {
           "id": "c",
-          "text": "Number of meetings held"
+          "text": "User adoption rates and satisfaction scores"
         },
         {
           "id": "d",
-          "text": "Size of the development team"
+          "text": "Model accuracy thresholds and validation criteria"
         }
       ],
       "correct": "b",
@@ -510,7 +510,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only software licenses"
+          "text": "Cloud computing services and infrastructure"
         },
         {
           "id": "b",
@@ -518,11 +518,11 @@
         },
         {
           "id": "c",
-          "text": "Only cloud services"
+          "text": "Data sources and integration platforms"
         },
         {
           "id": "d",
-          "text": "Only internal staff"
+          "text": "Development tools and frameworks"
         }
       ],
       "correct": "b",
@@ -537,7 +537,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only technical documentation"
+          "text": "Technical documentation and system specifications"
         },
         {
           "id": "b",
@@ -545,11 +545,11 @@
         },
         {
           "id": "c",
-          "text": "Only competitor information"
+          "text": "Risk assessments and mitigation strategies"
         },
         {
           "id": "d",
-          "text": "Only regulatory requirements"
+          "text": "Stakeholder requirements and success criteria"
         }
       ],
       "correct": "b",
@@ -564,7 +564,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the data format"
+          "text": "Data sources and integration requirements"
         },
         {
           "id": "b",
@@ -572,11 +572,11 @@
         },
         {
           "id": "c",
-          "text": "Only the storage location"
+          "text": "Storage architecture and access patterns"
         },
         {
           "id": "d",
-          "text": "Only the collection date"
+          "text": "Security classifications and handling procedures"
         }
       ],
       "correct": "b",
@@ -591,7 +591,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce project costs"
+          "text": "To accelerate data collection and processing timelines"
         },
         {
           "id": "b",
@@ -599,11 +599,11 @@
         },
         {
           "id": "c",
-          "text": "To speed up data collection"
+          "text": "To reduce dependency on technical data engineering teams"
         },
         {
           "id": "d",
-          "text": "To eliminate the need for data cleaning"
+          "text": "To validate data quality metrics and standards"
         }
       ],
       "correct": "b",
@@ -618,7 +618,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only internal databases"
+          "text": "Primary internal databases with established data quality"
         },
         {
           "id": "b",
@@ -626,11 +626,11 @@
         },
         {
           "id": "c",
-          "text": "Only cloud storage"
+          "text": "Structured data sources with existing API integrations"
         },
         {
           "id": "d",
-          "text": "Only third-party data providers"
+          "text": "Real-time data streams and event-driven sources"
         }
       ],
       "correct": "b",
@@ -653,7 +653,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only purchasing hardware"
+          "text": "Selecting appropriate cloud providers and services"
         },
         {
           "id": "b",
@@ -661,11 +661,11 @@
         },
         {
           "id": "c",
-          "text": "Only hiring staff"
+          "text": "Establishing data governance policies and access controls"
         },
         {
           "id": "d",
-          "text": "Only selecting cloud providers"
+          "text": "Defining infrastructure requirements and capacity planning"
         }
       ],
       "correct": "b",
@@ -680,7 +680,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the file sizes"
+          "text": "Data transfer speeds and processing throughput"
         },
         {
           "id": "b",
@@ -688,11 +688,11 @@
         },
         {
           "id": "c",
-          "text": "Only the data format"
+          "text": "Data format compatibility and schema alignment"
         },
         {
           "id": "d",
-          "text": "Only the collection speed"
+          "text": "Data lineage and transformation documentation"
         }
       ],
       "correct": "b",
@@ -707,7 +707,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only technical specifications"
+          "text": "Data quality metrics and validation results"
         },
         {
           "id": "b",
@@ -715,11 +715,11 @@
         },
         {
           "id": "c",
-          "text": "Only storage capacity"
+          "text": "Data source reliability and refresh frequencies"
         },
         {
           "id": "d",
-          "text": "Only processing speed"
+          "text": "Data transformation logic and processing pipelines"
         }
       ],
       "correct": "b",
@@ -734,7 +734,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the number of records"
+          "text": "Data volume and processing performance metrics"
         },
         {
           "id": "b",
@@ -742,11 +742,11 @@
         },
         {
           "id": "c",
-          "text": "Only the collection date"
+          "text": "Data source reliability and availability"
         },
         {
           "id": "d",
-          "text": "Only the storage format"
+          "text": "Data integration complexity and dependencies"
         }
       ],
       "correct": "b",
@@ -761,7 +761,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Comparing data size to budget"
+          "text": "Analyzing data processing costs against budget constraints"
         },
         {
           "id": "b",
@@ -769,11 +769,11 @@
         },
         {
           "id": "c",
-          "text": "Counting the number of data sources"
+          "text": "Evaluating data quality improvement opportunities"
         },
         {
           "id": "d",
-          "text": "Measuring data transfer speed"
+          "text": "Assessing technical feasibility of data transformations"
         }
       ],
       "correct": "b",
@@ -796,7 +796,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only raw data exports"
+          "text": "Raw data extracts and technical specifications"
         },
         {
           "id": "b",
@@ -804,11 +804,11 @@
         },
         {
           "id": "c",
-          "text": "Only technical documentation"
+          "text": "Detailed data quality reports and metrics"
         },
         {
           "id": "d",
-          "text": "Only compliance reports"
+          "text": "Technical data lineage documentation"
         }
       ],
       "correct": "b",
@@ -823,7 +823,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the algorithm's popularity"
+          "text": "Model training efficiency and computational requirements"
         },
         {
           "id": "b",
@@ -831,11 +831,11 @@
         },
         {
           "id": "c",
-          "text": "Only the development team's preferences"
+          "text": "Algorithm familiarity and team expertise"
         },
         {
           "id": "d",
-          "text": "Only the hardware requirements"
+          "text": "Industry benchmarks and state-of-the-art performance"
         }
       ],
       "correct": "b",
@@ -850,7 +850,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only running the model once"
+          "text": "Validating model predictions against business requirements"
         },
         {
           "id": "b",
@@ -858,11 +858,11 @@
         },
         {
           "id": "c",
-          "text": "Only checking the user interface"
+          "text": "Conducting code reviews and documentation updates"
         },
         {
           "id": "d",
-          "text": "Only verifying the budget"
+          "text": "Verifying model integration with production systems"
         }
       ],
       "correct": "b",
@@ -885,7 +885,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the training duration"
+          "text": "Training schedules and computational resource allocation"
         },
         {
           "id": "b",
@@ -893,11 +893,11 @@
         },
         {
           "id": "c",
-          "text": "Only the number of iterations"
+          "text": "Model architecture decisions and layer configurations"
         },
         {
           "id": "d",
-          "text": "Only the team assignments"
+          "text": "Data pipeline orchestration and batch processing"
         }
       ],
       "correct": "b",
@@ -912,7 +912,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only converting file formats"
+          "text": "Managing data storage and retrieval optimization"
         },
         {
           "id": "b",
@@ -920,11 +920,11 @@
         },
         {
           "id": "c",
-          "text": "Only backing up data"
+          "text": "Coordinating data access permissions and security"
         },
         {
           "id": "d",
-          "text": "Only compressing data"
+          "text": "Establishing data quality monitoring and alerting"
         }
       ],
       "correct": "b",
@@ -939,7 +939,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only budget review"
+          "text": "Budget and resource availability review"
         },
         {
           "id": "b",
@@ -947,11 +947,11 @@
         },
         {
           "id": "c",
-          "text": "Only schedule review"
+          "text": "Stakeholder alignment and approval confirmation"
         },
         {
           "id": "d",
-          "text": "Only team capacity review"
+          "text": "Technical infrastructure readiness verification"
         }
       ],
       "correct": "b",
@@ -966,7 +966,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the model name"
+          "text": "Stakeholder approval and business case validation"
         },
         {
           "id": "b",
@@ -974,11 +974,11 @@
         },
         {
           "id": "c",
-          "text": "Only the development team's approval"
+          "text": "Documentation completeness and knowledge transfer"
         },
         {
           "id": "d",
-          "text": "Only the budget approval"
+          "text": "Infrastructure capacity and scalability requirements"
         }
       ],
       "correct": "b",
@@ -1001,7 +1001,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Adjusting the training data"
+          "text": "Modifying the model architecture for better performance"
         },
         {
           "id": "b",
@@ -1009,11 +1009,11 @@
         },
         {
           "id": "c",
-          "text": "Changing the business requirements"
+          "text": "Adjusting the training data distribution"
         },
         {
           "id": "d",
-          "text": "Modifying the deployment infrastructure"
+          "text": "Refining feature engineering approaches"
         }
       ],
       "correct": "b",
@@ -1028,7 +1028,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce development costs"
+          "text": "To validate model performance across different hardware"
         },
         {
           "id": "b",
@@ -1036,11 +1036,11 @@
         },
         {
           "id": "c",
-          "text": "To speed up training"
+          "text": "To compare model performance against baselines"
         },
         {
           "id": "d",
-          "text": "To simplify the model"
+          "text": "To verify model reproducibility across training runs"
         }
       ],
       "correct": "b",
@@ -1055,7 +1055,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the deployment date"
+          "text": "Deployment timeline and resource assignments"
         },
         {
           "id": "b",
@@ -1063,11 +1063,11 @@
         },
         {
           "id": "c",
-          "text": "Only the budget"
+          "text": "Stakeholder communication and training schedules"
         },
         {
           "id": "d",
-          "text": "Only the team assignments"
+          "text": "Performance monitoring dashboards and alerting thresholds"
         }
       ],
       "correct": "b",
@@ -1082,7 +1082,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only installing software"
+          "text": "Executing deployment scripts and updating configurations"
         },
         {
           "id": "b",
@@ -1090,11 +1090,11 @@
         },
         {
           "id": "c",
-          "text": "Only notifying stakeholders"
+          "text": "Managing stakeholder communications and expectations"
         },
         {
           "id": "d",
-          "text": "Only documenting the process"
+          "text": "Documenting deployment procedures and lessons learned"
         }
       ],
       "correct": "b",
@@ -1109,7 +1109,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only model documentation"
+          "text": "Model documentation and knowledge management"
         },
         {
           "id": "b",
@@ -1117,11 +1117,11 @@
         },
         {
           "id": "c",
-          "text": "Only model training"
+          "text": "Model performance monitoring and optimization"
         },
         {
           "id": "d",
-          "text": "Only model deployment"
+          "text": "Model security and access control management"
         }
       ],
       "correct": "b",
@@ -1144,7 +1144,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only development metrics"
+          "text": "Development velocity and team productivity metrics"
         },
         {
           "id": "b",
@@ -1152,11 +1152,11 @@
         },
         {
           "id": "c",
-          "text": "Only budget metrics"
+          "text": "Infrastructure utilization and cost efficiency metrics"
         },
         {
           "id": "d",
-          "text": "Only schedule metrics"
+          "text": "User adoption rates and satisfaction metrics"
         }
       ],
       "correct": "b",
@@ -1171,7 +1171,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only project costs"
+          "text": "Financial summary and resource utilization statistics"
         },
         {
           "id": "b",
@@ -1179,11 +1179,11 @@
         },
         {
           "id": "c",
-          "text": "Only team performance"
+          "text": "Technical specifications and system architecture documentation"
         },
         {
           "id": "d",
-          "text": "Only technical specifications"
+          "text": "Stakeholder feedback and satisfaction assessments"
         }
       ],
       "correct": "b",
@@ -1198,7 +1198,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only changing the project status"
+          "text": "Updating project documentation and closing activities"
         },
         {
           "id": "b",
@@ -1206,11 +1206,11 @@
         },
         {
           "id": "c",
-          "text": "Only updating project documentation"
+          "text": "Communicating project completion to stakeholders"
         },
         {
           "id": "d",
-          "text": "Only notifying stakeholders"
+          "text": "Archiving project artifacts and releasing resources"
         }
       ],
       "correct": "b",
@@ -1225,7 +1225,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only backup schedules"
+          "text": "Alternative vendor options and fallback solutions"
         },
         {
           "id": "b",
@@ -1233,11 +1233,11 @@
         },
         {
           "id": "c",
-          "text": "Only budget reserves"
+          "text": "Resource reallocation plans and budget reserves"
         },
         {
           "id": "d",
-          "text": "Only alternative vendors"
+          "text": "Communication protocols and stakeholder notification procedures"
         }
       ],
       "correct": "b",
@@ -1260,7 +1260,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To track development costs"
+          "text": "To track model development progress and team contributions"
         },
         {
           "id": "b",
@@ -1268,11 +1268,11 @@
         },
         {
           "id": "c",
-          "text": "To reduce storage requirements"
+          "text": "To manage storage efficiently and reduce redundancy"
         },
         {
           "id": "d",
-          "text": "To simplify deployment"
+          "text": "To facilitate collaboration between development teams"
         }
       ],
       "correct": "b",
@@ -1287,7 +1287,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To improve model accuracy"
+          "text": "To ensure compliance with data retention policies"
         },
         {
           "id": "b",
@@ -1295,11 +1295,11 @@
         },
         {
           "id": "c",
-          "text": "To reduce storage costs"
+          "text": "To enable secure data sharing with external partners"
         },
         {
           "id": "d",
-          "text": "To speed up training"
+          "text": "To maintain data integrity during model training"
         }
       ],
       "correct": "b",
@@ -1314,7 +1314,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A federal AI development standard"
+          "text": "A federal framework for AI system certification"
         },
         {
           "id": "b",
@@ -1322,11 +1322,11 @@
         },
         {
           "id": "c",
-          "text": "A model training framework"
+          "text": "A national standard for AI model documentation"
         },
         {
           "id": "d",
-          "text": "A cloud computing standard"
+          "text": "A regulatory framework for cross-border data transfers"
         }
       ],
       "correct": "b",
@@ -1349,7 +1349,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the model name"
+          "text": "Model architecture and hyperparameter configurations"
         },
         {
           "id": "b",
@@ -1357,11 +1357,11 @@
         },
         {
           "id": "c",
-          "text": "Only the deployment date"
+          "text": "Code repositories and deployment configurations"
         },
         {
           "id": "d",
-          "text": "Only the algorithm type"
+          "text": "Performance metrics and validation results"
         }
       ],
       "correct": "b",
@@ -1376,7 +1376,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only budget availability"
+          "text": "Executive sponsorship and budget availability"
         },
         {
           "id": "b",
@@ -1384,11 +1384,11 @@
         },
         {
           "id": "c",
-          "text": "Only competitor analysis"
+          "text": "Vendor partnerships and technology options"
         },
         {
           "id": "d",
-          "text": "Only executive support"
+          "text": "Competitive landscape and market positioning"
         }
       ],
       "correct": "b",
@@ -1403,7 +1403,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To always choose the AI solution"
+          "text": "To validate AI technology selection"
         },
         {
           "id": "b",
@@ -1411,11 +1411,11 @@
         },
         {
           "id": "c",
-          "text": "To justify higher budgets"
+          "text": "To justify investment in AI capabilities"
         },
         {
           "id": "d",
-          "text": "To impress stakeholders"
+          "text": "To benchmark against industry competitors"
         }
       ],
       "correct": "b",
@@ -1438,7 +1438,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To create marketing materials"
+          "text": "To validate technical feasibility of the proposed solution"
         },
         {
           "id": "b",
@@ -1446,11 +1446,11 @@
         },
         {
           "id": "c",
-          "text": "To satisfy regulatory requirements"
+          "text": "To document solution architecture for development teams"
         },
         {
           "id": "d",
-          "text": "To reduce project duration"
+          "text": "To communicate AI concepts to non-technical stakeholders"
         }
       ],
       "correct": "b",
@@ -1465,7 +1465,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce storage costs"
+          "text": "To minimize data storage requirements"
         },
         {
           "id": "b",
@@ -1473,11 +1473,11 @@
         },
         {
           "id": "c",
-          "text": "To comply with naming conventions"
+          "text": "To comply with data archival policies"
         },
         {
           "id": "d",
-          "text": "To simplify data structures"
+          "text": "To reduce data processing latency"
         }
       ],
       "correct": "b",
@@ -1492,7 +1492,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A method for deploying models"
+          "text": "A technique for optimizing model deployment"
         },
         {
           "id": "b",
@@ -1500,11 +1500,11 @@
         },
         {
           "id": "c",
-          "text": "A technique for model training"
+          "text": "A method for validating model predictions"
         },
         {
           "id": "d",
-          "text": "A compliance verification process"
+          "text": "A framework for data governance implementation"
         }
       ],
       "correct": "b",
@@ -1527,7 +1527,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying models to production"
+          "text": "Selecting models for deployment to production"
         },
         {
           "id": "b",
@@ -1535,11 +1535,11 @@
         },
         {
           "id": "c",
-          "text": "Writing model documentation"
+          "text": "Documenting model capabilities and limitations"
         },
         {
           "id": "d",
-          "text": "Testing model outputs"
+          "text": "Validating model outputs against expected results"
         }
       ],
       "correct": "b",
@@ -1554,7 +1554,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Backing up data"
+          "text": "Creating backup copies of training data"
         },
         {
           "id": "b",
@@ -1562,11 +1562,11 @@
         },
         {
           "id": "c",
-          "text": "Compressing data for storage"
+          "text": "Compressing data for efficient model training"
         },
         {
           "id": "d",
-          "text": "Converting data formats"
+          "text": "Enhancing data quality through cleansing"
         }
       ],
       "correct": "b",
@@ -1589,7 +1589,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A training technique"
+          "text": "A technique for optimizing model training"
         },
         {
           "id": "b",
@@ -1597,11 +1597,11 @@
         },
         {
           "id": "c",
-          "text": "A data cleaning method"
+          "text": "A method for recovering from data corruption"
         },
         {
           "id": "d",
-          "text": "A user training approach"
+          "text": "A procedure for reverting configuration changes"
         }
       ],
       "correct": "b",
@@ -1616,7 +1616,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only budget availability"
+          "text": "Budget allocation cycles and fiscal year planning"
         },
         {
           "id": "b",
@@ -1624,11 +1624,11 @@
         },
         {
           "id": "c",
-          "text": "Only user requests"
+          "text": "Stakeholder requests and business priorities"
         },
         {
           "id": "d",
-          "text": "Only regulatory requirements"
+          "text": "Team availability and sprint planning"
         }
       ],
       "correct": "b",
@@ -1651,7 +1651,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Testing model speed"
+          "text": "Evaluating model inference speed across environments"
         },
         {
           "id": "b",
@@ -1659,11 +1659,11 @@
         },
         {
           "id": "c",
-          "text": "Testing data storage"
+          "text": "Testing model stability under varying conditions"
         },
         {
           "id": "d",
-          "text": "Testing user interfaces"
+          "text": "Validating model predictions against ground truth"
         }
       ],
       "correct": "b",
@@ -1678,7 +1678,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To assess model accuracy"
+          "text": "To evaluate model performance against accuracy benchmarks"
         },
         {
           "id": "b",
@@ -1686,11 +1686,11 @@
         },
         {
           "id": "c",
-          "text": "To evaluate infrastructure costs"
+          "text": "To assess infrastructure readiness for production"
         },
         {
           "id": "d",
-          "text": "To test model performance"
+          "text": "To validate compliance with security policies"
         }
       ],
       "correct": "b",
@@ -1705,7 +1705,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A development methodology"
+          "text": "A specific AI development methodology"
         },
         {
           "id": "b",
@@ -1713,11 +1713,11 @@
         },
         {
           "id": "c",
-          "text": "A type of AI algorithm"
+          "text": "A role-based access control profile"
         },
         {
           "id": "d",
-          "text": "A project management tool"
+          "text": "A stakeholder classification category"
         }
       ],
       "correct": "b",
@@ -1732,7 +1732,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only hardware vulnerabilities"
+          "text": "Network perimeter weaknesses only"
         },
         {
           "id": "b",
@@ -1740,11 +1740,11 @@
         },
         {
           "id": "c",
-          "text": "Only network vulnerabilities"
+          "text": "User authentication vulnerabilities only"
         },
         {
           "id": "d",
-          "text": "Only user access vulnerabilities"
+          "text": "Physical security threats to AI infrastructure"
         }
       ],
       "correct": "b",
@@ -1759,7 +1759,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A method for storing data"
+          "text": "A technique for compressing data storage"
         },
         {
           "id": "b",
@@ -1767,11 +1767,11 @@
         },
         {
           "id": "c",
-          "text": "A backup procedure"
+          "text": "A method for distributing data across systems"
         },
         {
           "id": "d",
-          "text": "A data deletion policy"
+          "text": "An approach for prioritizing data sources"
         }
       ],
       "correct": "b",
@@ -1786,7 +1786,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Data storage format"
+          "text": "The physical storage format of data"
         },
         {
           "id": "b",
@@ -1794,11 +1794,11 @@
         },
         {
           "id": "c",
-          "text": "Data encryption strength"
+          "text": "The security classification of data"
         },
         {
           "id": "d",
-          "text": "Data compression ratio"
+          "text": "The frequency of data updates"
         }
       ],
       "correct": "b",
@@ -1813,7 +1813,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The model's ability to run on different hardware"
+          "text": "The model's ability to process different data formats"
         },
         {
           "id": "b",
@@ -1821,11 +1821,11 @@
         },
         {
           "id": "c",
-          "text": "The model's ability to use multiple programming languages"
+          "text": "The model's ability to scale across multiple systems"
         },
         {
           "id": "d",
-          "text": "The model's ability to integrate with various systems"
+          "text": "The model's ability to integrate with various platforms"
         }
       ],
       "correct": "b",
@@ -1840,7 +1840,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce development costs"
+          "text": "To optimize development costs and resource utilization"
         },
         {
           "id": "b",
@@ -1848,11 +1848,11 @@
         },
         {
           "id": "c",
-          "text": "To satisfy legal requirements"
+          "text": "To track team velocity and productivity"
         },
         {
           "id": "d",
-          "text": "To speed up training"
+          "text": "To monitor model behavior in production"
         }
       ],
       "correct": "b",
@@ -1867,7 +1867,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To reduce costs"
+          "text": "To optimize infrastructure costs"
         },
         {
           "id": "b",
@@ -1875,11 +1875,11 @@
         },
         {
           "id": "c",
-          "text": "To generate reports"
+          "text": "To generate reports for stakeholders"
         },
         {
           "id": "d",
-          "text": "To comply with naming conventions"
+          "text": "To track development team productivity"
         }
       ],
       "correct": "b",
@@ -1894,7 +1894,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Moving data between systems"
+          "text": "Migrating data between storage systems"
         },
         {
           "id": "b",
@@ -1902,11 +1902,11 @@
         },
         {
           "id": "c",
-          "text": "Copying model files"
+          "text": "Copying model artifacts to backup systems"
         },
         {
           "id": "d",
-          "text": "Transferring budget responsibility"
+          "text": "Transferring ownership of project deliverables"
         }
       ],
       "correct": "b",
@@ -1961,7 +1961,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To track financial expenses"
+          "text": "To monitor model performance over time"
         },
         {
           "id": "b",
@@ -1969,11 +1969,11 @@
         },
         {
           "id": "c",
-          "text": "To monitor user behavior"
+          "text": "To track resource utilization and costs"
         },
         {
           "id": "d",
-          "text": "To track model performance only"
+          "text": "To document technical specifications for future reference"
         }
       ],
       "correct": "b",
@@ -1988,7 +1988,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Risk of project delays"
+          "text": "Risk of exceeding project timeline"
         },
         {
           "id": "b",
@@ -2000,7 +2000,7 @@
         },
         {
           "id": "d",
-          "text": "Risk of technical failures"
+          "text": "Risk of technical implementation challenges"
         }
       ],
       "correct": "b",
@@ -2015,7 +2015,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How data is visually displayed"
+          "text": "How data is formatted and structured"
         },
         {
           "id": "b",
@@ -2023,11 +2023,11 @@
         },
         {
           "id": "c",
-          "text": "How data is formatted"
+          "text": "How data is distributed across systems"
         },
         {
           "id": "d",
-          "text": "How data is stored"
+          "text": "How data quality compares to standards"
         }
       ],
       "correct": "b",
@@ -2042,7 +2042,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Removing duplicate data"
+          "text": "Eliminating duplicate records from datasets"
         },
         {
           "id": "b",
@@ -2050,11 +2050,11 @@
         },
         {
           "id": "c",
-          "text": "Encrypting data"
+          "text": "Encoding categorical variables for model processing"
         },
         {
           "id": "d",
-          "text": "Compressing data"
+          "text": "Transforming data to meet storage requirements"
         }
       ],
       "correct": "b",
@@ -2069,7 +2069,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Planning for budget increases"
+          "text": "Allocating budget for unexpected challenges"
         },
         {
           "id": "b",
@@ -2077,11 +2077,11 @@
         },
         {
           "id": "c",
-          "text": "Planning for staff training"
+          "text": "Scheduling regular team training sessions"
         },
         {
           "id": "d",
-          "text": "Planning for new features"
+          "text": "Planning for system upgrades and enhancements"
         }
       ],
       "correct": "b",
@@ -2096,7 +2096,7 @@
       "options": [
         {
           "id": "a",
-          "text": "General software development standards"
+          "text": "Company-wide AI development standards"
         },
         {
           "id": "b",
@@ -2104,11 +2104,11 @@
         },
         {
           "id": "c",
-          "text": "Company-specific policies only"
+          "text": "International AI governance frameworks"
         },
         {
           "id": "d",
-          "text": "International trade agreements"
+          "text": "Technical compliance standards for AI systems"
         }
       ],
       "correct": "b",
@@ -2123,7 +2123,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A primary project plan"
+          "text": "The primary execution plan for the project"
         },
         {
           "id": "b",
@@ -2131,11 +2131,11 @@
         },
         {
           "id": "c",
-          "text": "A budget document"
+          "text": "A financial reserve allocation strategy"
         },
         {
           "id": "d",
-          "text": "A training schedule"
+          "text": "An alternative resource allocation approach"
         }
       ],
       "correct": "b",
@@ -2150,7 +2150,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the missing file formats"
+          "text": "Data format incompatibilities only"
         },
         {
           "id": "b",
@@ -2158,11 +2158,11 @@
         },
         {
           "id": "c",
-          "text": "Only the storage locations"
+          "text": "Data quality issues and remediation plans"
         },
         {
           "id": "d",
-          "text": "Only the data owners"
+          "text": "Data access restrictions and workarounds"
         }
       ],
       "correct": "b",
@@ -2177,7 +2177,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Reviewing competitor products"
+          "text": "Reviewing analysis performed by colleagues"
         },
         {
           "id": "b",
@@ -2185,11 +2185,11 @@
         },
         {
           "id": "c",
-          "text": "Reviewing user feedback"
+          "text": "Evaluating competitor model approaches"
         },
         {
           "id": "d",
-          "text": "Reviewing budget estimates"
+          "text": "Reviewing model performance benchmarks"
         }
       ],
       "correct": "b",
@@ -2204,7 +2204,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A model training technique"
+          "text": "A technique for optimizing model performance"
         },
         {
           "id": "b",
@@ -2212,11 +2212,11 @@
         },
         {
           "id": "c",
-          "text": "A data processing method"
+          "text": "A method for scaling AI services under load"
         },
         {
           "id": "d",
-          "text": "A user interface design"
+          "text": "A procedure for documenting system changes"
         }
       ],
       "correct": "b",
@@ -2231,7 +2231,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Metrics for measuring model speed"
+          "text": "Performance metrics measuring model accuracy"
         },
         {
           "id": "b",
@@ -2239,11 +2239,11 @@
         },
         {
           "id": "c",
-          "text": "Metrics for storage efficiency"
+          "text": "Data quality indicators for training datasets"
         },
         {
           "id": "d",
-          "text": "Metrics for user satisfaction"
+          "text": "System health metrics for monitoring deployments"
         }
       ],
       "correct": "b",
@@ -2258,7 +2258,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Only the initial development cost"
+          "text": "The upfront development and implementation costs only"
         },
         {
           "id": "b",
@@ -2266,11 +2266,11 @@
         },
         {
           "id": "c",
-          "text": "Only hardware costs"
+          "text": "Infrastructure and cloud computing expenses only"
         },
         {
           "id": "d",
-          "text": "Only training costs"
+          "text": "Personnel and training costs throughout the project"
         }
       ],
       "correct": "b",
@@ -2285,7 +2285,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A data backup system"
+          "text": "A data backup and recovery mechanism"
         },
         {
           "id": "b",
@@ -2293,11 +2293,11 @@
         },
         {
           "id": "c",
-          "text": "A data compression format"
+          "text": "A data validation ruleset"
         },
         {
           "id": "d",
-          "text": "A data encryption method"
+          "text": "A data transformation pipeline"
         }
       ],
       "correct": "b",
@@ -2312,7 +2312,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying data to production"
+          "text": "Preparing models for production deployment"
         },
         {
           "id": "b",
@@ -2320,11 +2320,11 @@
         },
         {
           "id": "c",
-          "text": "Backing up data"
+          "text": "Processing model predictions for downstream systems"
         },
         {
           "id": "d",
-          "text": "Encrypting data"
+          "text": "Preparing reports for stakeholder review"
         }
       ],
       "correct": "b",
@@ -2339,7 +2339,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Creating deployment documentation"
+          "text": "Preparing deployment documentation"
         },
         {
           "id": "b",
@@ -2347,11 +2347,11 @@
         },
         {
           "id": "c",
-          "text": "Planning future updates"
+          "text": "Validating stakeholder requirements"
         },
         {
           "id": "d",
-          "text": "Training users"
+          "text": "Verifying team readiness for support"
         }
       ],
       "correct": "b",
@@ -2366,7 +2366,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To track project costs"
+          "text": "To track model performance against benchmarks"
         },
         {
           "id": "b",
@@ -2374,11 +2374,11 @@
         },
         {
           "id": "c",
-          "text": "To monitor model performance"
+          "text": "To monitor system availability and uptime"
         },
         {
           "id": "d",
-          "text": "To track team productivity"
+          "text": "To measure team productivity and delivery metrics"
         }
       ],
       "correct": "b",
@@ -2393,7 +2393,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Technical limitations of AI systems"
+          "text": "Performance limitations of AI algorithms"
         },
         {
           "id": "b",
@@ -2401,11 +2401,11 @@
         },
         {
           "id": "c",
-          "text": "Resistance to data sharing"
+          "text": "Technical constraints limiting AI capabilities"
         },
         {
           "id": "d",
-          "text": "Physical resistance of hardware"
+          "text": "Resource constraints affecting implementation"
         }
       ],
       "correct": "b",
@@ -2420,7 +2420,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Planning data center locations"
+          "text": "Allocating data storage across data centers"
         },
         {
           "id": "b",
@@ -2428,11 +2428,11 @@
         },
         {
           "id": "c",
-          "text": "Distributing data to users"
+          "text": "Distributing data processing across teams"
         },
         {
           "id": "d",
-          "text": "Planning data backups"
+          "text": "Planning data dissemination to stakeholders"
         }
       ],
       "correct": "b",
@@ -2447,7 +2447,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Tracking team work hours"
+          "text": "Monitoring team allocation and productivity"
         },
         {
           "id": "b",
@@ -2455,11 +2455,11 @@
         },
         {
           "id": "c",
-          "text": "Monitoring data quality"
+          "text": "Monitoring data pipeline throughput"
         },
         {
           "id": "d",
-          "text": "Tracking stakeholder engagement"
+          "text": "Tracking model deployment frequency"
         }
       ],
       "correct": "b",
@@ -2474,7 +2474,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Training users on the system"
+          "text": "Conducting user training programs"
         },
         {
           "id": "b",
@@ -2482,11 +2482,11 @@
         },
         {
           "id": "c",
-          "text": "Creating user documentation"
+          "text": "Creating user guides and documentation"
         },
         {
           "id": "d",
-          "text": "Surveying user satisfaction"
+          "text": "Establishing user support procedures"
         }
       ],
       "correct": "b",
