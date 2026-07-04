@@ -11,6 +11,32 @@ import {
 } from './lib/supabase'
 import cardsData from './data/cards.json'
 
+// Shuffle answer options while keeping track of the correct answer
+function shuffleCardOptions(card) {
+  if (card.type !== 'question' || !card.options) {
+    return card
+  }
+  
+  // Create a copy of the card and options
+  const newCard = { ...card }
+  const options = [...card.options]
+  
+  // Find the correct option
+  const correctOption = options.find(opt => opt.id === card.correct)
+  
+  // Fisher-Yates shuffle
+  for (let i = options.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [options[i], options[j]] = [options[j], options[i]]
+  }
+  
+  // Update the card with shuffled options and new correct position
+  newCard.options = options
+  newCard.correct = correctOption.id // Keep the ID, not the position
+  
+  return newCard
+}
+
 function App() {
   const [view, setView] = useState('dashboard') // 'dashboard' | 'session'
   const [sessionSize, setSessionSize] = useState(10)
@@ -125,7 +151,10 @@ function App() {
       return dueA - dueB
     })
     
-    setSessionCards(sortedCards.slice(0, size))
+    // Shuffle answer options for each card to randomize correct answer position
+    const cardsWithShuffledOptions = sortedCards.slice(0, size).map(card => shuffleCardOptions(card))
+    
+    setSessionCards(cardsWithShuffledOptions)
     setView('session')
   }
 
