@@ -74,9 +74,10 @@ function App() {
       const result = await getUser()
       if (result.success && result.user) {
         setUser(result.user)
-        setView('dashboard')
-        // Sync cloud data for authenticated user
+        // Migrate any remaining device data first, then sync
+        await migrateDeviceProgressToUser(deviceId, result.user.id)
         await syncFromCloud(result.user.id)
+        setView('dashboard')
       } else {
         setView('dashboard') // Still show dashboard, but unauthenticated
       }
