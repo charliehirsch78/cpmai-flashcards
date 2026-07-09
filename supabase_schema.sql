@@ -42,6 +42,14 @@ CREATE INDEX IF NOT EXISTS idx_device_progress_user_id ON device_progress(user_i
 CREATE INDEX IF NOT EXISTS idx_session_history_device_id ON session_history(device_id);
 CREATE INDEX IF NOT EXISTS idx_session_history_user_id ON session_history(user_id);
 
+-- Migration: Add user_id columns and drop NOT NULL on device_id
+ALTER TABLE device_progress ADD COLUMN IF NOT EXISTS user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE;
+ALTER TABLE session_history ADD COLUMN IF NOT EXISTS user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE;
+
+-- Drop NOT NULL on device_id so authenticated rows can have null device_id
+ALTER TABLE device_progress ALTER COLUMN device_id DROP NOT NULL;
+ALTER TABLE session_history ALTER COLUMN device_id DROP NOT NULL;
+
 -- Enable Row Level Security (RLS)
 ALTER TABLE device_progress ENABLE ROW LEVEL SECURITY;
 ALTER TABLE session_history ENABLE ROW LEVEL SECURITY;
