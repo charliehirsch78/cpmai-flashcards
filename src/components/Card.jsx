@@ -106,7 +106,6 @@ export default function Card({ card, onAnswer, showingFeedback, lastAnswer }) {
                 )}
               </div>
               <div>
-                <span className="font-medium text-slate-400 mr-2">{option.id.toUpperCase()}.</span>
                 {option.text}
               </div>
             </button>
