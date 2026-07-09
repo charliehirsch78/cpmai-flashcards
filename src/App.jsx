@@ -1,23 +1,29 @@
 import { useState, useEffect, useCallback } from 'react'
 import Dashboard from './components/Dashboard'
 import Session from './components/Session'
+import Auth from './components/Auth'
 import { 
   getDeviceId, 
   isSupabaseConfigured,
   syncProgressToCloud,
   fetchProgressFromCloud,
   saveSessionToCloud,
-  fetchSessionsFromCloud
+  fetchSessionsFromCloud,
+  getUser,
+  onAuthChange,
+  migrateDeviceProgressToUser
 } from './lib/supabase'
 import cardsData from './data/cards.json'
 
 function App() {
-  const [view, setView] = useState('dashboard') // 'dashboard' | 'session'
+  const [view, setView] = useState('loading') // 'loading' | 'auth' | 'dashboard' | 'session'
   const [sessionSize, setSessionSize] = useState(10)
   const [sessionCards, setSessionCards] = useState([])
   const [deviceId] = useState(() => getDeviceId())
+  const [user, setUser] = useState(null)
   const [syncStatus, setSyncStatus] = useState('idle') // 'idle' | 'syncing' | 'synced' | 'error'
   const [lastSyncTime, setLastSyncTime] = useState(null)
+  const [authError, setAuthError] = useState(null)
   
   const [progress, setProgress] = useState(() => {
     const saved = localStorage.getItem(`cpmai_progress_${deviceId}`)
@@ -31,11 +37,43 @@ function App() {
   const cards = cardsData.cards
   const cloudEnabled = isSupabaseConfigured()
 
-  // Sync from cloud on mount
+  // Check auth state on mount and subscribe to auth changes
   useEffect(() => {
-    if (cloudEnabled) {
-      syncFromCloud()
+    if (!cloudEnabled) {
+      setView('dashboard')
+      return
     }
+
+    const initAuth = async () => {
+      const result = await getUser()
+      if (result.success && result.user) {
+        setUser(result.user)
+        setView('dashboard')
+        // Sync cloud data for authenticated user
+        await syncFromCloud(result.user.id)
+      } else {
+        setView('dashboard') // Still show dashboard, but unauthenticated
+      }
+    }
+
+    initAuth()
+
+    // Subscribe to auth changes
+    const unsubscribe = onAuthChange((authUser, event) => {
+      if (authUser) {
+        setUser(authUser)
+        setAuthError(null)
+        // On sign in, migrate device data to user and sync
+        if (event === 'SIGNED_IN') {
+          handleUserSignIn(authUser)
+        }
+      } else {
+        setUser(null)
+        setView('dashboard')
+      }
+    })
+
+    return unsubscribe
   }, [cloudEnabled])
 
   // Save progress to localStorage whenever it changes
@@ -48,14 +86,31 @@ function App() {
     localStorage.setItem(`cpmai_sessions_${deviceId}`, JSON.stringify(sessionHistory))
   }, [sessionHistory, deviceId])
 
+  // Handle user sign in - migrate device data and sync
+  const handleUserSignIn = useCallback(async (authUser) => {
+    try {
+      // Migrate device progress to user account
+      const migrationResult = await migrateDeviceProgressToUser(deviceId, authUser.id)
+      if (migrationResult.success) {
+        console.log(`Migrated ${migrationResult.migrated} cards to user account`)
+      }
+
+      // Sync with new user data
+      await syncFromCloud(authUser.id)
+    } catch (error) {
+      console.error('Failed to migrate device data:', error)
+      setAuthError('Failed to sync your data. Please refresh the page.')
+    }
+  }, [deviceId])
+
   // Sync from cloud
-  const syncFromCloud = useCallback(async () => {
+  const syncFromCloud = useCallback(async (userId = null) => {
     if (!cloudEnabled) return
     
     setSyncStatus('syncing')
     try {
-      // Fetch progress
-      const progressResult = await fetchProgressFromCloud(deviceId)
+      // Fetch progress (use userId if logged in, otherwise device_id)
+      const progressResult = await fetchProgressFromCloud(deviceId, userId)
       if (progressResult.success && progressResult.data) {
         // Merge cloud data with local (cloud wins for conflicts based on last_shown)
         setProgress(prev => {
@@ -71,8 +126,8 @@ function App() {
         })
       }
 
-      // Fetch sessions
-      const sessionsResult = await fetchSessionsFromCloud(deviceId)
+      // Fetch sessions (use userId if logged in, otherwise device_id)
+      const sessionsResult = await fetchSessionsFromCloud(deviceId, 100, userId)
       if (sessionsResult.success && sessionsResult.data) {
         setSessionHistory(prev => {
           // Merge unique sessions
@@ -96,14 +151,15 @@ function App() {
     
     setSyncStatus('syncing')
     try {
-      await syncProgressToCloud(deviceId, progress)
+      const userId = user?.id || null
+      await syncProgressToCloud(deviceId, progress, userId)
       setSyncStatus('synced')
       setLastSyncTime(new Date())
     } catch (error) {
       console.error('Sync to cloud failed:', error)
       setSyncStatus('error')
     }
-  }, [cloudEnabled, deviceId, progress])
+  }, [cloudEnabled, deviceId, progress, user])
 
   const startSession = (size) => {
     setSessionSize(size)
@@ -197,12 +253,28 @@ function App() {
     
     // Sync to cloud if enabled
     if (cloudEnabled) {
-      await syncProgressToCloud(deviceId, newProgress)
-      await saveSessionToCloud(deviceId, sessionResult)
+      const userId = user?.id || null
+      await syncProgressToCloud(deviceId, newProgress, userId)
+      await saveSessionToCloud(deviceId, sessionResult, userId)
       setLastSyncTime(new Date())
     }
     
     setView('dashboard')
+  }
+
+  // Handle auth success (when user signs in via Auth component)
+  const handleAuthSuccess = (authUser) => {
+    setUser(authUser)
+    setView('dashboard')
+    handleUserSignIn(authUser)
+  }
+
+  if (view === 'loading') {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 flex items-center justify-center">
+        <div className="text-white text-lg">Loading...</div>
+      </div>
+    )
   }
 
   if (view === 'session') {
@@ -226,6 +298,9 @@ function App() {
       syncStatus={syncStatus}
       lastSyncTime={lastSyncTime}
       onSync={syncToCloud}
+      user={user}
+      onAuthSuccess={handleAuthSuccess}
+      authError={authError}
     />
   )
 }

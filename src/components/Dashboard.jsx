@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { BookOpen, Trophy, Target, TrendingUp, Play, Cloud, CloudOff, RefreshCw } from 'lucide-react'
+import { BookOpen, Trophy, Target, TrendingUp, Play, Cloud, CloudOff, RefreshCw, LogOut, AlertCircle } from 'lucide-react'
+import Auth from './Auth'
+import { signOut } from '../lib/supabase'
 
 const DOMAIN_COLORS = {
   'I': 'bg-blue-500',
@@ -79,8 +81,18 @@ function getDomainStats(cards, progress, domains) {
   })
 }
 
-export default function Dashboard({ cards, progress, sessionHistory, onStartSession, domains, cloudEnabled, syncStatus, lastSyncTime, onSync }) {
+export default function Dashboard({ cards, progress, sessionHistory, onStartSession, domains, cloudEnabled, syncStatus, lastSyncTime, onSync, user, onAuthSuccess, authError }) {
   const [selectedSize, setSelectedSize] = useState(10)
+  const [signingOut, setSigningOut] = useState(false)
+
+  const handleSignOut = async () => {
+    setSigningOut(true)
+    const result = await signOut()
+    setSigningOut(false)
+    if (result.success) {
+      // User state will be updated via auth state change listener
+    }
+  }
   
   const totalCards = cards.length
   const seenCards = Object.keys(progress).filter(id => progress[id]?.times_shown > 0).length
@@ -94,42 +106,89 @@ export default function Dashboard({ cards, progress, sessionHistory, onStartSess
   
   const recentSessions = sessionHistory.slice(0, 5)
 
+  // Show auth if not logged in and user requested auth view
+  if (!user && cloudEnabled) {
+    return <Auth onAuthSuccess={onAuthSuccess} />
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-            PMI-CPMAI Study Cards
-          </h1>
-          <p className="text-slate-400 mt-2">Master the CPMAI Methodology</p>
-          
-          {/* Sync Status */}
-          <div className="flex items-center justify-center gap-2 mt-3">
-            {cloudEnabled ? (
-              <button 
-                onClick={onSync}
-                disabled={syncStatus === 'syncing'}
-                className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
-              >
-                {syncStatus === 'syncing' ? (
-                  <RefreshCw size={14} className="animate-spin" />
-                ) : (
-                  <Cloud size={14} className="text-green-400" />
-                )}
-                <span>
-                  {syncStatus === 'syncing' ? 'Syncing...' : 
-                   syncStatus === 'synced' ? `Synced ${lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString() : ''}` :
-                   syncStatus === 'error' ? 'Sync failed' : 'Cloud sync enabled'}
-                </span>
-              </button>
-            ) : (
-              <div className="flex items-center gap-2 text-sm text-slate-500">
-                <CloudOff size={14} />
-                <span>Local only</span>
-              </div>
-            )}
+        <div className="flex justify-between items-start mb-8">
+          <div className="flex-1 text-center">
+            <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              PMI-CPMAI Study Cards
+            </h1>
+            <p className="text-slate-400 mt-2">Master the CPMAI Methodology</p>
           </div>
+
+          {/* Auth Status */}
+          <div className="text-right">
+            {user ? (
+              <div className="bg-slate-800/50 rounded-lg p-3 border border-slate-700">
+                <p className="text-sm text-slate-400">Signed in as</p>
+                <p className="text-white font-medium text-sm">{user.email}</p>
+                <button
+                  onClick={handleSignOut}
+                  disabled={signingOut}
+                  className="flex items-center gap-2 text-xs text-slate-400 hover:text-red-400 transition-colors mt-2 disabled:text-slate-600"
+                >
+                  <LogOut size={14} />
+                  {signingOut ? 'Signing out...' : 'Sign Out'}
+                </button>
+              </div>
+            ) : cloudEnabled ? (
+              <div className="bg-slate-800/50 rounded-lg p-3 border border-blue-700/30">
+                <p className="text-xs text-slate-400 mb-2">Not signed in</p>
+                <button
+                  onClick={() => {}} // Will be handled by showing Auth component
+                  className="text-xs text-blue-400 hover:text-blue-300 font-medium transition-colors"
+                >
+                  Sign In to sync across devices
+                </button>
+              </div>
+            ) : null}
+          </div>
+        </div>
+        
+        {/* Auth Error Alert */}
+        {authError && (
+          <div className="mb-6 p-4 bg-red-900/30 border border-red-700 rounded-lg flex gap-3">
+            <AlertCircle size={20} className="text-red-400 flex-shrink-0" />
+            <div>
+              <p className="text-red-200 font-medium">Sync Error</p>
+              <p className="text-red-300 text-sm">{authError}</p>
+            </div>
+          </div>
+        )}
+
+        {/* Sync Status */}
+        <div className="flex items-center justify-center gap-2 mb-8">
+          {cloudEnabled ? (
+            <button 
+              onClick={onSync}
+              disabled={syncStatus === 'syncing'}
+              className="flex items-center gap-2 text-sm text-slate-400 hover:text-white transition-colors"
+            >
+              {syncStatus === 'syncing' ? (
+                <RefreshCw size={14} className="animate-spin" />
+              ) : (
+                <Cloud size={14} className={user ? 'text-green-400' : 'text-amber-400'} />
+              )}
+              <span>
+                {syncStatus === 'syncing' ? 'Syncing...' : 
+                 syncStatus === 'synced' ? `Synced ${lastSyncTime ? new Date(lastSyncTime).toLocaleTimeString() : ''}` :
+                 syncStatus === 'error' ? 'Sync failed' : 
+                 user ? 'Cloud sync enabled' : 'Cloud sync (device only)'}
+              </span>
+            </button>
+          ) : (
+            <div className="flex items-center gap-2 text-sm text-slate-500">
+              <CloudOff size={14} />
+              <span>Local only</span>
+            </div>
+          )}
         </div>
 
         {/* Stats Cards */}
