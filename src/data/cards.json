@@ -1237,7 +1237,7 @@
         },
         {
           "id": "d",
-          "text": "Incident response procedures, disaster recovery strategies, and"
+          "text": "Incident response procedures, disaster recovery strategies, and escalation procedures"
         }
       ],
       "correct": "d",
@@ -1500,7 +1500,7 @@
         },
         {
           "id": "c",
-          "text": "A process of analyzing datasets to summarize characteristics and"
+          "text": "A process of analyzing datasets to summarize characteristics and understand data structure"
         },
         {
           "id": "d",
@@ -1566,7 +1566,7 @@
         },
         {
           "id": "d",
-          "text": "Artificially increasing training data through transformations or"
+          "text": "Artificially increasing training data through transformations or synthetic generation"
         }
       ],
       "correct": "d",
@@ -1969,7 +1969,7 @@
         },
         {
           "id": "c",
-          "text": "To maintain records of decisions, changes, and approvals throughout the"
+          "text": "To maintain records of decisions, changes, and approvals throughout the AI lifecycle"
         },
         {
           "id": "d",
@@ -2270,7 +2270,7 @@
         },
         {
           "id": "d",
-          "text": "All costs over the AI solution's lifecycle including development,"
+          "text": "All costs over the AI solution's lifecycle including development, operation, and maintenance"
         }
       ],
       "correct": "d",
@@ -2285,7 +2285,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The structure and organization of data including field types and"
+          "text": "The structure and organization of data including field types and relationships"
         },
         {
           "id": "b",
@@ -2347,7 +2347,7 @@
         },
         {
           "id": "c",
-          "text": "Testing that the deployed AI system functions correctly in the"
+          "text": "Testing that the deployed AI system functions correctly in the production environment"
         },
         {
           "id": "d",
@@ -2370,7 +2370,7 @@
         },
         {
           "id": "b",
-          "text": "To continuously verify adherence to regulations and report status to"
+          "text": "To continuously verify adherence to regulations and report status to stakeholders"
         },
         {
           "id": "c",
@@ -2424,7 +2424,7 @@
         },
         {
           "id": "b",
-          "text": "Examining how data values are spread to identify patterns, outliers, or"
+          "text": "Examining how data values are spread to identify patterns, outliers, or biases"
         },
         {
           "id": "c",
@@ -2572,7 +2572,7 @@
         },
         {
           "id": "b",
-          "text": "AI projects involve data dependency, iterative experimentation, and"
+          "text": "AI projects involve data dependency, iterative experimentation, and model uncertainty"
         },
         {
           "id": "c",
@@ -2703,7 +2703,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To provide standardized documentation about model performance,"
+          "text": "To provide standardized documentation about model performance, limitations, and intended use"
         },
         {
           "id": "b",
@@ -3755,7 +3755,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A specific application scenario describing how users will interact with"
+          "text": "A specific application scenario describing how users will interact with the AI system"
         },
         {
           "id": "b",
@@ -3809,7 +3809,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A technique that normalizes layer inputs to accelerate training and"
+          "text": "A technique that normalizes layer inputs to accelerate training and improve stability"
         },
         {
           "id": "b",
@@ -3944,7 +3944,7 @@
       "options": [
         {
           "id": "a",
-          "text": "An optimization algorithm that iteratively adjusts parameters to"
+          "text": "An optimization algorithm that iteratively adjusts parameters to minimize a loss function"
         },
         {
           "id": "b",
@@ -4133,7 +4133,7 @@
       "options": [
         {
           "id": "a",
-          "text": "An attack where malicious data is injected during training to"
+          "text": "An attack where malicious data is injected during training to corrupt the model"
         },
         {
           "id": "b",
@@ -4257,7 +4257,7 @@
         },
         {
           "id": "c",
-          "text": "Visualizing the end-to-end flow of activities to deliver AI value to"
+          "text": "Visualizing the end-to-end flow of activities to deliver AI value to customers"
         },
         {
           "id": "d",
@@ -4342,7 +4342,7 @@
         },
         {
           "id": "b",
-          "text": "Processes ensuring consistent, accurate core business data across the"
+          "text": "Processes ensuring consistent, accurate core business data across the enterprise"
         },
         {
           "id": "c",
@@ -4408,7 +4408,7 @@
         },
         {
           "id": "c",
-          "text": "Dividing data into k parts and training k models, each using a"
+          "text": "Dividing data into k parts and training k models, each using a different fold as validation"
         },
         {
           "id": "d",
@@ -4547,7 +4547,7 @@
         },
         {
           "id": "b",
-          "text": "Running AI models on devices close to data sources rather than in"
+          "text": "Running AI models on devices close to data sources rather than in centralized cloud"
         },
         {
           "id": "c",
@@ -5293,7 +5293,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To formally authorize the project and document objectives, scope, and"
+          "text": "To formally authorize the project and document objectives, scope, and stakeholders"
         },
         {
           "id": "b",
@@ -5509,7 +5509,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Reducing numerical precision of model weights to decrease size and"
+          "text": "Reducing numerical precision of model weights to decrease size and inference latency"
         },
         {
           "id": "b",
@@ -5846,7 +5846,7 @@
       "options": [
         {
           "id": "a",
-          "text": "When training data contains information that wouldn't be available at"
+          "text": "When training data contains information that wouldn't be available at inference time"
         },
         {
           "id": "b",
@@ -6070,7 +6070,7 @@
         },
         {
           "id": "c",
-          "text": "An iterative approach emphasizing flexibility, collaboration, and"
+          "text": "An iterative approach emphasizing flexibility, collaboration, and continuous delivery"
         },
         {
           "id": "d",
