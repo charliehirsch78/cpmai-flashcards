@@ -46,11 +46,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To create consistent quality standards across data sources (indirect benefit, but not primary)"
+          "text": "To protect individual privacy and ensure regulatory compliance"
         },
         {
           "id": "b",
-          "text": "To protect individual privacy and ensure regulatory compliance"
+          "text": "To create consistent quality standards across data sources (indirect benefit, but not primary)"
         },
         {
           "id": "c",
@@ -61,7 +61,7 @@
           "text": "To facilitate seamless data movement within and between organizations"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Data governance protocols for PII are primarily established to protect individual privacy and ensure compliance with data protection regulations like GDPR and CCPA. While these protocols may indirectly affect other aspects, privacy protection and regulatory compliance are the fundamental objectives."
     },
     {
@@ -73,11 +73,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Evaluating model accuracy and performance metrics against industry benchmarks"
+          "text": "Conducting privacy impact assessments before deploying AI models"
         },
         {
           "id": "b",
-          "text": "Conducting privacy impact assessments before deploying AI models"
+          "text": "Evaluating model accuracy and performance metrics against industry benchmarks"
         },
         {
           "id": "c",
@@ -88,7 +88,7 @@
           "text": "Creating incident response procedures for potential data breaches"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Conducting privacy impact assessments is a key component of overseeing a privacy and security plan. This helps identify potential privacy risks before AI models are deployed and ensures appropriate safeguards are in place."
     },
     {
@@ -104,18 +104,18 @@
         },
         {
           "id": "b",
-          "text": "Documenting model selection criteria and decision rationale"
+          "text": "Providing access to model training logs and configurations"
         },
         {
           "id": "c",
-          "text": "Providing access to model training logs and configurations"
+          "text": "Documenting model selection criteria and decision rationale"
         },
         {
           "id": "d",
           "text": "Creating user-friendly interfaces for model interpretation"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "AI/ML transparency involves documenting model selection criteria and decision rationale, creating transparent reporting on data sources and preprocessing steps, and maintaining audit trails for algorithmic decision-making processes. It's about explainability and accountability, not unrestricted access."
     },
     {
@@ -135,11 +135,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Final model outputs and prediction distributions"
+          "text": "Training data, algorithms, and model outputs"
         },
         {
           "id": "b",
-          "text": "Training data, algorithms, and model outputs"
+          "text": "Final model outputs and prediction distributions"
         },
         {
           "id": "c",
@@ -150,7 +150,7 @@
           "text": "Algorithm selection criteria and hyperparameter choices"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Comprehensive bias checks should analyze training data for demographic and representation imbalances, perform fairness testing across different population groups, review model outputs for discriminatory patterns, and apply bias mitigation techniques during model development. Bias can occur at any stage."
     },
     {
@@ -166,18 +166,18 @@
         },
         {
           "id": "b",
-          "text": "To create comprehensive records for regulatory reviews and stakeholder accountability"
+          "text": "To document technical decisions and facilitate knowledge transfer between teams"
         },
         {
           "id": "c",
-          "text": "To document technical decisions and facilitate knowledge transfer between teams"
+          "text": "To create comprehensive records for regulatory reviews and stakeholder accountability"
         },
         {
           "id": "d",
           "text": "To maintain version control and enable rapid rollback if problems occur"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Accountability documentation and audit trails serve to create comprehensive records of AI model development decisions, establish version control, document stakeholder approvals, maintain chain of custody records for data, and prepare reports for executive and regulatory review."
     },
     {
@@ -193,18 +193,18 @@
         },
         {
           "id": "b",
-          "text": "GDPR (General Data Protection Regulation)"
+          "text": "SOC 2 (Service Organization Control)"
         },
         {
           "id": "c",
-          "text": "SOC 2 (Service Organization Control)"
+          "text": "GDPR (General Data Protection Regulation)"
         },
         {
           "id": "d",
           "text": "NIST AI RMF (Risk Management Framework)"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "GDPR and CCPA are specifically mentioned in the exam content outline as data protection regulations that AI projects must comply with when handling personal data. These regulations have specific requirements for data processing, consent, and individual rights."
     },
     {
@@ -255,7 +255,7 @@
         },
         {
           "id": "b",
-          "text": "The ability to understand and communicate how an AI model makes decisions"
+          "text": "The ability to trace predictions back to specific training data"
         },
         {
           "id": "c",
@@ -263,10 +263,10 @@
         },
         {
           "id": "d",
-          "text": "The ability to trace predictions back to specific training data"
+          "text": "The ability to understand and communicate how an AI model makes decisions"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Explainability refers to establishing explainability requirements for stakeholder communication and implementing model interpretability tools and techniques. It's about making AI decision-making processes understandable to relevant stakeholders."
     },
     {
@@ -332,11 +332,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Technical risks during implementation and their mitigation approaches"
+          "text": "Security threats, safety implications, and ethical risks from AI"
         },
         {
           "id": "b",
-          "text": "Security threats, safety implications, and ethical risks from AI"
+          "text": "Technical risks during implementation and their mitigation approaches"
         },
         {
           "id": "c",
@@ -347,7 +347,7 @@
           "text": "Vendor dependency risks and system integration complications"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "AI project risk assessment should identify potential failure modes and safety implications, assess cybersecurity vulnerabilities, evaluate ethical implications of AI decision-making, analyze reputational and business continuity risks, and develop risk mitigation strategies."
     },
     {
@@ -371,18 +371,18 @@
         },
         {
           "id": "b",
-          "text": "Project boundaries, success criteria, and key assumptions"
+          "text": "How resources will be allocated and team member responsibilities"
         },
         {
           "id": "c",
-          "text": "How resources will be allocated and team member responsibilities"
+          "text": "Project boundaries, success criteria, and key assumptions"
         },
         {
           "id": "d",
           "text": "Risk identification and the associated mitigation strategies"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "An AI project scope statement should define project boundaries and deliverables, establish success criteria and performance metrics, identify in-scope and out-of-scope functionality, document assumptions and constraints, and align scope with business objectives."
     },
     {
@@ -425,18 +425,18 @@
         },
         {
           "id": "b",
-          "text": "Assessing organizational change management requirements"
+          "text": "Prioritizing system compatibility over user experience"
         },
         {
           "id": "c",
-          "text": "Prioritizing system compatibility over user experience"
+          "text": "Assessing organizational change management requirements"
         },
         {
           "id": "d",
           "text": "Developing comprehensive technical documentation"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Managing adoption/integration risks involves assessing organizational change management requirements, identifying potential user resistance and adoption barriers, planning integration with existing systems and workflows, and developing training and communication strategies."
     },
     {
@@ -487,18 +487,18 @@
         },
         {
           "id": "b",
-          "text": "Measurable performance indicators and business impact metrics"
+          "text": "User adoption rates and satisfaction scores"
         },
         {
           "id": "c",
-          "text": "User adoption rates and satisfaction scores"
+          "text": "Measurable performance indicators and business impact metrics"
         },
         {
           "id": "d",
           "text": "Model accuracy thresholds and validation criteria"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Success criteria should include measurable performance indicators for AI models, business impact metrics and success thresholds, technical performance benchmarks, user satisfaction and adoption metrics, all aligned with organizational objectives."
     },
     {
@@ -568,7 +568,7 @@
         },
         {
           "id": "b",
-          "text": "Data types needed, volume requirements, and required quality standards"
+          "text": "Security levels, privacy classifications, and data handling procedures"
         },
         {
           "id": "c",
@@ -576,10 +576,10 @@
         },
         {
           "id": "d",
-          "text": "Security levels, privacy classifications, and data handling procedures"
+          "text": "Data types needed, volume requirements, and required quality standards"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Defining required data involves specifying data types and formats, determining volume requirements and sampling strategies, identifying temporal and granularity requirements, defining data quality standards, and mapping data requirements to business objectives."
     },
     {
@@ -595,18 +595,18 @@
         },
         {
           "id": "b",
-          "text": "To understand data meaning, context, and governance requirements"
+          "text": "To minimize reliance on technical data engineering teams"
         },
         {
           "id": "c",
-          "text": "To minimize reliance on technical data engineering teams"
+          "text": "To understand data meaning, context, and governance requirements"
         },
         {
           "id": "d",
           "text": "To validate whether data quality metrics meet required standards"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Data SMEs help locate domain experts with knowledge of relevant data sources, engage business users who understand data context and meaning, connect with data stewards and governance teams, and identify technical experts familiar with data systems and structures."
     },
     {
@@ -622,18 +622,18 @@
         },
         {
           "id": "b",
-          "text": "Internal databases, external sources, cloud systems, and legacy systems"
+          "text": "Structured data with existing API integrations and technical interfaces"
         },
         {
           "id": "c",
-          "text": "Structured data with existing API integrations and technical interfaces"
+          "text": "Internal databases, external sources, cloud systems, and legacy systems"
         },
         {
           "id": "d",
           "text": "Real-time data streams and event-driven data sources only"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Identifying data sources involves mapping internal databases and data warehouses, exploring external sources and third-party providers, assessing cloud storage and distributed repositories, inventorying legacy systems, and documenting data ownership and access permissions."
     },
     {
@@ -711,18 +711,18 @@
         },
         {
           "id": "b",
-          "text": "Data usage rights, regulatory compliance, and access controls"
+          "text": "Data source reliability and refresh frequencies"
         },
         {
           "id": "c",
-          "text": "Data source reliability and refresh frequencies"
+          "text": "Data usage rights, regulatory compliance, and access controls"
         },
         {
           "id": "d",
           "text": "Data transformation logic and processing pipelines"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Checking data privacy and compliance involves verifying data usage rights and licensing agreements, ensuring compliance with data protection regulations, implementing access controls and user permissions, conducting privacy impact assessments, and documenting data lineage for audit purposes."
     },
     {
@@ -738,7 +738,7 @@
         },
         {
           "id": "b",
-          "text": "Data quality dimensions like accuracy, completeness, and consistency"
+          "text": "Integration complexity and the dependencies between data sources"
         },
         {
           "id": "c",
@@ -746,10 +746,10 @@
         },
         {
           "id": "d",
-          "text": "Integration complexity and the dependencies between data sources"
+          "text": "Data quality dimensions like accuracy, completeness, and consistency"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data evaluation should assess data quality dimensions including accuracy, completeness, and consistency, analyze data distributions and identify potential biases, evaluate data freshness and relevance, review data schema for modeling compatibility, and conduct exploratory data analysis."
     },
     {
@@ -765,7 +765,7 @@
         },
         {
           "id": "b",
-          "text": "Comparing available data against requirements and making go/no-go decisions"
+          "text": "Assessing technical feasibility of data transformations and related processes"
         },
         {
           "id": "c",
@@ -773,10 +773,10 @@
         },
         {
           "id": "d",
-          "text": "Assessing technical feasibility of data transformations and related processes"
+          "text": "Comparing available data against requirements and making go/no-go decisions"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Determining if data meets solution needs involves comparing available data against defined requirements, assessing data sufficiency for training robust AI models, identifying data gaps and developing strategies to address them, validating data representativeness, and making go/no-go decisions."
     },
     {
@@ -800,7 +800,7 @@
         },
         {
           "id": "b",
-          "text": "Executive summaries, visualizations, and recommendations"
+          "text": "Technical data lineage documentation and associated activities"
         },
         {
           "id": "c",
@@ -808,10 +808,10 @@
         },
         {
           "id": "d",
-          "text": "Technical data lineage documentation and associated activities"
+          "text": "Executive summaries, visualizations, and recommendations"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Conveying data understanding to leadership involves preparing executive summaries of findings, creating visualizations to communicate insights, presenting data readiness status and recommendations, translating technical concepts into business-relevant language, and providing regular progress updates."
     },
     {
@@ -850,11 +850,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Validating that predictions align with stated business requirements"
+          "text": "Establishing testing protocols, managing configurations, and monitoring metrics"
         },
         {
           "id": "b",
-          "text": "Establishing testing protocols, managing configurations, and monitoring metrics"
+          "text": "Validating that predictions align with stated business requirements"
         },
         {
           "id": "c",
@@ -865,7 +865,7 @@
           "text": "Verifying proper integration between model and production systems"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Model QA/QC involves establishing model testing protocols and quality assurance procedures, implementing configuration management for model versions and parameters, monitoring model performance metrics, coordinating peer reviews, and ensuring adherence to coding standards."
     },
     {
@@ -885,11 +885,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Creating training schedules and allocating computational resources effectively"
+          "text": "Monitoring training schedules, tuning hyperparameters, and tracking experiments"
         },
         {
           "id": "b",
-          "text": "Monitoring training schedules, tuning hyperparameters, and tracking experiments"
+          "text": "Creating training schedules and allocating computational resources effectively"
         },
         {
           "id": "c",
@@ -900,7 +900,7 @@
           "text": "Orchestrating data pipelines and managing batch processing workflows"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Managing model training involves planning training schedules and resource allocation, monitoring training progress and computational resource utilization, coordinating hyperparameter tuning and optimization, overseeing cross-validation and model selection, and managing training data versioning and experiment tracking."
     },
     {
@@ -970,7 +970,7 @@
         },
         {
           "id": "b",
-          "text": "Performance against criteria, robustness testing, and deployment readiness"
+          "text": "Whether infrastructure capacity and scalability requirements are met"
         },
         {
           "id": "c",
@@ -978,10 +978,10 @@
         },
         {
           "id": "d",
-          "text": "Whether infrastructure capacity and scalability requirements are met"
+          "text": "Performance against criteria, robustness testing, and deployment readiness"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Before operationalization, evaluate model performance against established success criteria, assess model robustness and generalization capabilities, review deployment readiness including infrastructure requirements, validate model documentation and operational procedures, and make final approval decisions."
     },
     {
@@ -1028,11 +1028,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To validate model performance across different hardware and associated activities"
+          "text": "To assess how well a model generalizes to independent data sets"
         },
         {
           "id": "b",
-          "text": "To assess how well a model generalizes to independent data sets"
+          "text": "To validate model performance across different hardware and associated activities"
         },
         {
           "id": "c",
@@ -1043,7 +1043,7 @@
           "text": "To verify model reproducibility across training runs and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Cross-validation is important because it helps assess how well a model will generalize to an independent dataset. It's part of overseeing cross-validation and model selection processes to ensure the model performs well beyond the training data."
     },
     {
@@ -1055,11 +1055,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Deployment timeline including all phases and resource team assignments"
+          "text": "Deployment strategy, infrastructure requirements, rollback procedures, validation"
         },
         {
           "id": "b",
-          "text": "Deployment strategy, infrastructure requirements, rollback procedures, validation"
+          "text": "Deployment timeline including all phases and resource team assignments"
         },
         {
           "id": "c",
@@ -1070,7 +1070,7 @@
           "text": "Performance monitoring dashboards and the alert thresholds for issues"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A deployment plan should include comprehensive deployment strategy and timeline, infrastructure requirements and resource allocation, system integration coordination, rollback procedures and contingency plans, and deployment checklists and validation criteria."
     },
     {
@@ -1113,18 +1113,18 @@
         },
         {
           "id": "b",
-          "text": "Managing model lifecycle, version control, drift detection, and compliance"
+          "text": "Monitoring model performance and implementing performance optimization"
         },
         {
           "id": "c",
-          "text": "Monitoring model performance and implementing performance optimization"
+          "text": "Managing model lifecycle, version control, drift detection, and compliance"
         },
         {
           "id": "d",
           "text": "Implementing model security measures and access control systems"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Model governance includes establishing model lifecycle management procedures, implementing model versioning and change control, monitoring model performance and drift detection, coordinating model updates and retraining schedules, and ensuring compliance with governance policies."
     },
     {
@@ -1148,7 +1148,7 @@
         },
         {
           "id": "b",
-          "text": "Business KPIs, technical performance metrics, and model trends"
+          "text": "User adoption rates and customer satisfaction survey results"
         },
         {
           "id": "c",
@@ -1156,10 +1156,10 @@
         },
         {
           "id": "d",
-          "text": "User adoption rates and customer satisfaction survey results"
+          "text": "Business KPIs, technical performance metrics, and model trends"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "AI solution metrics should include implementing monitoring dashboards for business and technical metrics, tracking key performance indicators and success measures, analyzing model performance trends and degradation patterns, generating regular performance reports, and establishing alerting systems for threshold breaches."
     },
     {
@@ -1175,7 +1175,7 @@
         },
         {
           "id": "b",
-          "text": "Outcomes, best practices, improvements, and knowledge transfer documentation"
+          "text": "Stakeholder feedback results and satisfaction assessment data"
         },
         {
           "id": "c",
@@ -1183,10 +1183,10 @@
         },
         {
           "id": "d",
-          "text": "Stakeholder feedback results and satisfaction assessment data"
+          "text": "Outcomes, best practices, improvements, and knowledge transfer documentation"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "The final report should document project outcomes and achievement of objectives, capture lessons learned and best practices, analyze what worked well and areas for improvement, create knowledge transfer documentation for operational teams, and present final results to stakeholders."
     },
     {
@@ -1202,18 +1202,18 @@
         },
         {
           "id": "b",
-          "text": "Planning transition to operations, knowledge transfer, and establishing"
+          "text": "Communicating project completion to stakeholders and related processes"
         },
         {
           "id": "c",
-          "text": "Communicating project completion to stakeholders and related processes"
+          "text": "Planning transition to operations, knowledge transfer, and establishing"
         },
         {
           "id": "d",
           "text": "Archiving project artifacts and releasing resources"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Transition planning involves planning transition from project team to operational support, coordinating knowledge transfer to production support teams, establishing ongoing maintenance and support procedures, defining roles and responsibilities for operational phase, and creating handover documentation and training materials."
     },
     {
@@ -1229,7 +1229,7 @@
         },
         {
           "id": "b",
-          "text": "Incident response procedures, disaster recovery strategies, and"
+          "text": "Communication protocols and stakeholder notification procedures"
         },
         {
           "id": "c",
@@ -1237,10 +1237,10 @@
         },
         {
           "id": "d",
-          "text": "Communication protocols and stakeholder notification procedures"
+          "text": "Incident response procedures, disaster recovery strategies, and"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Contingency planning should develop incident response procedures for AI system failures, plan backup and disaster recovery strategies, establish escalation procedures for critical issues, create business continuity plans for AI service disruptions, and test and validate contingency procedures regularly."
     },
     {
@@ -1264,18 +1264,18 @@
         },
         {
           "id": "b",
-          "text": "To enable rollback, audit trail, and reproducibility of results"
+          "text": "To manage storage efficiently and reduce redundancy"
         },
         {
           "id": "c",
-          "text": "To manage storage efficiently and reduce redundancy"
+          "text": "To enable rollback, audit trail, and reproducibility of results"
         },
         {
           "id": "d",
           "text": "To facilitate collaboration between development teams"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Model versioning is crucial for implementing model versioning and change control processes. It enables rollback to previous versions if issues arise, provides an audit trail for regulatory compliance, and ensures reproducibility of results for validation and debugging."
     },
     {
@@ -1291,18 +1291,18 @@
         },
         {
           "id": "b",
-          "text": "To protect sensitive data from unauthorized access"
+          "text": "To enable secure data sharing with external partners"
         },
         {
           "id": "c",
-          "text": "To enable secure data sharing with external partners"
+          "text": "To protect sensitive data from unauthorized access"
         },
         {
           "id": "d",
           "text": "To maintain data integrity during model training"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Encryption and access controls are security measures to protect AI training data from unauthorized access, ensuring data privacy and compliance with security requirements."
     },
     {
@@ -1318,7 +1318,7 @@
         },
         {
           "id": "b",
-          "text": "A state data protection regulation giving consumers control over"
+          "text": "A regulatory framework for cross-border data transfers and related processes"
         },
         {
           "id": "c",
@@ -1326,10 +1326,10 @@
         },
         {
           "id": "d",
-          "text": "A regulatory framework for cross-border data transfers and related processes"
+          "text": "A state data protection regulation giving consumers control over"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "CCPA is a California state law that gives consumers control over personal information that businesses collect about them. It is specifically mentioned alongside GDPR as a regulation AI projects must comply with."
     },
     {
@@ -1353,18 +1353,18 @@
         },
         {
           "id": "b",
-          "text": "Models, data, training processes, and stakeholder approvals"
+          "text": "Code repositories and deployment configurations"
         },
         {
           "id": "c",
-          "text": "Code repositories and deployment configurations"
+          "text": "Models, data, training processes, and stakeholder approvals"
         },
         {
           "id": "d",
           "text": "Performance metrics and validation results"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Version control should establish records for models, data, and training processes; document stakeholder approvals and go/no-go decision points; and maintain chain of custody records for training and test data."
     },
     {
@@ -1376,11 +1376,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Executive sponsorship and budget availability"
+          "text": "Technical infrastructure, skills, culture, and change readiness"
         },
         {
           "id": "b",
-          "text": "Technical infrastructure, skills, culture, and change readiness"
+          "text": "Executive sponsorship and budget availability"
         },
         {
           "id": "c",
@@ -1391,7 +1391,7 @@
           "text": "Competitive landscape and market positioning"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Organizational readiness assessment should review technical infrastructure capabilities, available skills and talent, organizational culture and change readiness, and alignment with business objectives and resource availability."
     },
     {
@@ -1403,11 +1403,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To validate AI technology selection and associated activities"
+          "text": "To determine if AI provides genuine value over simpler approaches"
         },
         {
           "id": "b",
-          "text": "To determine if AI provides genuine value over simpler approaches"
+          "text": "To validate AI technology selection and associated activities"
         },
         {
           "id": "c",
@@ -1418,7 +1418,7 @@
           "text": "To benchmark against industry competitors and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Comparing AI approaches against traditional alternatives is part of evaluating initial AI feasibility. AI should only be chosen when it provides genuine value over simpler, potentially more cost-effective approaches."
     },
     {
@@ -1442,18 +1442,18 @@
         },
         {
           "id": "b",
-          "text": "To identify the most appropriate AI solution for the specific business need"
+          "text": "To document solution architecture for development teams and related processes"
         },
         {
           "id": "c",
-          "text": "To document solution architecture for development teams and related processes"
+          "text": "To identify the most appropriate AI solution for the specific business need"
         },
         {
           "id": "d",
           "text": "To communicate AI concepts to non-technical stakeholders and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Mapping business problems to appropriate AI patterns and approaches helps identify the most suitable AI solution for the specific business need, ensuring that the selected approach aligns with the problem characteristics."
     },
     {
@@ -1469,18 +1469,18 @@
         },
         {
           "id": "b",
-          "text": "To keep data current and relevant for model performance"
+          "text": "To meet regulatory data archival and retention policy requirements"
         },
         {
           "id": "c",
-          "text": "To meet regulatory data archival and retention policy requirements"
+          "text": "To keep data current and relevant for model performance"
         },
         {
           "id": "d",
           "text": "To minimize the latency of data processing and retrieval"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Data refresh and update procedures ensure that data remains current and relevant for ongoing AI model performance. As part of gathering required data, these procedures should be established for ongoing data feeds."
     },
     {
@@ -1496,18 +1496,18 @@
         },
         {
           "id": "b",
-          "text": "A process of analyzing datasets to summarize characteristics and"
+          "text": "A method for validating model predictions and related processes"
         },
         {
           "id": "c",
-          "text": "A method for validating model predictions and related processes"
+          "text": "A process of analyzing datasets to summarize characteristics and"
         },
         {
           "id": "d",
           "text": "A framework for data governance implementation and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Exploratory data analysis is conducted to understand data characteristics. It involves analyzing datasets to summarize their main characteristics, often using statistical graphics and other visualization methods."
     },
     {
@@ -1531,18 +1531,18 @@
         },
         {
           "id": "b",
-          "text": "Creating new input variables from raw data to improve model performance"
+          "text": "Documenting model capabilities and limitations"
         },
         {
           "id": "c",
-          "text": "Documenting model capabilities and limitations"
+          "text": "Creating new input variables from raw data to improve model performance"
         },
         {
           "id": "d",
           "text": "Validating model outputs against expected results and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Feature engineering involves coordinating feature engineering and selection activities. It's the process of creating new input variables (features) from raw data that better represent the underlying patterns and improve model performance."
     },
     {
@@ -1558,7 +1558,7 @@
         },
         {
           "id": "b",
-          "text": "Artificially increasing training data through transformations or"
+          "text": "Enhancing data quality through cleansing and associated activities"
         },
         {
           "id": "c",
@@ -1566,10 +1566,10 @@
         },
         {
           "id": "d",
-          "text": "Enhancing data quality through cleansing and associated activities"
+          "text": "Artificially increasing training data through transformations or"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data augmentation involves supervising data augmentation and synthetic data generation. It's a technique to artificially increase the amount of training data by applying transformations (like rotation, scaling for images) or generating synthetic examples."
     },
     {
@@ -1593,7 +1593,7 @@
         },
         {
           "id": "b",
-          "text": "A process to revert to a previous model version if issues arise"
+          "text": "A procedure for reverting configuration changes and related processes"
         },
         {
           "id": "c",
@@ -1601,10 +1601,10 @@
         },
         {
           "id": "d",
-          "text": "A procedure for reverting configuration changes and related processes"
+          "text": "A process to revert to a previous model version if issues arise"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Rollback procedures are established as part of creating rollback procedures and contingency plans. They enable reverting to a previous stable model version if the newly deployed model causes issues in production."
     },
     {
@@ -1620,7 +1620,7 @@
         },
         {
           "id": "b",
-          "text": "Performance degradation, data drift, or scheduled intervals and related processes"
+          "text": "Team availability and sprint planning"
         },
         {
           "id": "c",
@@ -1628,10 +1628,10 @@
         },
         {
           "id": "d",
-          "text": "Team availability and sprint planning"
+          "text": "Performance degradation, data drift, or scheduled intervals and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Model retraining may be triggered by performance degradation, data drift detection, or scheduled intervals. Coordinating model updates and retraining schedules is part of overseeing model governance."
     },
     {
@@ -1655,18 +1655,18 @@
         },
         {
           "id": "b",
-          "text": "Evaluating model performance across different population groups for equity"
+          "text": "Testing model stability under varying conditions and related processes"
         },
         {
           "id": "c",
-          "text": "Testing model stability under varying conditions and related processes"
+          "text": "Evaluating model performance across different population groups for equity"
         },
         {
           "id": "d",
           "text": "Validating model predictions against ground truth and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Fairness testing involves performing fairness testing across different population groups. It evaluates whether the model treats all demographic groups equitably and identifies potential discriminatory outcomes."
     },
     {
@@ -1678,11 +1678,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To evaluate model performance against accuracy benchmarks"
+          "text": "To identify and mitigate privacy risks before AI deployment"
         },
         {
           "id": "b",
-          "text": "To identify and mitigate privacy risks before AI deployment"
+          "text": "To evaluate model performance against accuracy benchmarks"
         },
         {
           "id": "c",
@@ -1693,7 +1693,7 @@
           "text": "To validate compliance with security policies"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Privacy impact assessments are conducted for AI model deployment to identify potential privacy risks and ensure appropriate safeguards are in place before the AI system goes live."
     },
     {
@@ -1709,18 +1709,18 @@
         },
         {
           "id": "b",
-          "text": "A fictional representation of a target user based on research and associated activities"
+          "text": "A role-based access control profile and associated activities"
         },
         {
           "id": "c",
-          "text": "A role-based access control profile and associated activities"
+          "text": "A fictional representation of a target user based on research and associated activities"
         },
         {
           "id": "d",
           "text": "A stakeholder classification category and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Defining target user personas is part of identifying the problem to be solved. A persona is a fictional representation of a target user that helps teams understand user needs, behaviors, and goals."
     },
     {
@@ -1736,7 +1736,7 @@
         },
         {
           "id": "b",
-          "text": "Attack vectors, data security risks, and system weaknesses"
+          "text": "Physical security threats to AI infrastructure and associated activities"
         },
         {
           "id": "c",
@@ -1744,10 +1744,10 @@
         },
         {
           "id": "d",
-          "text": "Physical security threats to AI infrastructure and associated activities"
+          "text": "Attack vectors, data security risks, and system weaknesses"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Assessing cybersecurity vulnerabilities in AI systems is part of conducting risk assessment. This includes identifying attack vectors (like adversarial inputs), data security risks, model theft risks, and overall system weaknesses."
     },
     {
@@ -1817,18 +1817,18 @@
         },
         {
           "id": "b",
-          "text": "The model's ability to perform well on new, unseen data"
+          "text": "The model's ability to scale across multiple systems"
         },
         {
           "id": "c",
-          "text": "The model's ability to scale across multiple systems"
+          "text": "The model's ability to perform well on new, unseen data"
         },
         {
           "id": "d",
           "text": "The model's ability to integrate with various platforms"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Assessing model robustness and generalization capabilities is part of verifying model readiness for operationalization. Generalization refers to the model's ability to perform well on new data it hasn't seen during training."
     },
     {
@@ -1840,11 +1840,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To optimize development costs and resource utilization"
+          "text": "To record, compare, and reproduce model experiments"
         },
         {
           "id": "b",
-          "text": "To record, compare, and reproduce model experiments"
+          "text": "To optimize development costs and resource utilization"
         },
         {
           "id": "c",
@@ -1855,7 +1855,7 @@
           "text": "To monitor model behavior in production"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Managing training data versioning and experiment tracking is important because it enables teams to record, compare different experimental approaches, and reproduce successful experiments for validation and improvement."
     },
     {
@@ -1867,11 +1867,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To optimize infrastructure costs and related processes"
+          "text": "To enable rapid response when AI performance degrades below acceptable levels"
         },
         {
           "id": "b",
-          "text": "To enable rapid response when AI performance degrades below acceptable levels"
+          "text": "To optimize infrastructure costs and related processes"
         },
         {
           "id": "c",
@@ -1882,7 +1882,7 @@
           "text": "To track development team productivity and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Establishing alerting systems for performance threshold breaches enables rapid response when AI system performance degrades below acceptable levels, allowing teams to take corrective action before significant business impact occurs."
     },
     {
@@ -1898,18 +1898,18 @@
         },
         {
           "id": "b",
-          "text": "Sharing expertise from project team to operational support team"
+          "text": "Copying model artifacts to backup systems and related processes"
         },
         {
           "id": "c",
-          "text": "Copying model artifacts to backup systems and related processes"
+          "text": "Sharing expertise from project team to operational support team"
         },
         {
           "id": "d",
           "text": "Transferring ownership of project deliverables and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Coordinating knowledge transfer to production support teams is part of managing the AI solution transition plan. It involves sharing expertise, documentation, and skills needed to maintain and support the AI system in operations."
     },
     {
@@ -1965,18 +1965,18 @@
         },
         {
           "id": "b",
-          "text": "To maintain records of decisions, changes, and approvals throughout the"
+          "text": "To track resource utilization and costs"
         },
         {
           "id": "c",
-          "text": "To track resource utilization and costs"
+          "text": "To maintain records of decisions, changes, and approvals throughout the"
         },
         {
           "id": "d",
           "text": "To document technical specifications for future reference and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Maintaining audit trails for algorithmic decision-making processes is part of managing AI/ML transparency. An audit trail records decisions, changes, and approvals throughout the AI lifecycle for accountability and regulatory compliance."
     },
     {
@@ -1992,18 +1992,18 @@
         },
         {
           "id": "b",
-          "text": "Risk of damage to organization's image due to AI failures or ethical issues"
+          "text": "Risk of budget overruns and related processes"
         },
         {
           "id": "c",
-          "text": "Risk of budget overruns and related processes"
+          "text": "Risk of damage to organization's image due to AI failures or ethical issues"
         },
         {
           "id": "d",
           "text": "Risk of technical implementation challenges and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Analyzing reputational and business continuity risks is part of conducting risk assessment. Reputational risk refers to potential damage to the organization's image due to AI system failures, biased outcomes, or ethical concerns."
     },
     {
@@ -2015,11 +2015,11 @@
       "options": [
         {
           "id": "a",
-          "text": "How data is formatted and structured"
+          "text": "How well sample data reflects the full population or real-world scenarios"
         },
         {
           "id": "b",
-          "text": "How well sample data reflects the full population or real-world scenarios"
+          "text": "How data is formatted and structured"
         },
         {
           "id": "c",
@@ -2030,7 +2030,7 @@
           "text": "How data quality compares to standards"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Validating data representativeness for target use cases is part of determining if data meets solution needs. Data representativeness refers to how well the available data reflects the full population or real-world scenarios the AI will encounter."
     },
     {
@@ -2046,7 +2046,7 @@
         },
         {
           "id": "b",
-          "text": "Scaling data to a standard range or distribution"
+          "text": "Transforming data to meet storage requirements"
         },
         {
           "id": "c",
@@ -2054,10 +2054,10 @@
         },
         {
           "id": "d",
-          "text": "Transforming data to meet storage requirements"
+          "text": "Scaling data to a standard range or distribution"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Managing data normalization and standardization processes is part of managing data transformation. Normalization scales data to a standard range (e.g., 0-1) to ensure features are on comparable scales for model training."
     },
     {
@@ -2100,18 +2100,18 @@
         },
         {
           "id": "b",
-          "text": "Industry-specific regulations that affect AI implementation and associated activities"
+          "text": "International AI governance frameworks and related processes"
         },
         {
           "id": "c",
-          "text": "International AI governance frameworks and related processes"
+          "text": "Industry-specific regulations that affect AI implementation and associated activities"
         },
         {
           "id": "d",
           "text": "Technical compliance standards for AI systems"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Ensuring adherence to sector-specific compliance requirements is part of monitoring regulatory and policy compliance. This includes industry-specific regulations like HIPAA in healthcare, or financial regulations in banking that affect AI implementation."
     },
     {
@@ -2127,18 +2127,18 @@
         },
         {
           "id": "b",
-          "text": "A backup plan to address risks if they materialize and associated activities"
+          "text": "A financial reserve allocation strategy and associated activities"
         },
         {
           "id": "c",
-          "text": "A financial reserve allocation strategy and associated activities"
+          "text": "A backup plan to address risks if they materialize and associated activities"
         },
         {
           "id": "d",
           "text": "An alternative resource allocation approach and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Developing risk mitigation strategies and contingency plans is part of conducting risk assessment. A contingency plan outlines actions to take if identified risks materialize, minimizing their impact on the project."
     },
     {
@@ -2154,7 +2154,7 @@
         },
         {
           "id": "b",
-          "text": "Missing data and strategies to address the deficiencies"
+          "text": "Data access restrictions and workarounds"
         },
         {
           "id": "c",
@@ -2162,10 +2162,10 @@
         },
         {
           "id": "d",
-          "text": "Data access restrictions and workarounds"
+          "text": "Missing data and strategies to address the deficiencies"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Identifying data gaps and developing strategies for addressing deficiencies is part of determining if data meets solution needs. This involves recognizing what data is missing and planning how to obtain or compensate for it."
     },
     {
@@ -2177,11 +2177,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Reviewing analysis performed by colleagues and related processes"
+          "text": "Having colleagues review model designs and code for quality"
         },
         {
           "id": "b",
-          "text": "Having colleagues review model designs and code for quality"
+          "text": "Reviewing analysis performed by colleagues and related processes"
         },
         {
           "id": "c",
@@ -2192,7 +2192,7 @@
           "text": "Reviewing model performance benchmarks and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Coordinating peer reviews and technical validation of model designs is part of overseeing AI/ML model QA/QC. Peer review involves having colleagues examine model designs, code, and decisions to catch errors and improve quality."
     },
     {
@@ -2208,7 +2208,7 @@
         },
         {
           "id": "b",
-          "text": "A defined process for routing critical issues to appropriate decision-makers"
+          "text": "A procedure for documenting system changes and related processes"
         },
         {
           "id": "c",
@@ -2216,10 +2216,10 @@
         },
         {
           "id": "d",
-          "text": "A procedure for documenting system changes and related processes"
+          "text": "A defined process for routing critical issues to appropriate decision-makers"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Establishing escalation procedures for critical issues is part of overseeing the AI solution contingency plan. Escalation procedures define how critical issues are identified, communicated, and routed to appropriate decision-makers for resolution."
     },
     {
@@ -2231,11 +2231,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Performance metrics measuring model accuracy and associated activities"
+          "text": "Quantitative measures to identify unfair treatment across groups"
         },
         {
           "id": "b",
-          "text": "Quantitative measures to identify unfair treatment across groups"
+          "text": "Performance metrics measuring model accuracy and associated activities"
         },
         {
           "id": "c",
@@ -2246,7 +2246,7 @@
           "text": "System health metrics for monitoring deployments and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Implementing bias detection metrics and monitoring systems is part of conducting bias checks. These are quantitative measures (like demographic parity, equalized odds) used to identify unfair treatment of different groups by AI systems."
     },
     {
@@ -2262,7 +2262,7 @@
         },
         {
           "id": "b",
-          "text": "All costs over the AI solution's lifecycle including development,"
+          "text": "Personnel and training costs throughout the project"
         },
         {
           "id": "c",
@@ -2270,10 +2270,10 @@
         },
         {
           "id": "d",
-          "text": "Personnel and training costs throughout the project"
+          "text": "All costs over the AI solution's lifecycle including development,"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Estimating total cost of ownership including infrastructure and maintenance is part of determining ROI. TCO encompasses all costs over the AI solution's lifecycle: development, infrastructure, operations, maintenance, updates, and eventually decommissioning."
     },
     {
@@ -2285,11 +2285,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A data backup and recovery mechanism"
+          "text": "The structure and organization of data including field types and"
         },
         {
           "id": "b",
-          "text": "The structure and organization of data including field types and"
+          "text": "A data backup and recovery mechanism"
         },
         {
           "id": "c",
@@ -2300,7 +2300,7 @@
           "text": "A data transformation pipeline and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Reviewing data schema and structure for modeling compatibility is part of overseeing data evaluation. Data schema defines the structure and organization of data, including field names, data types, and relationships between data elements."
     },
     {
@@ -2316,18 +2316,18 @@
         },
         {
           "id": "b",
-          "text": "Cleaning and transforming raw data before model training"
+          "text": "Processing model predictions for downstream systems and related processes"
         },
         {
           "id": "c",
-          "text": "Processing model predictions for downstream systems and related processes"
+          "text": "Cleaning and transforming raw data before model training"
         },
         {
           "id": "d",
           "text": "Preparing reports for stakeholder review and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Overseeing data cleaning and preprocessing workflows is part of managing data transformation. Data preprocessing involves cleaning and transforming raw data (handling missing values, encoding, scaling) before it's used for model training."
     },
     {
@@ -2343,18 +2343,18 @@
         },
         {
           "id": "b",
-          "text": "Testing that the deployed AI system functions correctly in the"
+          "text": "Validating stakeholder requirements and related processes"
         },
         {
           "id": "c",
-          "text": "Validating stakeholder requirements and related processes"
+          "text": "Testing that the deployed AI system functions correctly in the"
         },
         {
           "id": "d",
           "text": "Verifying team readiness for support and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Conducting post-deployment verification and testing is part of managing AI solution deployment. It involves testing that the deployed AI system functions correctly in the production environment, meeting performance and functionality requirements."
     },
     {
@@ -2397,7 +2397,7 @@
         },
         {
           "id": "b",
-          "text": "Opposition or reluctance from users to adopt AI solutions and related processes"
+          "text": "Resource constraints affecting implementation and associated activities"
         },
         {
           "id": "c",
@@ -2405,10 +2405,10 @@
         },
         {
           "id": "d",
-          "text": "Resource constraints affecting implementation and associated activities"
+          "text": "Opposition or reluctance from users to adopt AI solutions and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Identifying potential user resistance and adoption barriers is part of managing adoption/integration risks. User resistance refers to opposition or reluctance from users to adopt AI solutions, often due to fear of job loss, distrust, or change aversion."
     },
     {
@@ -2451,18 +2451,18 @@
         },
         {
           "id": "b",
-          "text": "Tracking the use of computing power during model training and associated activities"
+          "text": "Monitoring data pipeline throughput and associated activities"
         },
         {
           "id": "c",
-          "text": "Monitoring data pipeline throughput and associated activities"
+          "text": "Tracking the use of computing power during model training and associated activities"
         },
         {
           "id": "d",
           "text": "Tracking model deployment frequency and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Monitoring training progress and computational resource utilization is part of managing AI/ML model training. This involves tracking the use of computing power (CPU, GPU, memory) during model training to optimize resource use and control costs."
     },
     {
@@ -2478,7 +2478,7 @@
         },
         {
           "id": "b",
-          "text": "Setting up appropriate permissions and access rights for users"
+          "text": "Establishing user support procedures and related processes"
         },
         {
           "id": "c",
@@ -2486,10 +2486,10 @@
         },
         {
           "id": "d",
-          "text": "Establishing user support procedures and related processes"
+          "text": "Setting up appropriate permissions and access rights for users"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Managing user access provisioning and security configurations is part of managing AI solution deployment. This involves setting up appropriate permissions and access rights to ensure users can access the AI system securely and appropriately."
     },
     {
@@ -2545,7 +2545,7 @@
         },
         {
           "id": "b",
-          "text": "Each phase may need to be revisited based on findings in later phases"
+          "text": "The project never ends and related processes"
         },
         {
           "id": "c",
@@ -2553,10 +2553,10 @@
         },
         {
           "id": "d",
-          "text": "The project never ends and related processes"
+          "text": "Each phase may need to be revisited based on findings in later phases"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "The iterative nature of the AI lifecycle means that findings in later phases (like model evaluation or deployment) may require revisiting earlier phases (like data collection or model development) to address issues, improve performance, or adapt to changing requirements."
     },
     {
@@ -2599,7 +2599,7 @@
         },
         {
           "id": "b",
-          "text": "A centralized repository for storing and managing ML features"
+          "text": "A user interface component and associated activities"
         },
         {
           "id": "c",
@@ -2607,10 +2607,10 @@
         },
         {
           "id": "d",
-          "text": "A user interface component and associated activities"
+          "text": "A centralized repository for storing and managing ML features"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "A feature store is a centralized repository for storing, managing, and serving machine learning features. It enables feature reuse across projects, ensures consistency between training and inference, and improves collaboration between data teams."
     },
     {
@@ -2622,11 +2622,11 @@
       "options": [
         {
           "id": "a",
-          "text": "When a model is too simple and associated activities"
+          "text": "When a model performs well on training data but poorly on new data"
         },
         {
           "id": "b",
-          "text": "When a model performs well on training data but poorly on new data"
+          "text": "When a model is too simple and associated activities"
         },
         {
           "id": "c",
@@ -2637,7 +2637,7 @@
           "text": "When a model uses too little data and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Overfitting occurs when a model learns the training data too well, including its noise and outliers, resulting in poor generalization to new, unseen data. This is why assessing model robustness and generalization capabilities is critical before deployment."
     },
     {
@@ -2653,7 +2653,7 @@
         },
         {
           "id": "b",
-          "text": "To centrally manage model versions, metadata, and deployment status"
+          "text": "To register stakeholders and related processes"
         },
         {
           "id": "c",
@@ -2661,10 +2661,10 @@
         },
         {
           "id": "d",
-          "text": "To register stakeholders and related processes"
+          "text": "To centrally manage model versions, metadata, and deployment status"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "A model registry is a centralized system for managing model versions, metadata, lineage, and deployment status. It supports model governance by providing version control, enabling reproducibility, and tracking which models are deployed where."
     },
     {
@@ -2703,11 +2703,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To store model weights and related processes"
+          "text": "To provide standardized documentation about model performance,"
         },
         {
           "id": "b",
-          "text": "To provide standardized documentation about model performance,"
+          "text": "To store model weights and related processes"
         },
         {
           "id": "c",
@@ -2718,7 +2718,7 @@
           "text": "To manage user access permissions and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Model cards are standardized documentation that describe a model's intended use, performance characteristics, limitations, and ethical considerations. They promote transparency and help users understand when and how to appropriately use a model."
     },
     {
@@ -2738,11 +2738,11 @@
       "options": [
         {
           "id": "a",
-          "text": "The final production deployment and associated activities"
+          "text": "A small-scale implementation to validate feasibility before full investment"
         },
         {
           "id": "b",
-          "text": "A small-scale implementation to validate feasibility before full investment"
+          "text": "The final production deployment and associated activities"
         },
         {
           "id": "c",
@@ -2753,7 +2753,7 @@
           "text": "A marketing demonstration for customers and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A proof of concept is a small-scale implementation designed to validate the technical and business feasibility of an AI solution before committing to full-scale development and deployment."
     },
     {
@@ -2765,11 +2765,11 @@
       "options": [
         {
           "id": "a",
-          "text": "When there is sufficient training data and associated activities"
+          "text": "When simpler rule-based approaches can achieve the same outcome"
         },
         {
           "id": "b",
-          "text": "When simpler rule-based approaches can achieve the same outcome"
+          "text": "When there is sufficient training data and associated activities"
         },
         {
           "id": "c",
@@ -2780,7 +2780,7 @@
           "text": "When the problem is well-defined and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "AI should not be recommended when simpler, more interpretable rule-based approaches can achieve the same outcome. Comparing AI approaches against traditional solution alternatives is part of evaluating initial AI feasibility."
     },
     {
@@ -2792,11 +2792,11 @@
       "options": [
         {
           "id": "a",
-          "text": "The smallest possible team and associated activities"
+          "text": "A version with core features sufficient to deploy and gather user feedback"
         },
         {
           "id": "b",
-          "text": "A version with core features sufficient to deploy and gather user feedback"
+          "text": "The smallest possible team and associated activities"
         },
         {
           "id": "c",
@@ -2807,7 +2807,7 @@
           "text": "A product with minimal documentation and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "An MVP is a version of the AI product with just enough core features to be deployed and gather real user feedback, enabling iterative improvement while minimizing initial investment."
     },
     {
@@ -2831,7 +2831,7 @@
         },
         {
           "id": "b",
-          "text": "Annotating data with the correct output values for training and associated activities"
+          "text": "Encrypting sensitive data and associated activities"
         },
         {
           "id": "c",
@@ -2839,10 +2839,10 @@
         },
         {
           "id": "d",
-          "text": "Encrypting sensitive data and associated activities"
+          "text": "Annotating data with the correct output values for training and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data labeling is the process of annotating data with the correct output values (labels) that the model should learn to predict. It's essential for supervised learning approaches."
     },
     {
@@ -2858,7 +2858,7 @@
         },
         {
           "id": "b",
-          "text": "Artificially generated data that mimics real-world data characteristics"
+          "text": "Data from synthetic biology experiments and related processes"
         },
         {
           "id": "c",
@@ -2866,10 +2866,10 @@
         },
         {
           "id": "d",
-          "text": "Data from synthetic biology experiments and related processes"
+          "text": "Artificially generated data that mimics real-world data characteristics"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Synthetic data is artificially generated data that mimics the statistical properties of real-world data. It can be used to augment training datasets, protect privacy, or address data scarcity issues."
     },
     {
@@ -2885,7 +2885,7 @@
         },
         {
           "id": "b",
-          "text": "Unequal representation of classes that can bias model predictions"
+          "text": "Unbalanced workload among data scientists and related processes"
         },
         {
           "id": "c",
@@ -2893,10 +2893,10 @@
         },
         {
           "id": "d",
-          "text": "Unbalanced workload among data scientists and related processes"
+          "text": "Unequal representation of classes that can bias model predictions"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data imbalance occurs when some classes or categories are significantly underrepresented in the training data. This can bias model predictions toward majority classes and reduce performance on minority classes."
     },
     {
@@ -2916,11 +2916,11 @@
       "options": [
         {
           "id": "a",
-          "text": "The first model ever created and associated activities"
+          "text": "A simple reference model to compare against more complex approaches"
         },
         {
           "id": "b",
-          "text": "A simple reference model to compare against more complex approaches"
+          "text": "The first model ever created and associated activities"
         },
         {
           "id": "c",
@@ -2931,7 +2931,7 @@
           "text": "The model used in production and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A baseline model is a simple reference model (like random prediction or simple rules) used to establish minimum performance expectations. More complex models should demonstrably outperform the baseline to justify their complexity."
     },
     {
@@ -2947,7 +2947,7 @@
         },
         {
           "id": "b",
-          "text": "Techniques to prevent overfitting by adding constraints to the model"
+          "text": "Following regulatory requirements and related processes"
         },
         {
           "id": "c",
@@ -2955,10 +2955,10 @@
         },
         {
           "id": "d",
-          "text": "Following regulatory requirements and related processes"
+          "text": "Techniques to prevent overfitting by adding constraints to the model"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Regularization refers to techniques (like L1, L2, dropout) that add constraints or penalties to the model during training to prevent overfitting and improve generalization to new data."
     },
     {
@@ -3001,18 +3001,18 @@
         },
         {
           "id": "b",
-          "text": "Combining multiple models to improve overall prediction performance"
+          "text": "Using multiple datasets for training and associated activities"
         },
         {
           "id": "c",
-          "text": "Using multiple datasets for training and associated activities"
+          "text": "Combining multiple models to improve overall prediction performance"
         },
         {
           "id": "d",
           "text": "Running models in parallel for speed and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Ensemble learning combines predictions from multiple models (like random forests or boosting methods) to achieve better performance than any single model alone."
     },
     {
@@ -3032,11 +3032,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying AI for bird detection and associated activities"
+          "text": "Gradually releasing to a small subset of users before full rollout"
         },
         {
           "id": "b",
-          "text": "Gradually releasing to a small subset of users before full rollout"
+          "text": "Deploying AI for bird detection and associated activities"
         },
         {
           "id": "c",
@@ -3047,7 +3047,7 @@
           "text": "Testing in a yellow-labeled environment and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Canary deployment releases the new AI model to a small percentage of users first, allowing teams to monitor for issues before rolling out to the entire user base. If problems arise, only a small portion of users are affected."
     },
     {
@@ -3117,18 +3117,18 @@
         },
         {
           "id": "b",
-          "text": "Running a new model alongside production without affecting outputs"
+          "text": "Deploying during off-hours and related processes"
         },
         {
           "id": "c",
-          "text": "Deploying during off-hours and related processes"
+          "text": "Running a new model alongside production without affecting outputs"
         },
         {
           "id": "d",
           "text": "Hiding deployment from users and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Shadow mode runs the new AI model in parallel with the existing system. The new model processes real data and logs predictions, but its outputs don't affect production. This allows safe comparison before switching over."
     },
     {
@@ -3152,7 +3152,7 @@
         },
         {
           "id": "b",
-          "text": "A technique that adds noise to data to protect individual records while"
+          "text": "Comparing privacy policies between organizations and related processes"
         },
         {
           "id": "c",
@@ -3160,10 +3160,10 @@
         },
         {
           "id": "d",
-          "text": "Comparing privacy policies between organizations and related processes"
+          "text": "A technique that adds noise to data to protect individual records while"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Differential privacy is a mathematical framework that adds carefully calibrated noise to data or queries, ensuring that individual records cannot be identified while still allowing useful aggregate analysis."
     },
     {
@@ -3283,11 +3283,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A translation tool for multilingual data and associated activities"
+          "text": "Documentation defining data elements, formats, and meanings"
         },
         {
           "id": "b",
-          "text": "Documentation defining data elements, formats, and meanings"
+          "text": "A translation tool for multilingual data and associated activities"
         },
         {
           "id": "c",
@@ -3298,7 +3298,7 @@
           "text": "A database index and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A data dictionary is documentation that defines each data element including its name, description, data type, allowed values, relationships to other elements, and business meaning."
     },
     {
@@ -3341,18 +3341,18 @@
         },
         {
           "id": "b",
-          "text": "To visualize classification model performance across all class predictions"
+          "text": "To organize confusing requirements and related processes"
         },
         {
           "id": "c",
-          "text": "To organize confusing requirements and related processes"
+          "text": "To visualize classification model performance across all class predictions"
         },
         {
           "id": "d",
           "text": "To track team confusion about tasks and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "A confusion matrix is a table showing the counts of true positives, true negatives, false positives, and false negatives for a classification model. It helps visualize where the model is making correct predictions versus errors."
     },
     {
@@ -3368,7 +3368,7 @@
         },
         {
           "id": "b",
-          "text": "The time delay between receiving input and returning a prediction"
+          "text": "Time between model versions and related processes"
         },
         {
           "id": "c",
@@ -3376,10 +3376,10 @@
         },
         {
           "id": "d",
-          "text": "Time between model versions and related processes"
+          "text": "The time delay between receiving input and returning a prediction"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Model latency is the time delay between when the model receives an input and when it returns a prediction. Low latency is critical for real-time applications like fraud detection or recommendation systems."
     },
     {
@@ -3395,18 +3395,18 @@
         },
         {
           "id": "b",
-          "text": "The number of predictions a model can process per unit of time"
+          "text": "The amount of data passing through the model and associated activities"
         },
         {
           "id": "c",
-          "text": "The amount of data passing through the model and associated activities"
+          "text": "The number of predictions a model can process per unit of time"
         },
         {
           "id": "d",
           "text": "The speed of model training and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Model throughput measures how many predictions or inferences a model can process per unit of time (e.g., predictions per second). High throughput is important for batch processing and high-volume applications."
     },
     {
@@ -3485,11 +3485,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Algorithms that track expenses and related processes"
+          "text": "Clear responsibility for AI system decisions and their consequences"
         },
         {
           "id": "b",
-          "text": "Clear responsibility for AI system decisions and their consequences"
+          "text": "Algorithms that track expenses and related processes"
         },
         {
           "id": "c",
@@ -3500,7 +3500,7 @@
           "text": "Auditing algorithm code and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Algorithmic accountability means establishing clear responsibility for AI system decisions and their consequences. It involves transparency about how decisions are made and who is responsible when things go wrong."
     },
     {
@@ -3512,11 +3512,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A company that provides funding and associated activities"
+          "text": "A senior executive accountable for the project's business outcomes"
         },
         {
           "id": "b",
-          "text": "A senior executive accountable for the project's business outcomes"
+          "text": "A company that provides funding and associated activities"
         },
         {
           "id": "c",
@@ -3527,7 +3527,7 @@
           "text": "The project manager and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A business sponsor is a senior executive who champions the AI project, provides resources, removes organizational barriers, and is ultimately accountable for ensuring the project delivers business value."
     },
     {
@@ -3570,7 +3570,7 @@
         },
         {
           "id": "b",
-          "text": "Tracking and managing different versions of datasets over time"
+          "text": "Creating data backups and related processes"
         },
         {
           "id": "c",
@@ -3578,10 +3578,10 @@
         },
         {
           "id": "d",
-          "text": "Creating data backups and related processes"
+          "text": "Tracking and managing different versions of datasets over time"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data versioning tracks and manages different versions of datasets over time, enabling reproducibility of experiments, rollback to previous states, and understanding how data changes affect model performance."
     },
     {
@@ -3593,11 +3593,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A water feature in data centers and related processes"
+          "text": "A storage repository holding vast amounts of raw data in native format"
         },
         {
           "id": "b",
-          "text": "A storage repository holding vast amounts of raw data in native format"
+          "text": "A water feature in data centers and related processes"
         },
         {
           "id": "c",
@@ -3608,7 +3608,7 @@
           "text": "A data visualization tool and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A data lake is a centralized storage repository that holds vast amounts of raw data in its native format until needed. Unlike data warehouses, data lakes store data without predefined schema, enabling flexibility for AI/ML workloads."
     },
     {
@@ -3620,11 +3620,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Stopping a project early and associated activities"
+          "text": "Halting training when validation performance stops improving to prevent"
         },
         {
           "id": "b",
-          "text": "Halting training when validation performance stops improving to prevent"
+          "text": "Stopping a project early and associated activities"
         },
         {
           "id": "c",
@@ -3635,7 +3635,7 @@
           "text": "Reducing training data size and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Early stopping monitors validation performance during training and stops when it begins to degrade, preventing the model from overfitting to training data while saving computational resources."
     },
     {
@@ -3647,11 +3647,11 @@
       "options": [
         {
           "id": "a",
-          "text": "How fast data scientists learn and associated activities"
+          "text": "A hyperparameter controlling how much to adjust the model per training step"
         },
         {
           "id": "b",
-          "text": "A hyperparameter controlling how much to adjust the model per training step"
+          "text": "How fast data scientists learn and associated activities"
         },
         {
           "id": "c",
@@ -3662,7 +3662,7 @@
           "text": "How fast users learn to use the model and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Learning rate is a hyperparameter that controls how much the model's parameters are adjusted during each training step. Too high causes instability; too low causes slow convergence or getting stuck."
     },
     {
@@ -3678,7 +3678,7 @@
         },
         {
           "id": "b",
-          "text": "Automatically adjusting computational resources based on demand"
+          "text": "Automatic feature scaling and associated activities"
         },
         {
           "id": "c",
@@ -3686,10 +3686,10 @@
         },
         {
           "id": "d",
-          "text": "Automatic feature scaling and associated activities"
+          "text": "Automatically adjusting computational resources based on demand"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Auto-scaling automatically adjusts computational resources (servers, containers) based on demand. This ensures the AI service can handle traffic spikes while minimizing costs during low-demand periods."
     },
     {
@@ -3705,7 +3705,7 @@
         },
         {
           "id": "b",
-          "text": "The system that hosts and runs models to serve predictions in production"
+          "text": "Data storage systems and related processes"
         },
         {
           "id": "c",
@@ -3713,10 +3713,10 @@
         },
         {
           "id": "d",
-          "text": "Data storage systems and related processes"
+          "text": "The system that hosts and runs models to serve predictions in production"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Model serving infrastructure hosts trained models and handles prediction requests in production. It includes components for load balancing, scaling, caching, and monitoring to ensure reliable model inference."
     },
     {
@@ -3755,11 +3755,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A storage container for AI models and related processes"
+          "text": "A specific application scenario describing how users will interact with"
         },
         {
           "id": "b",
-          "text": "A specific application scenario describing how users will interact with"
+          "text": "A storage container for AI models and related processes"
         },
         {
           "id": "c",
@@ -3770,7 +3770,7 @@
           "text": "A test case in software testing and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A use case describes a specific application scenario showing how users or systems will interact with the AI solution. It helps define requirements, validate solutions, and communicate with stakeholders."
     },
     {
@@ -3786,7 +3786,7 @@
         },
         {
           "id": "b",
-          "text": "Removing or masking personally identifiable information from data"
+          "text": "Encrypting data and associated activities"
         },
         {
           "id": "c",
@@ -3794,10 +3794,10 @@
         },
         {
           "id": "d",
-          "text": "Encrypting data and associated activities"
+          "text": "Removing or masking personally identifiable information from data"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data anonymization removes or masks personally identifiable information (PII) from datasets so individuals cannot be identified. This enables data use for AI development while protecting privacy."
     },
     {
@@ -3809,11 +3809,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Processing data in batches and related processes"
+          "text": "A technique that normalizes layer inputs to accelerate training and"
         },
         {
           "id": "b",
-          "text": "A technique that normalizes layer inputs to accelerate training and"
+          "text": "Processing data in batches and related processes"
         },
         {
           "id": "c",
@@ -3824,7 +3824,7 @@
           "text": "Standardizing batch sizes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Batch normalization normalizes the inputs of neural network layers during training, which helps accelerate training, allows higher learning rates, and can improve model generalization."
     },
     {
@@ -3840,18 +3840,18 @@
         },
         {
           "id": "b",
-          "text": "Automated tests verifying the AI service is running correctly and associated activities"
+          "text": "Health insurance for AI projects and related processes"
         },
         {
           "id": "c",
-          "text": "Health insurance for AI projects and related processes"
+          "text": "Automated tests verifying the AI service is running correctly and associated activities"
         },
         {
           "id": "d",
           "text": "Wellness programs for data scientists and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Health checks are automated tests that verify an AI service is running correctly. They typically check system availability, response times, and basic functionality, enabling load balancers to route traffic only to healthy instances."
     },
     {
@@ -3894,7 +3894,7 @@
         },
         {
           "id": "b",
-          "text": "To clarify roles and responsibilities for tasks and decisions"
+          "text": "To schedule training runs and related processes"
         },
         {
           "id": "c",
@@ -3902,10 +3902,10 @@
         },
         {
           "id": "d",
-          "text": "To schedule training runs and related processes"
+          "text": "To clarify roles and responsibilities for tasks and decisions"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "A RACI matrix (Responsible, Accountable, Consulted, Informed) clarifies who is responsible for each task, who has final authority, who should be consulted, and who should be kept informed throughout the project."
     },
     {
@@ -3921,7 +3921,7 @@
         },
         {
           "id": "b",
-          "text": "Identifying the most relevant input variables for model training"
+          "text": "Selecting team members with specific features and related processes"
         },
         {
           "id": "c",
@@ -3929,10 +3929,10 @@
         },
         {
           "id": "d",
-          "text": "Selecting team members with specific features and related processes"
+          "text": "Identifying the most relevant input variables for model training"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Feature selection identifies the most relevant input variables (features) for model training. It helps improve model performance, reduce overfitting, decrease training time, and improve interpretability."
     },
     {
@@ -3944,11 +3944,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A decline in model quality and associated activities"
+          "text": "An optimization algorithm that iteratively adjusts parameters to"
         },
         {
           "id": "b",
-          "text": "An optimization algorithm that iteratively adjusts parameters to"
+          "text": "A decline in model quality and associated activities"
         },
         {
           "id": "c",
@@ -3959,7 +3959,7 @@
           "text": "Reducing computational resources and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Gradient descent is an optimization algorithm that iteratively adjusts model parameters in the direction that reduces the loss function. It's the foundation of how most machine learning models learn from data."
     },
     {
@@ -3971,11 +3971,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying to both development and production"
+          "text": "Maintaining two identical environments and switching traffic between them"
         },
         {
           "id": "b",
-          "text": "Maintaining two identical environments and switching traffic between them"
+          "text": "Deploying to both development and production"
         },
         {
           "id": "c",
@@ -3986,7 +3986,7 @@
           "text": "Deploying during day and night shifts"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Blue-green deployment maintains two identical production environments (blue and green). New versions deploy to the inactive environment, and traffic is switched over once validated. This enables instant rollback by switching back."
     },
     {
@@ -3998,11 +3998,11 @@
       "options": [
         {
           "id": "a",
-          "text": "The right to access AI source code and associated activities"
+          "text": "An individual's right to understand how an automated decision affecting"
         },
         {
           "id": "b",
-          "text": "An individual's right to understand how an automated decision affecting"
+          "text": "The right to access AI source code and associated activities"
         },
         {
           "id": "c",
@@ -4013,7 +4013,7 @@
           "text": "The right to challenge AI developers and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "The right to explanation gives individuals the right to understand how automated decisions that significantly affect them were made. This is particularly important under regulations like GDPR and drives requirements for model explainability."
     },
     {
@@ -4079,11 +4079,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A function tracking financial losses and related processes"
+          "text": "A mathematical function measuring the difference between predictions"
         },
         {
           "id": "b",
-          "text": "A mathematical function measuring the difference between predictions"
+          "text": "A function tracking financial losses and related processes"
         },
         {
           "id": "c",
@@ -4094,7 +4094,7 @@
           "text": "A business impact function and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A loss function (or cost function) measures the difference between model predictions and actual target values. The training process minimizes this function to improve model accuracy."
     },
     {
@@ -4133,11 +4133,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A corrupted model file and associated activities"
+          "text": "An attack where malicious data is injected during training to"
         },
         {
           "id": "b",
-          "text": "An attack where malicious data is injected during training to"
+          "text": "A corrupted model file and associated activities"
         },
         {
           "id": "c",
@@ -4148,7 +4148,7 @@
           "text": "Environmental contamination from AI systems and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Model poisoning is a security attack where adversaries inject malicious data into the training set to manipulate the model's learned behavior, potentially causing it to make incorrect predictions on specific inputs."
     },
     {
@@ -4164,18 +4164,18 @@
         },
         {
           "id": "b",
-          "text": "Constraints and safeguards to keep AI behavior within acceptable bounds"
+          "text": "Security fences around data centers and related processes"
         },
         {
           "id": "c",
-          "text": "Security fences around data centers and related processes"
+          "text": "Constraints and safeguards to keep AI behavior within acceptable bounds"
         },
         {
           "id": "d",
           "text": "Guidance for AI developers only and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "AI guardrails are constraints, rules, and safeguards implemented to keep AI system behavior within acceptable bounds. They help prevent harmful outputs, enforce ethical guidelines, and maintain compliance."
     },
     {
@@ -4226,7 +4226,7 @@
         },
         {
           "id": "b",
-          "text": "To understand market landscape and differentiate your AI solution"
+          "text": "To benchmark salaries and related processes"
         },
         {
           "id": "c",
@@ -4234,10 +4234,10 @@
         },
         {
           "id": "d",
-          "text": "To benchmark salaries and related processes"
+          "text": "To understand market landscape and differentiate your AI solution"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Competitive analysis helps understand what AI solutions exist in the market, identify gaps and opportunities, and determine how to differentiate your solution. It informs strategy and positioning decisions."
     },
     {
@@ -4253,18 +4253,18 @@
         },
         {
           "id": "b",
-          "text": "Visualizing the end-to-end flow of activities to deliver AI value to"
+          "text": "Streaming AI data and associated activities"
         },
         {
           "id": "c",
-          "text": "Streaming AI data and associated activities"
+          "text": "Visualizing the end-to-end flow of activities to deliver AI value to"
         },
         {
           "id": "d",
           "text": "Mapping water resources and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Value stream mapping visualizes the end-to-end flow of activities required to deliver AI value to customers, identifying waste, bottlenecks, and opportunities for improvement in the AI delivery process."
     },
     {
@@ -4288,18 +4288,18 @@
         },
         {
           "id": "b",
-          "text": "A process to Extract, Transform, and Load data from sources to destinations"
+          "text": "An External Team Link and associated activities"
         },
         {
           "id": "c",
-          "text": "An External Team Link and associated activities"
+          "text": "A process to Extract, Transform, and Load data from sources to destinations"
         },
         {
           "id": "d",
           "text": "An error tracking log and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "ETL (Extract, Transform, Load) is a data pipeline process that extracts data from source systems, transforms it into the required format, and loads it into a destination system for analysis or model training."
     },
     {
@@ -4315,7 +4315,7 @@
         },
         {
           "id": "b",
-          "text": "A structured repository optimized for analytical queries and reporting"
+          "text": "A backup storage facility and associated activities"
         },
         {
           "id": "c",
@@ -4323,10 +4323,10 @@
         },
         {
           "id": "d",
-          "text": "A backup storage facility and associated activities"
+          "text": "A structured repository optimized for analytical queries and reporting"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "A data warehouse is a structured central repository optimized for analytical queries and reporting. Unlike data lakes, data warehouses enforce schema and structure, making them ideal for business intelligence."
     },
     {
@@ -4377,7 +4377,7 @@
         },
         {
           "id": "b",
-          "text": "The structure and organization of layers and connections in a neural network"
+          "text": "Network infrastructure for AI and associated activities"
         },
         {
           "id": "c",
@@ -4385,10 +4385,10 @@
         },
         {
           "id": "d",
-          "text": "Network infrastructure for AI and associated activities"
+          "text": "The structure and organization of layers and connections in a neural network"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Neural network architecture refers to how layers, neurons, and connections are organized in a neural network. Different architectures (CNN, RNN, Transformer) are suited for different types of problems."
     },
     {
@@ -4404,18 +4404,18 @@
         },
         {
           "id": "b",
-          "text": "Dividing data into k parts and training k models, each using a"
+          "text": "Folding data k times and related processes"
         },
         {
           "id": "c",
-          "text": "Folding data k times and related processes"
+          "text": "Dividing data into k parts and training k models, each using a"
         },
         {
           "id": "d",
           "text": "Cross-checking k team members and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "K-fold cross-validation divides the dataset into k equal parts (folds). The model is trained k times, each time using a different fold for validation and the remaining folds for training, providing robust performance estimates."
     },
     {
@@ -4458,7 +4458,7 @@
         },
         {
           "id": "b",
-          "text": "A regularization technique that randomly deactivates neurons during training"
+          "text": "Data loss during transfer and associated activities"
         },
         {
           "id": "c",
@@ -4466,10 +4466,10 @@
         },
         {
           "id": "d",
-          "text": "Data loss during transfer and associated activities"
+          "text": "A regularization technique that randomly deactivates neurons during training"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Dropout is a regularization technique that randomly deactivates (sets to zero) a fraction of neurons during training. This prevents co-adaptation of neurons and helps reduce overfitting."
     },
     {
@@ -4574,18 +4574,18 @@
         },
         {
           "id": "b",
-          "text": "Techniques to reduce model size while maintaining performance and associated activities"
+          "text": "Compressing training time and associated activities"
         },
         {
           "id": "c",
-          "text": "Compressing training time and associated activities"
+          "text": "Techniques to reduce model size while maintaining performance and associated activities"
         },
         {
           "id": "d",
           "text": "Reducing team size and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Model compression techniques (pruning, quantization, distillation) reduce model size and computational requirements while maintaining acceptable performance. This enables deployment on resource-constrained devices."
     },
     {
@@ -4663,18 +4663,18 @@
         },
         {
           "id": "b",
-          "text": "A limited deployment to test the AI solution before full rollout"
+          "text": "A program for pilot staff and associated activities"
         },
         {
           "id": "c",
-          "text": "A program for pilot staff and associated activities"
+          "text": "A limited deployment to test the AI solution before full rollout"
         },
         {
           "id": "d",
           "text": "The first program in a series and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "A pilot program is a limited, controlled deployment of an AI solution with a subset of users or use cases. It validates the solution works as expected and gathers feedback before broader rollout."
     },
     {
@@ -4717,7 +4717,7 @@
         },
         {
           "id": "b",
-          "text": "Converting categorical variables into binary vectors and related processes"
+          "text": "A single encoding attempt and associated activities"
         },
         {
           "id": "c",
@@ -4725,10 +4725,10 @@
         },
         {
           "id": "d",
-          "text": "A single encoding attempt and associated activities"
+          "text": "Converting categorical variables into binary vectors and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "One-hot encoding converts categorical variables into binary vectors where each category becomes a column with 1 indicating presence and 0 indicating absence. It enables machine learning algorithms to process categorical data."
     },
     {
@@ -4740,11 +4740,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Accusing data of being incorrect and associated activities"
+          "text": "Filling in missing values with estimated or calculated values and related processes"
         },
         {
           "id": "b",
-          "text": "Filling in missing values with estimated or calculated values and related processes"
+          "text": "Accusing data of being incorrect and associated activities"
         },
         {
           "id": "c",
@@ -4755,7 +4755,7 @@
           "text": "Computing data statistics and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Data imputation fills in missing values using techniques like mean/median substitution, interpolation, or predictive modeling. This preserves dataset size while handling incomplete records."
     },
     {
@@ -4771,18 +4771,18 @@
         },
         {
           "id": "b",
-          "text": "A mathematical function that determines if a neuron should be activated"
+          "text": "A startup function for models and related processes"
         },
         {
           "id": "c",
-          "text": "A startup function for models and related processes"
+          "text": "A mathematical function that determines if a neuron should be activated"
         },
         {
           "id": "d",
           "text": "A function to activate team members and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "An activation function in neural networks determines whether a neuron should be activated based on its inputs. Common functions include ReLU, sigmoid, and tanh, each with different properties."
     },
     {
@@ -4794,11 +4794,11 @@
       "options": [
         {
           "id": "a",
-          "text": "How precisely the model is built and associated activities"
+          "text": "The proportion of positive predictions that are actually correct"
         },
         {
           "id": "b",
-          "text": "The proportion of positive predictions that are actually correct"
+          "text": "How precisely the model is built and associated activities"
         },
         {
           "id": "c",
@@ -4809,7 +4809,7 @@
           "text": "Precision of training data and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Precision measures the proportion of positive predictions that are actually correct (True Positives / (True Positives + False Positives)). High precision means few false positives."
     },
     {
@@ -4852,18 +4852,18 @@
         },
         {
           "id": "b",
-          "text": "Distributing incoming requests across multiple model instances"
+          "text": "Balancing data loads and related processes"
         },
         {
           "id": "c",
-          "text": "Balancing data loads and related processes"
+          "text": "Distributing incoming requests across multiple model instances"
         },
         {
           "id": "d",
           "text": "Loading balance from financial accounts and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Load balancing distributes incoming prediction requests across multiple model instances to ensure no single instance is overwhelmed. This improves reliability, availability, and response times."
     },
     {
@@ -4919,18 +4919,18 @@
         },
         {
           "id": "b",
-          "text": "Data should only be used for the purposes for which it was collected"
+          "text": "Limiting the number of AI use cases and related processes"
         },
         {
           "id": "c",
-          "text": "Limiting the number of AI use cases and related processes"
+          "text": "Data should only be used for the purposes for which it was collected"
         },
         {
           "id": "d",
           "text": "Restricting team purposes and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Purpose limitation is a data protection principle requiring that personal data only be used for the specific, explicit purposes for which it was collected. Using data for new purposes requires additional consent or legal basis."
     },
     {
@@ -4946,7 +4946,7 @@
         },
         {
           "id": "b",
-          "text": "The value of the next best alternative foregone when choosing an investment"
+          "text": "Investment in opportunity discovery and associated activities"
         },
         {
           "id": "c",
@@ -4954,10 +4954,10 @@
         },
         {
           "id": "d",
-          "text": "Investment in opportunity discovery and associated activities"
+          "text": "The value of the next best alternative foregone when choosing an investment"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Opportunity cost represents the value of the next best alternative that must be foregone when choosing a particular investment. In AI decisions, it helps compare the value of different potential AI projects."
     },
     {
@@ -5000,18 +5000,18 @@
         },
         {
           "id": "b",
-          "text": "The proportion of actual positives that were correctly identified"
+          "text": "Recalling deployed models and related processes"
         },
         {
           "id": "c",
-          "text": "Recalling deployed models and related processes"
+          "text": "The proportion of actual positives that were correctly identified"
         },
         {
           "id": "d",
           "text": "Memory recall in neural networks and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Recall (sensitivity) measures the proportion of actual positives that were correctly identified (True Positives / (True Positives + False Negatives)). High recall means few false negatives."
     },
     {
@@ -5027,18 +5027,18 @@
         },
         {
           "id": "b",
-          "text": "A pattern that stops requests to a failing service to prevent cascade"
+          "text": "Breaking model training circuits and related processes"
         },
         {
           "id": "c",
-          "text": "Breaking model training circuits and related processes"
+          "text": "A pattern that stops requests to a failing service to prevent cascade"
         },
         {
           "id": "d",
           "text": "Disconnecting faulty servers and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "The circuit breaker pattern stops sending requests to a failing service after a threshold of failures, preventing cascade failures and giving the service time to recover. It's essential for resilient AI systems."
     },
     {
@@ -5050,11 +5050,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Consent from informed experts and related processes"
+          "text": "Agreement given after being fully informed about how data will be used"
         },
         {
           "id": "b",
-          "text": "Agreement given after being fully informed about how data will be used"
+          "text": "Consent from informed experts and related processes"
         },
         {
           "id": "c",
@@ -5065,7 +5065,7 @@
           "text": "Consent to receive information and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Informed consent means individuals agree to data collection and use after being fully informed about what data is collected, how it will be used, who will access it, and their rights regarding the data."
     },
     {
@@ -5104,11 +5104,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Layering data storage and associated activities"
+          "text": "Dividing data into distinct groups based on specific characteristics"
         },
         {
           "id": "b",
-          "text": "Dividing data into distinct groups based on specific characteristics"
+          "text": "Layering data storage and associated activities"
         },
         {
           "id": "c",
@@ -5119,7 +5119,7 @@
           "text": "Data strength testing and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Data stratification divides data into distinct subgroups (strata) based on specific characteristics. This ensures representative sampling and enables analysis of performance across different segments."
     },
     {
@@ -5131,11 +5131,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Formula One racing score and associated activities"
+          "text": "The harmonic mean of precision and recall"
         },
         {
           "id": "b",
-          "text": "The harmonic mean of precision and recall"
+          "text": "Formula One racing score and associated activities"
         },
         {
           "id": "c",
@@ -5146,7 +5146,7 @@
           "text": "Feature importance score and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "The F1 score is the harmonic mean of precision and recall, providing a single metric that balances both. It's particularly useful when you need to balance false positives and false negatives."
     },
     {
@@ -5162,7 +5162,7 @@
         },
         {
           "id": "b",
-          "text": "Maintaining partial functionality when components fail rather than"
+          "text": "Elegant system transitions and related processes"
         },
         {
           "id": "c",
@@ -5170,10 +5170,10 @@
         },
         {
           "id": "d",
-          "text": "Elegant system transitions and related processes"
+          "text": "Maintaining partial functionality when components fail rather than"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Graceful degradation ensures an AI system maintains partial functionality when components fail rather than completely failing. For example, falling back to a simpler model or cached results when the primary model is unavailable."
     },
     {
@@ -5189,7 +5189,7 @@
         },
         {
           "id": "b",
-          "text": "Legal concept that data is subject to the laws of the nation where it resides"
+          "text": "Data independence and associated activities"
         },
         {
           "id": "c",
@@ -5197,10 +5197,10 @@
         },
         {
           "id": "d",
-          "text": "Data independence and associated activities"
+          "text": "Legal concept that data is subject to the laws of the nation where it resides"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data sovereignty is the concept that data is subject to the laws and governance of the nation where it is collected or stored. This affects where AI training data can be processed and stored."
     },
     {
@@ -5216,18 +5216,18 @@
         },
         {
           "id": "b",
-          "text": "Data processing should be proportionate to the legitimate purpose"
+          "text": "Proportional team sizes and related processes"
         },
         {
           "id": "c",
-          "text": "Proportional team sizes and related processes"
+          "text": "Data processing should be proportionate to the legitimate purpose"
         },
         {
           "id": "d",
           "text": "Proportional resource allocation and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Proportionality means the extent of data processing should be proportionate to the legitimate purpose being pursued. Excessive data collection or processing beyond what's needed violates this principle."
     },
     {
@@ -5239,11 +5239,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Assessment of AI market impact and associated activities"
+          "text": "A systematic evaluation of AI system effects on rights, safety, and society"
         },
         {
           "id": "b",
-          "text": "A systematic evaluation of AI system effects on rights, safety, and society"
+          "text": "Assessment of AI market impact and associated activities"
         },
         {
           "id": "c",
@@ -5254,7 +5254,7 @@
           "text": "Physical impact testing of AI hardware and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "An AI impact assessment systematically evaluates the potential effects of an AI system on human rights, safety, ethics, and society. It helps identify and mitigate negative impacts before deployment."
     },
     {
@@ -5266,11 +5266,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A factor causing project criticism and associated activities"
+          "text": "An essential element that must be achieved for the project to succeed"
         },
         {
           "id": "b",
-          "text": "An essential element that must be achieved for the project to succeed"
+          "text": "A factor causing project criticism and associated activities"
         },
         {
           "id": "c",
@@ -5281,7 +5281,7 @@
           "text": "A success rate calculation and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Critical success factors are essential elements that must be present or achieved for an AI project to succeed. Examples include data quality, stakeholder buy-in, and appropriate expertise."
     },
     {
@@ -5293,11 +5293,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To charter flights for team travel and associated activities"
+          "text": "To formally authorize the project and document objectives, scope, and"
         },
         {
           "id": "b",
-          "text": "To formally authorize the project and document objectives, scope, and"
+          "text": "To charter flights for team travel and associated activities"
         },
         {
           "id": "c",
@@ -5308,7 +5308,7 @@
           "text": "To create organizational charts and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A project charter formally authorizes the AI project and documents its objectives, scope, stakeholders, high-level requirements, and the authority granted to the project manager."
     },
     {
@@ -5351,7 +5351,7 @@
         },
         {
           "id": "b",
-          "text": "Identifying and removing duplicate records from a dataset"
+          "text": "Dedicating data to specific uses and related processes"
         },
         {
           "id": "c",
@@ -5359,10 +5359,10 @@
         },
         {
           "id": "d",
-          "text": "Dedicating data to specific uses and related processes"
+          "text": "Identifying and removing duplicate records from a dataset"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data deduplication identifies and removes duplicate records from datasets. This improves data quality, reduces storage costs, and prevents models from being biased by overrepresented records."
     },
     {
@@ -5378,7 +5378,7 @@
         },
         {
           "id": "b",
-          "text": "Ensuring relationships between related data records remain consistent"
+          "text": "Referring data to the correct team and associated activities"
         },
         {
           "id": "c",
@@ -5386,10 +5386,10 @@
         },
         {
           "id": "d",
-          "text": "Referring data to the correct team and associated activities"
+          "text": "Ensuring relationships between related data records remain consistent"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Referential integrity ensures that relationships between related records remain consistent. For example, if a customer record is deleted, related order records should be handled appropriately."
     },
     {
@@ -5405,7 +5405,7 @@
         },
         {
           "id": "b",
-          "text": "Analyzing data to understand its structure, content, and quality"
+          "text": "Creating data portraits and related processes"
         },
         {
           "id": "c",
@@ -5413,10 +5413,10 @@
         },
         {
           "id": "d",
-          "text": "Creating data portraits and related processes"
+          "text": "Analyzing data to understand its structure, content, and quality"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Data profiling analyzes datasets to understand their structure, content, relationships, and quality issues. It's an essential first step in data preparation for AI projects."
     },
     {
@@ -5432,18 +5432,18 @@
         },
         {
           "id": "b",
-          "text": "Sampling that maintains the proportion of subgroups from the original"
+          "text": "Layered data collection and associated activities"
         },
         {
           "id": "c",
-          "text": "Layered data collection and associated activities"
+          "text": "Sampling that maintains the proportion of subgroups from the original"
         },
         {
           "id": "d",
           "text": "Strategic sampling plans and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Stratified sampling ensures that the sample maintains the same proportions of important subgroups as the original population. This is crucial for ensuring representative training and test sets."
     },
     {
@@ -5459,18 +5459,18 @@
         },
         {
           "id": "b",
-          "text": "When gradients become too small for effective learning in deep networks"
+          "text": "Gradients that vanish after training and associated activities"
         },
         {
           "id": "c",
-          "text": "Gradients that vanish after training and associated activities"
+          "text": "When gradients become too small for effective learning in deep networks"
         },
         {
           "id": "d",
           "text": "Missing gradient calculations and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "The vanishing gradient problem occurs in deep neural networks when gradients become extremely small as they propagate backward, making early layers learn very slowly or not at all."
     },
     {
@@ -5509,11 +5509,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Counting model parameters and related processes"
+          "text": "Reducing numerical precision of model weights to decrease size and"
         },
         {
           "id": "b",
-          "text": "Reducing numerical precision of model weights to decrease size and"
+          "text": "Counting model parameters and related processes"
         },
         {
           "id": "c",
@@ -5524,7 +5524,7 @@
           "text": "Quantifying model quality and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Model quantization reduces the numerical precision of model weights (e.g., from 32-bit to 8-bit) to decrease model size and increase inference speed, often with minimal accuracy loss."
     },
     {
@@ -5540,18 +5540,18 @@
         },
         {
           "id": "b",
-          "text": "Removing unnecessary parameters or connections to reduce model size"
+          "text": "Pruning the model garden and associated activities"
         },
         {
           "id": "c",
-          "text": "Pruning the model garden and associated activities"
+          "text": "Removing unnecessary parameters or connections to reduce model size"
         },
         {
           "id": "d",
           "text": "Removing outdated models and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Model pruning removes unnecessary or redundant parameters, weights, or connections from a neural network to reduce model size and computational requirements while maintaining acceptable performance."
     },
     {
@@ -5567,7 +5567,7 @@
         },
         {
           "id": "b",
-          "text": "Training a smaller model to mimic a larger, more complex model"
+          "text": "Chemical processing of model data and associated activities"
         },
         {
           "id": "c",
@@ -5575,10 +5575,10 @@
         },
         {
           "id": "d",
-          "text": "Chemical processing of model data and associated activities"
+          "text": "Training a smaller model to mimic a larger, more complex model"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Model distillation (knowledge distillation) trains a smaller 'student' model to mimic the behavior of a larger 'teacher' model, creating a more efficient model that retains much of the original's capability."
     },
     {
@@ -5630,11 +5630,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A team-building exercise and associated activities"
+          "text": "Adversarial testing where a team tries to find flaws and vulnerabilities"
         },
         {
           "id": "b",
-          "text": "Adversarial testing where a team tries to find flaws and vulnerabilities"
+          "text": "A team-building exercise and associated activities"
         },
         {
           "id": "c",
@@ -5645,7 +5645,7 @@
           "text": "A competitive coding challenge and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Red team exercises involve a dedicated team attempting to find flaws, vulnerabilities, and failure modes in AI systems through adversarial testing. This helps identify risks before malicious actors do."
     },
     {
@@ -5661,18 +5661,18 @@
         },
         {
           "id": "b",
-          "text": "A structured review capturing what worked, what didn't, and improvements"
+          "text": "Learning AI techniques and related processes"
         },
         {
           "id": "c",
-          "text": "Learning AI techniques and related processes"
+          "text": "A structured review capturing what worked, what didn't, and improvements"
         },
         {
           "id": "d",
           "text": "Reviewing educational materials and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Lessons learned sessions are structured reviews conducted after project milestones or completion to capture what worked well, what didn't, and recommendations for improvement in future projects."
     },
     {
@@ -5715,7 +5715,7 @@
         },
         {
           "id": "b",
-          "text": "A portion of data kept separate from training for final evaluation"
+          "text": "Reserved storage capacity and associated activities"
         },
         {
           "id": "c",
@@ -5723,10 +5723,10 @@
         },
         {
           "id": "d",
-          "text": "Reserved storage capacity and associated activities"
+          "text": "A portion of data kept separate from training for final evaluation"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "A holdout set is a portion of data kept completely separate from training and validation, used only for final model evaluation to get an unbiased estimate of production performance."
     },
     {
@@ -5769,18 +5769,18 @@
         },
         {
           "id": "b",
-          "text": "A method to explain individual predictions by showing feature contributions"
+          "text": "A training technique and associated activities"
         },
         {
           "id": "c",
-          "text": "A training technique and associated activities"
+          "text": "A method to explain individual predictions by showing feature contributions"
         },
         {
           "id": "d",
           "text": "A data format and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "SHAP is an explainability method that uses game theory (Shapley values) to show how each feature contributes to individual predictions, providing interpretable explanations for model decisions."
     },
     {
@@ -5792,11 +5792,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A citrus-flavored AI and associated activities"
+          "text": "A technique explaining predictions by approximating the model locally"
         },
         {
           "id": "b",
-          "text": "A technique explaining predictions by approximating the model locally"
+          "text": "A citrus-flavored AI and associated activities"
         },
         {
           "id": "c",
@@ -5807,7 +5807,7 @@
           "text": "A training framework and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "LIME explains individual predictions by creating a simpler, interpretable model that approximates the complex model's behavior locally around the prediction point, showing which features influenced the decision."
     },
     {
@@ -5819,11 +5819,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A physical building for AI and associated activities"
+          "text": "A centralized team providing AI expertise, standards, and best practices"
         },
         {
           "id": "b",
-          "text": "A centralized team providing AI expertise, standards, and best practices"
+          "text": "A physical building for AI and associated activities"
         },
         {
           "id": "c",
@@ -5834,7 +5834,7 @@
           "text": "The best AI model and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "An AI Center of Excellence is a centralized team that provides AI expertise, establishes standards and best practices, supports project teams, and drives AI capability development across the organization."
     },
     {
@@ -5846,11 +5846,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Data leaving the target system and associated activities"
+          "text": "When training data contains information that wouldn't be available at"
         },
         {
           "id": "b",
-          "text": "When training data contains information that wouldn't be available at"
+          "text": "Data leaving the target system and associated activities"
         },
         {
           "id": "c",
@@ -5861,7 +5861,7 @@
           "text": "Target audience information leakage and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Target leakage occurs when training data includes information that wouldn't be available when making predictions in production. This leads to overly optimistic training metrics that don't translate to real-world performance."
     },
     {
@@ -5900,11 +5900,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Optimizing logical inference and associated activities"
+          "text": "Techniques to make model predictions faster and more efficient"
         },
         {
           "id": "b",
-          "text": "Techniques to make model predictions faster and more efficient"
+          "text": "Optimizing logical inference and associated activities"
         },
         {
           "id": "c",
@@ -5915,7 +5915,7 @@
           "text": "Statistical inference improvements and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Inference optimization includes techniques (batching, caching, hardware acceleration, model optimization) to make model predictions faster and more efficient in production environments."
     },
     {
@@ -5931,7 +5931,7 @@
         },
         {
           "id": "b",
-          "text": "The duration from project start to when business value is realized"
+          "text": "Time tracking for value billing and associated activities"
         },
         {
           "id": "c",
@@ -5939,10 +5939,10 @@
         },
         {
           "id": "d",
-          "text": "Time tracking for value billing and associated activities"
+          "text": "The duration from project start to when business value is realized"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Time-to-value measures the duration from when an AI project begins to when it starts delivering measurable business value. Shorter time-to-value is often a key success factor for AI investments."
     },
     {
@@ -5958,18 +5958,18 @@
         },
         {
           "id": "b",
-          "text": "How current and up-to-date the data is for the intended use"
+          "text": "Data storage temperature and associated activities"
         },
         {
           "id": "c",
-          "text": "Data storage temperature and associated activities"
+          "text": "How current and up-to-date the data is for the intended use"
         },
         {
           "id": "d",
           "text": "New data arrivals and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Data freshness refers to how current and up-to-date data is relative to the real-world state it represents. Stale data can lead to model predictions that don't reflect current conditions."
     },
     {
@@ -5981,11 +5981,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Unequal classroom sizes and related processes"
+          "text": "When classes in the target variable have significantly different frequencies"
         },
         {
           "id": "b",
-          "text": "When classes in the target variable have significantly different frequencies"
+          "text": "Unequal classroom sizes and related processes"
         },
         {
           "id": "c",
@@ -5996,7 +5996,7 @@
           "text": "Unequal class participation and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Class imbalance occurs when classes in the target variable have significantly different frequencies (e.g., 99% negative, 1% positive). This can bias models toward majority classes and requires special handling techniques."
     },
     {
@@ -6012,18 +6012,18 @@
         },
         {
           "id": "b",
-          "text": "Whether a model instance is already loaded and ready vs. needs initialization"
+          "text": "Warm weather vs. cold weather deployment and associated activities"
         },
         {
           "id": "c",
-          "text": "Warm weather vs. cold weather deployment and associated activities"
+          "text": "Whether a model instance is already loaded and ready vs. needs initialization"
         },
         {
           "id": "d",
           "text": "Starting training from scratch vs. pretrained and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "A warm start means a model instance is already loaded and ready to serve predictions immediately. A cold start requires loading the model first, causing latency. This affects user experience and scaling strategies."
     },
     {
@@ -6039,18 +6039,18 @@
         },
         {
           "id": "b",
-          "text": "Showing what input changes would lead to a different prediction"
+          "text": "Factual vs. fictional explanations and related processes"
         },
         {
           "id": "c",
-          "text": "Factual vs. fictional explanations and related processes"
+          "text": "Showing what input changes would lead to a different prediction"
         },
         {
           "id": "d",
           "text": "Counting explanation factors and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Counterfactual explanations show what changes to inputs would result in a different prediction (e.g., 'Your loan would be approved if your income were $5,000 higher'). They provide actionable insight for affected individuals."
     },
     {
@@ -6066,18 +6066,18 @@
         },
         {
           "id": "b",
-          "text": "An iterative approach emphasizing flexibility, collaboration, and"
+          "text": "Fast algorithm execution and associated activities"
         },
         {
           "id": "c",
-          "text": "Fast algorithm execution and associated activities"
+          "text": "An iterative approach emphasizing flexibility, collaboration, and"
         },
         {
           "id": "d",
           "text": "Agility testing for AI systems and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "Agile methodology in AI development emphasizes iterative development, flexibility to adapt based on learnings, collaboration between teams, and incremental delivery of value through working AI capabilities."
     },
     {
@@ -6093,7 +6093,7 @@
         },
         {
           "id": "b",
-          "text": "Identifying when different records refer to the same real-world entity"
+          "text": "Legal entity registration and associated activities"
         },
         {
           "id": "c",
@@ -6101,10 +6101,10 @@
         },
         {
           "id": "d",
-          "text": "Legal entity registration and associated activities"
+          "text": "Identifying when different records refer to the same real-world entity"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "Entity resolution identifies when different records (possibly from different sources) refer to the same real-world entity (person, company, product). This is crucial for data integration and avoiding duplicates."
     },
     {
@@ -6147,7 +6147,7 @@
         },
         {
           "id": "b",
-          "text": "Using graphics processing units to speed up model predictions and related processes"
+          "text": "Accelerating GPU procurement and associated activities"
         },
         {
           "id": "c",
@@ -6155,10 +6155,10 @@
         },
         {
           "id": "d",
-          "text": "Accelerating GPU procurement and associated activities"
+          "text": "Using graphics processing units to speed up model predictions and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "d",
       "explanation": "GPU acceleration uses graphics processing units to speed up model inference through parallel processing. GPUs can process many operations simultaneously, significantly reducing prediction latency for appropriate workloads."
     },
     {
@@ -6170,11 +6170,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Business cards for model developers and related processes"
+          "text": "Standardized documentation of model details, intended use, and limitations"
         },
         {
           "id": "b",
-          "text": "Standardized documentation of model details, intended use, and limitations"
+          "text": "Business cards for model developers and related processes"
         },
         {
           "id": "c",
@@ -6185,7 +6185,7 @@
           "text": "Model identification cards and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "Model cards are standardized documentation that includes model details (type, training data, performance), intended use cases, limitations, ethical considerations, and factors that may affect performance."
     },
     {
@@ -6197,11 +6197,11 @@
       "options": [
         {
           "id": "a",
-          "text": "Running quickly and associated activities"
+          "text": "A fixed time period for completing a set of planned work and associated activities"
         },
         {
           "id": "b",
-          "text": "A fixed time period for completing a set of planned work and associated activities"
+          "text": "Running quickly and associated activities"
         },
         {
           "id": "c",
@@ -6212,7 +6212,7 @@
           "text": "Fast model training and associated activities"
         }
       ],
-      "correct": "b",
+      "correct": "a",
       "explanation": "A sprint is a fixed time period (typically 1-4 weeks) during which a team completes a set of planned work items. At the end, working functionality is demonstrated and progress is reviewed."
     },
     {
@@ -6255,18 +6255,18 @@
         },
         {
           "id": "b",
-          "text": "An automated sequence of data processing and model training steps"
+          "text": "A communication channel and associated activities"
         },
         {
           "id": "c",
-          "text": "A communication channel and associated activities"
+          "text": "An automated sequence of data processing and model training steps"
         },
         {
           "id": "d",
           "text": "Water pipeline systems and related processes"
         }
       ],
-      "correct": "b",
+      "correct": "c",
       "explanation": "An ML pipeline is an automated sequence of steps for data processing, feature engineering, model training, and evaluation. Pipelines ensure reproducibility and enable continuous training workflows."
     },
     {
