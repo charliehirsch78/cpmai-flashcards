@@ -1,8 +1,24 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { CheckCircle, Circle, BookOpen } from 'lucide-react'
+
+// Shuffle array using Fisher-Yates algorithm
+function shuffleArray(array) {
+  const arr = [...array]
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
 
 export default function Card({ card, onAnswer, showingFeedback, lastAnswer }) {
   const [selected, setSelected] = useState(null)
+  
+  // Randomize options on first render of this card
+  const shuffledOptions = useMemo(() => {
+    if (card.type === 'concept' || !card.options) return []
+    return shuffleArray(card.options)
+  }, [card.id, card.type, card.options])
   
   const handleSelect = (optionId) => {
     if (showingFeedback) return // Don't allow changes during feedback
@@ -62,7 +78,7 @@ export default function Card({ card, onAnswer, showingFeedback, lastAnswer }) {
       
       {/* Options */}
       <div className="space-y-3 mb-6">
-        {card.options?.map((option) => {
+        {shuffledOptions.map((option) => {
           const isSelected = selected === option.id
           const isCorrect = option.id === card.correct
           const wasSelected = lastAnswer?.selectedOption === option.id

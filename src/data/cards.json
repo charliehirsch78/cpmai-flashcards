@@ -46,7 +46,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To ensure consistent data quality across training pipelines"
+          "text": "To create consistent quality standards across data sources (indirect benefit, but not primary)"
         },
         {
           "id": "b",
@@ -54,11 +54,11 @@
         },
         {
           "id": "c",
-          "text": "To establish clear data ownership and access controls"
+          "text": "To define roles, responsibilities, and decision-making authority for data management"
         },
         {
           "id": "d",
-          "text": "To enable secure data sharing across organizational boundaries"
+          "text": "To facilitate seamless data movement within and between organizations"
         }
       ],
       "correct": "b",
@@ -73,19 +73,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Evaluating model performance metrics against benchmarks"
+          "text": "Evaluating model accuracy and performance metrics against industry benchmarks"
         },
         {
           "id": "b",
-          "text": "Conducting privacy impact assessments for AI model deployment"
+          "text": "Conducting privacy impact assessments before deploying AI models"
         },
         {
           "id": "c",
-          "text": "Reviewing data classification and retention policies"
+          "text": "Reviewing how data is classified and when it should be deleted"
         },
         {
           "id": "d",
-          "text": "Establishing incident response procedures for data breaches"
+          "text": "Creating incident response procedures for potential data breaches"
         }
       ],
       "correct": "b",
@@ -162,7 +162,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To streamline model development and reduce iteration cycles"
+          "text": "To reduce the time required for model development and team collaboration cycles"
         },
         {
           "id": "b",
@@ -170,11 +170,11 @@
         },
         {
           "id": "c",
-          "text": "To enable efficient knowledge transfer between project teams"
+          "text": "To document technical decisions and facilitate knowledge transfer between teams"
         },
         {
           "id": "d",
-          "text": "To support model versioning and rollback capabilities"
+          "text": "To maintain version control and enable rapid rollback if problems occur"
         }
       ],
       "correct": "b",
@@ -278,19 +278,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Evaluate available AI technologies and vendor capabilities"
+          "text": "Evaluate available AI technologies and determine technical feasibility quickly"
         },
         {
           "id": "b",
-          "text": "Conduct stakeholder interviews to understand business pain points"
+          "text": "Conduct stakeholder interviews to understand business pain points and needs"
         },
         {
           "id": "c",
-          "text": "Assess data availability and quality requirements"
+          "text": "Assess current data availability and the quality of existing datasets"
         },
         {
           "id": "d",
-          "text": "Define success criteria and performance metrics"
+          "text": "Define specific success criteria and key performance metrics upfront"
         }
       ],
       "correct": "b",
@@ -305,19 +305,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Stakeholder alignment and executive sponsorship"
+          "text": "Stakeholder buy-in and the presence of executive sponsorship"
         },
         {
           "id": "b",
-          "text": "Data availability and quality for model training"
+          "text": "Whether sufficient quality data is available for training models"
         },
         {
           "id": "c",
-          "text": "Team expertise and organizational readiness"
+          "text": "Whether the team has expertise and the organization is ready"
         },
         {
           "id": "d",
-          "text": "Timeline constraints and resource availability"
+          "text": "Project timeline constraints and overall resource availability"
         }
       ],
       "correct": "b",
@@ -332,19 +332,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Technical implementation risks and mitigation strategies"
+          "text": "Technical risks during implementation and their mitigation approaches"
         },
         {
           "id": "b",
-          "text": "Security, safety, and ethical risks"
+          "text": "Security threats, safety implications, and ethical risks from AI"
         },
         {
           "id": "c",
-          "text": "Schedule and budget variance risks"
+          "text": "Project timeline risks and potential budget variance issues"
         },
         {
           "id": "d",
-          "text": "Vendor dependency and integration risks"
+          "text": "Vendor dependency risks and system integration complications"
         }
       ],
       "correct": "b",
@@ -367,19 +367,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Technical architecture and infrastructure requirements"
+          "text": "Technical architecture details and infrastructure requirements"
         },
         {
           "id": "b",
-          "text": "Project boundaries, success criteria, and assumptions"
+          "text": "Project boundaries, success criteria, and key assumptions"
         },
         {
           "id": "c",
-          "text": "Resource allocation and team responsibilities"
+          "text": "How resources will be allocated and team member responsibilities"
         },
         {
           "id": "d",
-          "text": "Risk register and mitigation strategies"
+          "text": "Risk identification and the associated mitigation strategies"
         }
       ],
       "correct": "b",
@@ -394,19 +394,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Development costs and projected timeline to deployment"
+          "text": "Development costs plus the time horizon required for full deployment"
         },
         {
           "id": "b",
-          "text": "Expected benefits and total cost of ownership including maintenance"
+          "text": "Expected benefits measured against total cost of ownership including maintenance"
         },
         {
           "id": "c",
-          "text": "Infrastructure costs and operational overhead"
+          "text": "Infrastructure expenses and ongoing operational support requirements"
         },
         {
           "id": "d",
-          "text": "Training costs and change management investment"
+          "text": "Team training and organizational change management costs involved"
         }
       ],
       "correct": "b",
@@ -564,19 +564,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Data sources and integration requirements"
+          "text": "The physical locations of data sources and integration point specifications"
         },
         {
           "id": "b",
-          "text": "Data types, volume requirements, and quality standards"
+          "text": "Data types needed, volume requirements, and required quality standards"
         },
         {
           "id": "c",
-          "text": "Storage architecture and access patterns"
+          "text": "Storage technology architecture and how data will be accessed operationally"
         },
         {
           "id": "d",
-          "text": "Security classifications and handling procedures"
+          "text": "Security levels, privacy classifications, and data handling procedures"
         }
       ],
       "correct": "b",
@@ -591,19 +591,19 @@
       "options": [
         {
           "id": "a",
-          "text": "To accelerate data collection and processing timelines"
+          "text": "To speed up data collection and accelerate processing timelines"
         },
         {
           "id": "b",
-          "text": "To understand data context, meaning, and governance requirements"
+          "text": "To understand data meaning, context, and governance requirements"
         },
         {
           "id": "c",
-          "text": "To reduce dependency on technical data engineering teams"
+          "text": "To minimize reliance on technical data engineering teams"
         },
         {
           "id": "d",
-          "text": "To validate data quality metrics and standards"
+          "text": "To validate whether data quality metrics meet required standards"
         }
       ],
       "correct": "b",
@@ -618,19 +618,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Primary internal databases with established data quality"
+          "text": "Internal databases that have established data quality and documentation"
         },
         {
           "id": "b",
-          "text": "Internal databases, external sources, cloud storage, and legacy systems"
+          "text": "Internal databases, external sources, cloud systems, and legacy systems"
         },
         {
           "id": "c",
-          "text": "Structured data sources with existing API integrations"
+          "text": "Structured data with existing API integrations and technical interfaces"
         },
         {
           "id": "d",
-          "text": "Real-time data streams and event-driven sources"
+          "text": "Real-time data streams and event-driven data sources only"
         }
       ],
       "correct": "b",
@@ -653,19 +653,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Selecting appropriate cloud providers and services"
+          "text": "Selecting the best cloud provider and negotiating service agreements"
         },
         {
           "id": "b",
-          "text": "Provisioning computing resources, setting up secure environments, and configuring collaboration tools"
+          "text": "Provisioning resources, securing environments, and configuring collaboration tools"
         },
         {
           "id": "c",
-          "text": "Establishing data governance policies and access controls"
+          "text": "Establishing governance policies and implementing access control systems"
         },
         {
           "id": "d",
-          "text": "Defining infrastructure requirements and capacity planning"
+          "text": "Planning infrastructure capacity and defining technical resource requirements"
         }
       ],
       "correct": "b",
@@ -680,19 +680,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Data transfer speeds and processing throughput"
+          "text": "Data transfer speeds and the throughput of processing pipelines"
         },
         {
           "id": "b",
-          "text": "Data completeness and accuracy during collection"
+          "text": "Data completeness and accuracy during the collection process"
         },
         {
           "id": "c",
-          "text": "Data format compatibility and schema alignment"
+          "text": "Format compatibility and whether schemas align properly"
         },
         {
           "id": "d",
-          "text": "Data lineage and transformation documentation"
+          "text": "Data lineage tracking and all transformation documentation"
         }
       ],
       "correct": "b",
@@ -734,19 +734,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Data volume and processing performance metrics"
+          "text": "Data volume and the performance metrics of processing systems"
         },
         {
           "id": "b",
-          "text": "Data quality dimensions including accuracy, completeness, and consistency"
+          "text": "Data quality dimensions like accuracy, completeness, and consistency"
         },
         {
           "id": "c",
-          "text": "Data source reliability and availability"
+          "text": "Source reliability and the frequency at which data is refreshed"
         },
         {
           "id": "d",
-          "text": "Data integration complexity and dependencies"
+          "text": "Integration complexity and the dependencies between data sources"
         }
       ],
       "correct": "b",
@@ -823,19 +823,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Model training efficiency and computational requirements"
+          "text": "Training efficiency gains and computational resource requirements needed"
         },
         {
           "id": "b",
-          "text": "Trade-offs between model complexity, performance, and interpretability"
+          "text": "Trade-offs between model complexity, predictive performance, and interpretability"
         },
         {
           "id": "c",
-          "text": "Algorithm familiarity and team expertise"
+          "text": "Team experience with specific algorithms and available expertise levels"
         },
         {
           "id": "d",
-          "text": "Industry benchmarks and state-of-the-art performance"
+          "text": "Industry benchmarks for performance and the state-of-the-art capabilities"
         }
       ],
       "correct": "b",
@@ -850,19 +850,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Validating model predictions against business requirements"
+          "text": "Validating that predictions align with stated business requirements"
         },
         {
           "id": "b",
-          "text": "Establishing testing protocols, configuration management, and monitoring performance metrics"
+          "text": "Establishing testing protocols, managing configurations, and monitoring metrics"
         },
         {
           "id": "c",
-          "text": "Conducting code reviews and documentation updates"
+          "text": "Performing code reviews and updating technical documentation regularly"
         },
         {
           "id": "d",
-          "text": "Verifying model integration with production systems"
+          "text": "Verifying proper integration between model and production systems"
         }
       ],
       "correct": "b",
@@ -885,19 +885,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Training schedules and computational resource allocation"
+          "text": "Creating training schedules and allocating computational resources effectively"
         },
         {
           "id": "b",
-          "text": "Training schedules, hyperparameter tuning, and experiment tracking"
+          "text": "Monitoring training schedules, tuning hyperparameters, and tracking experiments"
         },
         {
           "id": "c",
-          "text": "Model architecture decisions and layer configurations"
+          "text": "Making model architecture decisions and configuring neural network layers"
         },
         {
           "id": "d",
-          "text": "Data pipeline orchestration and batch processing"
+          "text": "Orchestrating data pipelines and managing batch processing workflows"
         }
       ],
       "correct": "b",
@@ -912,19 +912,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Managing data storage and retrieval optimization"
+          "text": "Optimizing how data is stored and retrieved in various systems"
         },
         {
           "id": "b",
-          "text": "Overseeing data cleaning, feature engineering, normalization, and documentation"
+          "text": "Overseeing cleaning, feature engineering, normalization, and documentation"
         },
         {
           "id": "c",
-          "text": "Coordinating data access permissions and security"
+          "text": "Managing data access permissions and ensuring security compliance"
         },
         {
           "id": "d",
-          "text": "Establishing data quality monitoring and alerting"
+          "text": "Creating data quality monitoring systems and establishing alerts"
         }
       ],
       "correct": "b",
@@ -939,19 +939,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Budget and resource availability review"
+          "text": "A thorough review of budget allocations and resource availability"
         },
         {
           "id": "b",
-          "text": "Final data quality assessments and validation of preprocessing results"
+          "text": "Final data quality assessments and validation of all preprocessing results"
         },
         {
           "id": "c",
-          "text": "Stakeholder alignment and approval confirmation"
+          "text": "Confirmation of stakeholder alignment and formal approval obtained"
         },
         {
           "id": "d",
-          "text": "Technical infrastructure readiness verification"
+          "text": "Verification that all technical infrastructure is ready for use"
         }
       ],
       "correct": "b",
@@ -966,19 +966,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Stakeholder approval and business case validation"
+          "text": "Stakeholder approvals and validation of the business case components"
         },
         {
           "id": "b",
-          "text": "Model performance against success criteria, robustness, and deployment readiness"
+          "text": "Performance against criteria, robustness testing, and deployment readiness"
         },
         {
           "id": "c",
-          "text": "Documentation completeness and knowledge transfer"
+          "text": "Whether documentation is complete and knowledge transfer is finished"
         },
         {
           "id": "d",
-          "text": "Infrastructure capacity and scalability requirements"
+          "text": "Whether infrastructure capacity and scalability requirements are met"
         }
       ],
       "correct": "b",
@@ -1001,19 +1001,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Modifying the model architecture for better performance"
+          "text": "Changing the model's internal architecture to improve final performance"
         },
         {
           "id": "b",
-          "text": "Optimizing model configuration settings that aren't learned from data"
+          "text": "Optimizing configuration settings not learned directly from training data"
         },
         {
           "id": "c",
-          "text": "Adjusting the training data distribution"
+          "text": "Changing how training data is weighted or sampled during training"
         },
         {
           "id": "d",
-          "text": "Refining feature engineering approaches"
+          "text": "Improving how features are engineered or created from raw data"
         }
       ],
       "correct": "b",
@@ -1055,19 +1055,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Deployment timeline and resource assignments"
+          "text": "Deployment timeline including all phases and resource team assignments"
         },
         {
           "id": "b",
-          "text": "Deployment strategy, infrastructure requirements, rollback procedures, and validation criteria"
+          "text": "Deployment strategy, infrastructure requirements, rollback procedures, validation"
         },
         {
           "id": "c",
-          "text": "Stakeholder communication and training schedules"
+          "text": "Stakeholder communication plans and comprehensive training schedules"
         },
         {
           "id": "d",
-          "text": "Performance monitoring dashboards and alerting thresholds"
+          "text": "Performance monitoring dashboards and the alert thresholds for issues"
         }
       ],
       "correct": "b",
@@ -1082,19 +1082,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Executing deployment scripts and updating configurations"
+          "text": "Running deployment scripts and manually updating system configurations"
         },
         {
           "id": "b",
-          "text": "Coordinating deployment activities, monitoring progress, and conducting post-deployment verification"
+          "text": "Coordinating activities, monitoring progress, and verifying post-deployment"
         },
         {
           "id": "c",
-          "text": "Managing stakeholder communications and expectations"
+          "text": "Managing stakeholder expectations and handling communications properly"
         },
         {
           "id": "d",
-          "text": "Documenting deployment procedures and lessons learned"
+          "text": "Documenting procedures, recording lessons, and capturing insights"
         }
       ],
       "correct": "b",
@@ -1109,19 +1109,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Model documentation and knowledge management"
+          "text": "Creating model documentation and managing organizational knowledge"
         },
         {
           "id": "b",
-          "text": "Model lifecycle management, version control, drift detection, and compliance with governance policies"
+          "text": "Managing model lifecycle, version control, drift detection, and compliance"
         },
         {
           "id": "c",
-          "text": "Model performance monitoring and optimization"
+          "text": "Monitoring model performance and implementing performance optimization"
         },
         {
           "id": "d",
-          "text": "Model security and access control management"
+          "text": "Implementing model security measures and access control systems"
         }
       ],
       "correct": "b",
@@ -1144,19 +1144,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Development velocity and team productivity metrics"
+          "text": "Development velocity metrics and team productivity indicators"
         },
         {
           "id": "b",
-          "text": "Business KPIs, technical performance metrics, and model performance trends"
+          "text": "Business KPIs, technical performance metrics, and model trends"
         },
         {
           "id": "c",
-          "text": "Infrastructure utilization and cost efficiency metrics"
+          "text": "Infrastructure utilization levels and cost efficiency measurements"
         },
         {
           "id": "d",
-          "text": "User adoption rates and satisfaction metrics"
+          "text": "User adoption rates and customer satisfaction survey results"
         }
       ],
       "correct": "b",
@@ -1171,19 +1171,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Financial summary and resource utilization statistics"
+          "text": "Financial summaries and statistics on how resources were utilized"
         },
         {
           "id": "b",
-          "text": "Project outcomes, best practices, areas for improvement, and knowledge transfer documentation"
+          "text": "Outcomes, best practices, improvements, and knowledge transfer documentation"
         },
         {
           "id": "c",
-          "text": "Technical specifications and system architecture documentation"
+          "text": "Technical specifications and documentation of the system architecture"
         },
         {
           "id": "d",
-          "text": "Stakeholder feedback and satisfaction assessments"
+          "text": "Stakeholder feedback results and satisfaction assessment data"
         }
       ],
       "correct": "b",
@@ -1465,19 +1465,19 @@
       "options": [
         {
           "id": "a",
-          "text": "To minimize data storage requirements"
+          "text": "To reduce the total amount of data storage space required"
         },
         {
           "id": "b",
-          "text": "To ensure data remains current and relevant for AI model performance"
+          "text": "To keep data current and relevant for model performance"
         },
         {
           "id": "c",
-          "text": "To comply with data archival policies"
+          "text": "To meet regulatory data archival and retention policy requirements"
         },
         {
           "id": "d",
-          "text": "To reduce data processing latency"
+          "text": "To minimize the latency of data processing and retrieval"
         }
       ],
       "correct": "b",
