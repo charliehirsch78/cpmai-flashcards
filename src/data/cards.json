@@ -761,7 +761,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Analyzing data processing costs against budget constraints"
+          "text": "Analyzing data processing costs against budget constraints and related processes"
         },
         {
           "id": "b",
@@ -769,11 +769,11 @@
         },
         {
           "id": "c",
-          "text": "Evaluating data quality improvement opportunities"
+          "text": "Evaluating data quality improvement opportunities and related processes"
         },
         {
           "id": "d",
-          "text": "Assessing technical feasibility of data transformations"
+          "text": "Assessing technical feasibility of data transformations and related processes"
         }
       ],
       "correct": "b",
@@ -808,7 +808,7 @@
         },
         {
           "id": "d",
-          "text": "Technical data lineage documentation"
+          "text": "Technical data lineage documentation and associated activities"
         }
       ],
       "correct": "b",
@@ -1028,7 +1028,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To validate model performance across different hardware"
+          "text": "To validate model performance across different hardware and associated activities"
         },
         {
           "id": "b",
@@ -1036,11 +1036,11 @@
         },
         {
           "id": "c",
-          "text": "To compare model performance against baselines"
+          "text": "To compare model performance against baselines and related processes"
         },
         {
           "id": "d",
-          "text": "To verify model reproducibility across training runs"
+          "text": "To verify model reproducibility across training runs and related processes"
         }
       ],
       "correct": "b",
@@ -1202,11 +1202,11 @@
         },
         {
           "id": "b",
-          "text": "Planning transition to operations, knowledge transfer, and establishing maintenance procedures"
+          "text": "Planning transition to operations, knowledge transfer, and establishing"
         },
         {
           "id": "c",
-          "text": "Communicating project completion to stakeholders"
+          "text": "Communicating project completion to stakeholders and related processes"
         },
         {
           "id": "d",
@@ -1229,7 +1229,7 @@
         },
         {
           "id": "b",
-          "text": "Incident response procedures, disaster recovery strategies, and escalation procedures"
+          "text": "Incident response procedures, disaster recovery strategies, and"
         },
         {
           "id": "c",
@@ -1314,11 +1314,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A federal framework for AI system certification"
+          "text": "A federal framework for AI system certification and associated activities"
         },
         {
           "id": "b",
-          "text": "A state data protection regulation giving consumers control over personal information"
+          "text": "A state data protection regulation giving consumers control over"
         },
         {
           "id": "c",
@@ -1326,7 +1326,7 @@
         },
         {
           "id": "d",
-          "text": "A regulatory framework for cross-border data transfers"
+          "text": "A regulatory framework for cross-border data transfers and related processes"
         }
       ],
       "correct": "b",
@@ -1403,7 +1403,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To validate AI technology selection"
+          "text": "To validate AI technology selection and associated activities"
         },
         {
           "id": "b",
@@ -1411,11 +1411,11 @@
         },
         {
           "id": "c",
-          "text": "To justify investment in AI capabilities"
+          "text": "To justify investment in AI capabilities and related processes"
         },
         {
           "id": "d",
-          "text": "To benchmark against industry competitors"
+          "text": "To benchmark against industry competitors and related processes"
         }
       ],
       "correct": "b",
@@ -1438,7 +1438,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To validate technical feasibility of the proposed solution"
+          "text": "To validate technical feasibility of the proposed solution and associated activities"
         },
         {
           "id": "b",
@@ -1446,11 +1446,11 @@
         },
         {
           "id": "c",
-          "text": "To document solution architecture for development teams"
+          "text": "To document solution architecture for development teams and related processes"
         },
         {
           "id": "d",
-          "text": "To communicate AI concepts to non-technical stakeholders"
+          "text": "To communicate AI concepts to non-technical stakeholders and related processes"
         }
       ],
       "correct": "b",
@@ -1492,19 +1492,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A technique for optimizing model deployment"
+          "text": "A technique for optimizing model deployment and associated activities"
         },
         {
           "id": "b",
-          "text": "A process of analyzing datasets to summarize characteristics and understand data structure"
+          "text": "A process of analyzing datasets to summarize characteristics and"
         },
         {
           "id": "c",
-          "text": "A method for validating model predictions"
+          "text": "A method for validating model predictions and related processes"
         },
         {
           "id": "d",
-          "text": "A framework for data governance implementation"
+          "text": "A framework for data governance implementation and associated activities"
         }
       ],
       "correct": "b",
@@ -1527,7 +1527,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Selecting models for deployment to production"
+          "text": "Selecting models for deployment to production and associated activities"
         },
         {
           "id": "b",
@@ -1539,7 +1539,7 @@
         },
         {
           "id": "d",
-          "text": "Validating model outputs against expected results"
+          "text": "Validating model outputs against expected results and related processes"
         }
       ],
       "correct": "b",
@@ -1554,19 +1554,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Creating backup copies of training data"
+          "text": "Creating backup copies of training data and associated activities"
         },
         {
           "id": "b",
-          "text": "Artificially increasing training data through transformations or synthetic generation"
+          "text": "Artificially increasing training data through transformations or"
         },
         {
           "id": "c",
-          "text": "Compressing data for efficient model training"
+          "text": "Compressing data for efficient model training and associated activities"
         },
         {
           "id": "d",
-          "text": "Enhancing data quality through cleansing"
+          "text": "Enhancing data quality through cleansing and associated activities"
         }
       ],
       "correct": "b",
@@ -1589,7 +1589,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A technique for optimizing model training"
+          "text": "A technique for optimizing model training and associated activities"
         },
         {
           "id": "b",
@@ -1597,11 +1597,11 @@
         },
         {
           "id": "c",
-          "text": "A method for recovering from data corruption"
+          "text": "A method for recovering from data corruption and associated activities"
         },
         {
           "id": "d",
-          "text": "A procedure for reverting configuration changes"
+          "text": "A procedure for reverting configuration changes and related processes"
         }
       ],
       "correct": "b",
@@ -1620,7 +1620,7 @@
         },
         {
           "id": "b",
-          "text": "Performance degradation, data drift, or scheduled intervals"
+          "text": "Performance degradation, data drift, or scheduled intervals and related processes"
         },
         {
           "id": "c",
@@ -1651,7 +1651,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Evaluating model inference speed across environments"
+          "text": "Evaluating model inference speed across environments and related processes"
         },
         {
           "id": "b",
@@ -1659,11 +1659,11 @@
         },
         {
           "id": "c",
-          "text": "Testing model stability under varying conditions"
+          "text": "Testing model stability under varying conditions and related processes"
         },
         {
           "id": "d",
-          "text": "Validating model predictions against ground truth"
+          "text": "Validating model predictions against ground truth and associated activities"
         }
       ],
       "correct": "b",
@@ -1705,19 +1705,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A specific AI development methodology"
+          "text": "A specific AI development methodology and associated activities"
         },
         {
           "id": "b",
-          "text": "A fictional representation of a target user based on research"
+          "text": "A fictional representation of a target user based on research and associated activities"
         },
         {
           "id": "c",
-          "text": "A role-based access control profile"
+          "text": "A role-based access control profile and associated activities"
         },
         {
           "id": "d",
-          "text": "A stakeholder classification category"
+          "text": "A stakeholder classification category and associated activities"
         }
       ],
       "correct": "b",
@@ -1732,7 +1732,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Network perimeter weaknesses only"
+          "text": "Network perimeter weaknesses only and associated activities"
         },
         {
           "id": "b",
@@ -1740,11 +1740,11 @@
         },
         {
           "id": "c",
-          "text": "User authentication vulnerabilities only"
+          "text": "User authentication vulnerabilities only and associated activities"
         },
         {
           "id": "d",
-          "text": "Physical security threats to AI infrastructure"
+          "text": "Physical security threats to AI infrastructure and associated activities"
         }
       ],
       "correct": "b",
@@ -1759,19 +1759,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A technique for compressing data storage"
+          "text": "A technique for compressing data storage and associated activities"
         },
         {
           "id": "b",
-          "text": "A technique for selecting a representative subset of data for analysis or training"
+          "text": "A technique for selecting a representative subset of data for analysis"
         },
         {
           "id": "c",
-          "text": "A method for distributing data across systems"
+          "text": "A method for distributing data across systems and related processes"
         },
         {
           "id": "d",
-          "text": "An approach for prioritizing data sources"
+          "text": "An approach for prioritizing data sources and related processes"
         }
       ],
       "correct": "b",
@@ -1786,19 +1786,19 @@
       "options": [
         {
           "id": "a",
-          "text": "The physical storage format of data"
+          "text": "The physical storage format of data and associated activities"
         },
         {
           "id": "b",
-          "text": "The level of detail or precision in data"
+          "text": "The level of detail or precision in data and associated activities"
         },
         {
           "id": "c",
-          "text": "The security classification of data"
+          "text": "The security classification of data and associated activities"
         },
         {
           "id": "d",
-          "text": "The frequency of data updates"
+          "text": "The frequency of data updates and related processes"
         }
       ],
       "correct": "b",
@@ -1867,7 +1867,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To optimize infrastructure costs"
+          "text": "To optimize infrastructure costs and related processes"
         },
         {
           "id": "b",
@@ -1875,11 +1875,11 @@
         },
         {
           "id": "c",
-          "text": "To generate reports for stakeholders"
+          "text": "To generate reports for stakeholders and related processes"
         },
         {
           "id": "d",
-          "text": "To track development team productivity"
+          "text": "To track development team productivity and associated activities"
         }
       ],
       "correct": "b",
@@ -1894,7 +1894,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Migrating data between storage systems"
+          "text": "Migrating data between storage systems and related processes"
         },
         {
           "id": "b",
@@ -1902,11 +1902,11 @@
         },
         {
           "id": "c",
-          "text": "Copying model artifacts to backup systems"
+          "text": "Copying model artifacts to backup systems and related processes"
         },
         {
           "id": "d",
-          "text": "Transferring ownership of project deliverables"
+          "text": "Transferring ownership of project deliverables and related processes"
         }
       ],
       "correct": "b",
@@ -1961,11 +1961,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To monitor model performance over time"
+          "text": "To monitor model performance over time and associated activities"
         },
         {
           "id": "b",
-          "text": "To maintain records of decisions, changes, and approvals throughout the AI lifecycle"
+          "text": "To maintain records of decisions, changes, and approvals throughout the"
         },
         {
           "id": "c",
@@ -1973,7 +1973,7 @@
         },
         {
           "id": "d",
-          "text": "To document technical specifications for future reference"
+          "text": "To document technical specifications for future reference and associated activities"
         }
       ],
       "correct": "b",
@@ -1988,7 +1988,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Risk of exceeding project timeline"
+          "text": "Risk of exceeding project timeline and associated activities"
         },
         {
           "id": "b",
@@ -1996,11 +1996,11 @@
         },
         {
           "id": "c",
-          "text": "Risk of budget overruns"
+          "text": "Risk of budget overruns and related processes"
         },
         {
           "id": "d",
-          "text": "Risk of technical implementation challenges"
+          "text": "Risk of technical implementation challenges and related processes"
         }
       ],
       "correct": "b",
@@ -2023,7 +2023,7 @@
         },
         {
           "id": "c",
-          "text": "How data is distributed across systems"
+          "text": "How data is distributed across systems and related processes"
         },
         {
           "id": "d",
@@ -2100,11 +2100,11 @@
         },
         {
           "id": "b",
-          "text": "Industry-specific regulations that affect AI implementation"
+          "text": "Industry-specific regulations that affect AI implementation and associated activities"
         },
         {
           "id": "c",
-          "text": "International AI governance frameworks"
+          "text": "International AI governance frameworks and related processes"
         },
         {
           "id": "d",
@@ -2123,19 +2123,19 @@
       "options": [
         {
           "id": "a",
-          "text": "The primary execution plan for the project"
+          "text": "The primary execution plan for the project and associated activities"
         },
         {
           "id": "b",
-          "text": "A backup plan to address risks if they materialize"
+          "text": "A backup plan to address risks if they materialize and associated activities"
         },
         {
           "id": "c",
-          "text": "A financial reserve allocation strategy"
+          "text": "A financial reserve allocation strategy and associated activities"
         },
         {
           "id": "d",
-          "text": "An alternative resource allocation approach"
+          "text": "An alternative resource allocation approach and associated activities"
         }
       ],
       "correct": "b",
@@ -2150,7 +2150,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Data format incompatibilities only"
+          "text": "Data format incompatibilities only and associated activities"
         },
         {
           "id": "b",
@@ -2177,7 +2177,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Reviewing analysis performed by colleagues"
+          "text": "Reviewing analysis performed by colleagues and related processes"
         },
         {
           "id": "b",
@@ -2185,11 +2185,11 @@
         },
         {
           "id": "c",
-          "text": "Evaluating competitor model approaches"
+          "text": "Evaluating competitor model approaches and related processes"
         },
         {
           "id": "d",
-          "text": "Reviewing model performance benchmarks"
+          "text": "Reviewing model performance benchmarks and related processes"
         }
       ],
       "correct": "b",
@@ -2204,7 +2204,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A technique for optimizing model performance"
+          "text": "A technique for optimizing model performance and associated activities"
         },
         {
           "id": "b",
@@ -2212,11 +2212,11 @@
         },
         {
           "id": "c",
-          "text": "A method for scaling AI services under load"
+          "text": "A method for scaling AI services under load and associated activities"
         },
         {
           "id": "d",
-          "text": "A procedure for documenting system changes"
+          "text": "A procedure for documenting system changes and related processes"
         }
       ],
       "correct": "b",
@@ -2231,7 +2231,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Performance metrics measuring model accuracy"
+          "text": "Performance metrics measuring model accuracy and associated activities"
         },
         {
           "id": "b",
@@ -2239,11 +2239,11 @@
         },
         {
           "id": "c",
-          "text": "Data quality indicators for training datasets"
+          "text": "Data quality indicators for training datasets and related processes"
         },
         {
           "id": "d",
-          "text": "System health metrics for monitoring deployments"
+          "text": "System health metrics for monitoring deployments and related processes"
         }
       ],
       "correct": "b",
@@ -2262,7 +2262,7 @@
         },
         {
           "id": "b",
-          "text": "All costs over the AI solution's lifecycle including development, operation, and maintenance"
+          "text": "All costs over the AI solution's lifecycle including development,"
         },
         {
           "id": "c",
@@ -2289,15 +2289,15 @@
         },
         {
           "id": "b",
-          "text": "The structure and organization of data including field types and relationships"
+          "text": "The structure and organization of data including field types and"
         },
         {
           "id": "c",
-          "text": "A data validation ruleset"
+          "text": "A data validation ruleset and associated activities"
         },
         {
           "id": "d",
-          "text": "A data transformation pipeline"
+          "text": "A data transformation pipeline and associated activities"
         }
       ],
       "correct": "b",
@@ -2312,7 +2312,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Preparing models for production deployment"
+          "text": "Preparing models for production deployment and associated activities"
         },
         {
           "id": "b",
@@ -2320,11 +2320,11 @@
         },
         {
           "id": "c",
-          "text": "Processing model predictions for downstream systems"
+          "text": "Processing model predictions for downstream systems and related processes"
         },
         {
           "id": "d",
-          "text": "Preparing reports for stakeholder review"
+          "text": "Preparing reports for stakeholder review and associated activities"
         }
       ],
       "correct": "b",
@@ -2339,19 +2339,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Preparing deployment documentation"
+          "text": "Preparing deployment documentation and associated activities"
         },
         {
           "id": "b",
-          "text": "Testing that the deployed AI system functions correctly in the production environment"
+          "text": "Testing that the deployed AI system functions correctly in the"
         },
         {
           "id": "c",
-          "text": "Validating stakeholder requirements"
+          "text": "Validating stakeholder requirements and related processes"
         },
         {
           "id": "d",
-          "text": "Verifying team readiness for support"
+          "text": "Verifying team readiness for support and associated activities"
         }
       ],
       "correct": "b",
@@ -2366,11 +2366,11 @@
       "options": [
         {
           "id": "a",
-          "text": "To track model performance against benchmarks"
+          "text": "To track model performance against benchmarks and related processes"
         },
         {
           "id": "b",
-          "text": "To continuously verify adherence to regulations and report status to stakeholders"
+          "text": "To continuously verify adherence to regulations and report status to"
         },
         {
           "id": "c",
@@ -2393,19 +2393,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Performance limitations of AI algorithms"
+          "text": "Performance limitations of AI algorithms and related processes"
         },
         {
           "id": "b",
-          "text": "Opposition or reluctance from users to adopt AI solutions"
+          "text": "Opposition or reluctance from users to adopt AI solutions and related processes"
         },
         {
           "id": "c",
-          "text": "Technical constraints limiting AI capabilities"
+          "text": "Technical constraints limiting AI capabilities and related processes"
         },
         {
           "id": "d",
-          "text": "Resource constraints affecting implementation"
+          "text": "Resource constraints affecting implementation and associated activities"
         }
       ],
       "correct": "b",
@@ -2420,19 +2420,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Allocating data storage across data centers"
+          "text": "Allocating data storage across data centers and related processes"
         },
         {
           "id": "b",
-          "text": "Examining how data values are spread to identify patterns, outliers, or biases"
+          "text": "Examining how data values are spread to identify patterns, outliers, or"
         },
         {
           "id": "c",
-          "text": "Distributing data processing across teams"
+          "text": "Distributing data processing across teams and related processes"
         },
         {
           "id": "d",
-          "text": "Planning data dissemination to stakeholders"
+          "text": "Planning data dissemination to stakeholders and related processes"
         }
       ],
       "correct": "b",
@@ -2451,15 +2451,15 @@
         },
         {
           "id": "b",
-          "text": "Tracking the use of computing power during model training"
+          "text": "Tracking the use of computing power during model training and associated activities"
         },
         {
           "id": "c",
-          "text": "Monitoring data pipeline throughput"
+          "text": "Monitoring data pipeline throughput and associated activities"
         },
         {
           "id": "d",
-          "text": "Tracking model deployment frequency"
+          "text": "Tracking model deployment frequency and associated activities"
         }
       ],
       "correct": "b",
@@ -2474,7 +2474,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Conducting user training programs"
+          "text": "Conducting user training programs and related processes"
         },
         {
           "id": "b",
@@ -2486,7 +2486,7 @@
         },
         {
           "id": "d",
-          "text": "Establishing user support procedures"
+          "text": "Establishing user support procedures and related processes"
         }
       ],
       "correct": "b",
@@ -2541,7 +2541,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The project only runs once"
+          "text": "The project only runs once and associated activities"
         },
         {
           "id": "b",
@@ -2549,11 +2549,11 @@
         },
         {
           "id": "c",
-          "text": "All phases run simultaneously"
+          "text": "All phases run simultaneously and associated activities"
         },
         {
           "id": "d",
-          "text": "The project never ends"
+          "text": "The project never ends and related processes"
         }
       ],
       "correct": "b",
@@ -2568,19 +2568,19 @@
       "options": [
         {
           "id": "a",
-          "text": "AI projects are always faster"
+          "text": "AI projects are always faster and associated activities"
         },
         {
           "id": "b",
-          "text": "AI projects involve data dependency, iterative experimentation, and model behavior uncertainty"
+          "text": "AI projects involve data dependency, iterative experimentation, and"
         },
         {
           "id": "c",
-          "text": "AI projects don't require testing"
+          "text": "AI projects don't require testing and associated activities"
         },
         {
           "id": "d",
-          "text": "AI projects don't need stakeholder input"
+          "text": "AI projects don't need stakeholder input and associated activities"
         }
       ],
       "correct": "b",
@@ -2595,7 +2595,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A retail outlet for AI products"
+          "text": "A retail outlet for AI products and related processes"
         },
         {
           "id": "b",
@@ -2603,11 +2603,11 @@
         },
         {
           "id": "c",
-          "text": "A document storage system"
+          "text": "A document storage system and associated activities"
         },
         {
           "id": "d",
-          "text": "A user interface component"
+          "text": "A user interface component and associated activities"
         }
       ],
       "correct": "b",
@@ -2622,7 +2622,7 @@
       "options": [
         {
           "id": "a",
-          "text": "When a model is too simple"
+          "text": "When a model is too simple and associated activities"
         },
         {
           "id": "b",
@@ -2630,11 +2630,11 @@
         },
         {
           "id": "c",
-          "text": "When a model trains too quickly"
+          "text": "When a model trains too quickly and associated activities"
         },
         {
           "id": "d",
-          "text": "When a model uses too little data"
+          "text": "When a model uses too little data and associated activities"
         }
       ],
       "correct": "b",
@@ -2649,7 +2649,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To register users of the AI system"
+          "text": "To register users of the AI system and associated activities"
         },
         {
           "id": "b",
@@ -2657,11 +2657,11 @@
         },
         {
           "id": "c",
-          "text": "To register training data"
+          "text": "To register training data and associated activities"
         },
         {
           "id": "d",
-          "text": "To register stakeholders"
+          "text": "To register stakeholders and related processes"
         }
       ],
       "correct": "b",
@@ -2676,19 +2676,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Testing between competing teams"
+          "text": "Testing between competing teams and related processes"
         },
         {
           "id": "b",
-          "text": "Deliberately attempting to fool or manipulate AI systems to identify vulnerabilities"
+          "text": "Deliberately attempting to fool or manipulate AI systems to identify"
         },
         {
           "id": "c",
-          "text": "Testing in adverse weather conditions"
+          "text": "Testing in adverse weather conditions and related processes"
         },
         {
           "id": "d",
-          "text": "Competitive benchmarking against other AI systems"
+          "text": "Competitive benchmarking against other AI systems and related processes"
         }
       ],
       "correct": "b",
@@ -2703,19 +2703,19 @@
       "options": [
         {
           "id": "a",
-          "text": "To store model weights"
+          "text": "To store model weights and related processes"
         },
         {
           "id": "b",
-          "text": "To provide standardized documentation about model performance, limitations, and intended use"
+          "text": "To provide standardized documentation about model performance,"
         },
         {
           "id": "c",
-          "text": "To track model training costs"
+          "text": "To track model training costs and related processes"
         },
         {
           "id": "d",
-          "text": "To manage user access permissions"
+          "text": "To manage user access permissions and related processes"
         }
       ],
       "correct": "b",
@@ -2738,7 +2738,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The final production deployment"
+          "text": "The final production deployment and associated activities"
         },
         {
           "id": "b",
@@ -2746,11 +2746,11 @@
         },
         {
           "id": "c",
-          "text": "Legal documentation of AI ownership"
+          "text": "Legal documentation of AI ownership and associated activities"
         },
         {
           "id": "d",
-          "text": "A marketing demonstration for customers"
+          "text": "A marketing demonstration for customers and related processes"
         }
       ],
       "correct": "b",
@@ -2765,7 +2765,7 @@
       "options": [
         {
           "id": "a",
-          "text": "When there is sufficient training data"
+          "text": "When there is sufficient training data and associated activities"
         },
         {
           "id": "b",
@@ -2773,11 +2773,11 @@
         },
         {
           "id": "c",
-          "text": "When stakeholders are supportive"
+          "text": "When stakeholders are supportive and associated activities"
         },
         {
           "id": "d",
-          "text": "When the problem is well-defined"
+          "text": "When the problem is well-defined and associated activities"
         }
       ],
       "correct": "b",
@@ -2792,7 +2792,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The smallest possible team"
+          "text": "The smallest possible team and associated activities"
         },
         {
           "id": "b",
@@ -2800,11 +2800,11 @@
         },
         {
           "id": "c",
-          "text": "The lowest cost solution"
+          "text": "The lowest cost solution and associated activities"
         },
         {
           "id": "d",
-          "text": "A product with minimal documentation"
+          "text": "A product with minimal documentation and associated activities"
         }
       ],
       "correct": "b",
@@ -2827,19 +2827,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Adding metadata tags to files"
+          "text": "Adding metadata tags to files and related processes"
         },
         {
           "id": "b",
-          "text": "Annotating data with the correct output values for training"
+          "text": "Annotating data with the correct output values for training and associated activities"
         },
         {
           "id": "c",
-          "text": "Organizing data into folders"
+          "text": "Organizing data into folders and related processes"
         },
         {
           "id": "d",
-          "text": "Encrypting sensitive data"
+          "text": "Encrypting sensitive data and associated activities"
         }
       ],
       "correct": "b",
@@ -2854,7 +2854,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Data collected from synthetic materials"
+          "text": "Data collected from synthetic materials and related processes"
         },
         {
           "id": "b",
@@ -2862,11 +2862,11 @@
         },
         {
           "id": "c",
-          "text": "Data that has been synthesized or summarized"
+          "text": "Data that has been synthesized or summarized and associated activities"
         },
         {
           "id": "d",
-          "text": "Data from synthetic biology experiments"
+          "text": "Data from synthetic biology experiments and related processes"
         }
       ],
       "correct": "b",
@@ -2881,7 +2881,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Uneven data storage across servers"
+          "text": "Uneven data storage across servers and related processes"
         },
         {
           "id": "b",
@@ -2889,11 +2889,11 @@
         },
         {
           "id": "c",
-          "text": "Inconsistent data formatting"
+          "text": "Inconsistent data formatting and associated activities"
         },
         {
           "id": "d",
-          "text": "Unbalanced workload among data scientists"
+          "text": "Unbalanced workload among data scientists and related processes"
         }
       ],
       "correct": "b",
@@ -2916,7 +2916,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The first model ever created"
+          "text": "The first model ever created and associated activities"
         },
         {
           "id": "b",
@@ -2924,11 +2924,11 @@
         },
         {
           "id": "c",
-          "text": "The model at the base of a neural network"
+          "text": "The model at the base of a neural network and associated activities"
         },
         {
           "id": "d",
-          "text": "The model used in production"
+          "text": "The model used in production and associated activities"
         }
       ],
       "correct": "b",
@@ -2943,7 +2943,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Scheduling regular model updates"
+          "text": "Scheduling regular model updates and related processes"
         },
         {
           "id": "b",
@@ -2955,7 +2955,7 @@
         },
         {
           "id": "d",
-          "text": "Following regulatory requirements"
+          "text": "Following regulatory requirements and related processes"
         }
       ],
       "correct": "b",
@@ -2970,7 +2970,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To train the model"
+          "text": "To train the model and associated activities"
         },
         {
           "id": "b",
@@ -2978,11 +2978,11 @@
         },
         {
           "id": "c",
-          "text": "To validate stakeholder requirements"
+          "text": "To validate stakeholder requirements and related processes"
         },
         {
           "id": "d",
-          "text": "To validate data quality"
+          "text": "To validate data quality and associated activities"
         }
       ],
       "correct": "b",
@@ -2997,7 +2997,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Training a team of data scientists together"
+          "text": "Training a team of data scientists together and associated activities"
         },
         {
           "id": "b",
@@ -3005,11 +3005,11 @@
         },
         {
           "id": "c",
-          "text": "Using multiple datasets for training"
+          "text": "Using multiple datasets for training and associated activities"
         },
         {
           "id": "d",
-          "text": "Running models in parallel for speed"
+          "text": "Running models in parallel for speed and associated activities"
         }
       ],
       "correct": "b",
@@ -3032,7 +3032,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying AI for bird detection"
+          "text": "Deploying AI for bird detection and associated activities"
         },
         {
           "id": "b",
@@ -3040,11 +3040,11 @@
         },
         {
           "id": "c",
-          "text": "Deploying with warning notifications"
+          "text": "Deploying with warning notifications and related processes"
         },
         {
           "id": "d",
-          "text": "Testing in a yellow-labeled environment"
+          "text": "Testing in a yellow-labeled environment and associated activities"
         }
       ],
       "correct": "b",
@@ -3059,7 +3059,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Testing between two development teams"
+          "text": "Testing between two development teams and related processes"
         },
         {
           "id": "b",
@@ -3067,11 +3067,11 @@
         },
         {
           "id": "c",
-          "text": "Testing models alphabetically"
+          "text": "Testing models alphabetically and associated activities"
         },
         {
           "id": "d",
-          "text": "Alternating between two deployment schedules"
+          "text": "Alternating between two deployment schedules and related processes"
         }
       ],
       "correct": "b",
@@ -3086,7 +3086,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A legal document for AI vendors"
+          "text": "A legal document for AI vendors and related processes"
         },
         {
           "id": "b",
@@ -3094,11 +3094,11 @@
         },
         {
           "id": "c",
-          "text": "A software licensing agreement"
+          "text": "A software licensing agreement and associated activities"
         },
         {
           "id": "d",
-          "text": "An agreement between data scientists"
+          "text": "An agreement between data scientists and related processes"
         }
       ],
       "correct": "b",
@@ -3113,7 +3113,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying without documentation"
+          "text": "Deploying without documentation and associated activities"
         },
         {
           "id": "b",
@@ -3121,11 +3121,11 @@
         },
         {
           "id": "c",
-          "text": "Deploying during off-hours"
+          "text": "Deploying during off-hours and related processes"
         },
         {
           "id": "d",
-          "text": "Hiding deployment from users"
+          "text": "Hiding deployment from users and related processes"
         }
       ],
       "correct": "b",
@@ -3148,19 +3148,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Privacy policies that differ by region"
+          "text": "Privacy policies that differ by region and associated activities"
         },
         {
           "id": "b",
-          "text": "A technique that adds noise to data to protect individual records while preserving aggregate patterns"
+          "text": "A technique that adds noise to data to protect individual records while"
         },
         {
           "id": "c",
-          "text": "Different privacy levels for different users"
+          "text": "Different privacy levels for different users and related processes"
         },
         {
           "id": "d",
-          "text": "Comparing privacy policies between organizations"
+          "text": "Comparing privacy policies between organizations and related processes"
         }
       ],
       "correct": "b",
@@ -3175,7 +3175,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Learning across different government agencies"
+          "text": "Learning across different government agencies and related processes"
         },
         {
           "id": "b",
@@ -3183,11 +3183,11 @@
         },
         {
           "id": "c",
-          "text": "A federal program for AI education"
+          "text": "A federal program for AI education and associated activities"
         },
         {
           "id": "d",
-          "text": "Combining models from different vendors"
+          "text": "Combining models from different vendors and related processes"
         }
       ],
       "correct": "b",
@@ -3202,7 +3202,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The cost of hardware"
+          "text": "The cost of hardware and associated activities"
         },
         {
           "id": "b",
@@ -3210,11 +3210,11 @@
         },
         {
           "id": "c",
-          "text": "Financial debt for technology purchases"
+          "text": "Financial debt for technology purchases and related processes"
         },
         {
           "id": "d",
-          "text": "Training costs for technical staff"
+          "text": "Training costs for technical staff and associated activities"
         }
       ],
       "correct": "b",
@@ -3229,7 +3229,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To create organization charts"
+          "text": "To create organization charts and related processes"
         },
         {
           "id": "b",
@@ -3237,11 +3237,11 @@
         },
         {
           "id": "c",
-          "text": "To map geographical locations of stakeholders"
+          "text": "To map geographical locations of stakeholders and related processes"
         },
         {
           "id": "d",
-          "text": "To track stakeholder investments"
+          "text": "To track stakeholder investments and related processes"
         }
       ],
       "correct": "b",
@@ -3256,7 +3256,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The geographic origin of data"
+          "text": "The geographic origin of data and associated activities"
         },
         {
           "id": "b",
@@ -3264,11 +3264,11 @@
         },
         {
           "id": "c",
-          "text": "Provincial data regulations"
+          "text": "Provincial data regulations and related processes"
         },
         {
           "id": "d",
-          "text": "Proof of data ownership"
+          "text": "Proof of data ownership and associated activities"
         }
       ],
       "correct": "b",
@@ -3283,7 +3283,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A translation tool for multilingual data"
+          "text": "A translation tool for multilingual data and associated activities"
         },
         {
           "id": "b",
@@ -3291,11 +3291,11 @@
         },
         {
           "id": "c",
-          "text": "An alphabetical list of data files"
+          "text": "An alphabetical list of data files and related processes"
         },
         {
           "id": "d",
-          "text": "A database index"
+          "text": "A database index and associated activities"
         }
       ],
       "correct": "b",
@@ -3310,19 +3310,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Moving models between servers"
+          "text": "Moving models between servers and related processes"
         },
         {
           "id": "b",
-          "text": "Applying a pre-trained model to a new but related task"
+          "text": "Applying a pre-trained model to a new but related task and associated activities"
         },
         {
           "id": "c",
-          "text": "Transferring skills between team members"
+          "text": "Transferring skills between team members and related processes"
         },
         {
           "id": "d",
-          "text": "Converting data between formats"
+          "text": "Converting data between formats and related processes"
         }
       ],
       "correct": "b",
@@ -3337,7 +3337,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To confuse adversarial attackers"
+          "text": "To confuse adversarial attackers and related processes"
         },
         {
           "id": "b",
@@ -3345,11 +3345,11 @@
         },
         {
           "id": "c",
-          "text": "To organize confusing requirements"
+          "text": "To organize confusing requirements and related processes"
         },
         {
           "id": "d",
-          "text": "To track team confusion about tasks"
+          "text": "To track team confusion about tasks and related processes"
         }
       ],
       "correct": "b",
@@ -3364,7 +3364,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How long a model remains in production"
+          "text": "How long a model remains in production and associated activities"
         },
         {
           "id": "b",
@@ -3372,11 +3372,11 @@
         },
         {
           "id": "c",
-          "text": "The delay in model training"
+          "text": "The delay in model training and associated activities"
         },
         {
           "id": "d",
-          "text": "Time between model versions"
+          "text": "Time between model versions and related processes"
         }
       ],
       "correct": "b",
@@ -3391,7 +3391,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The model's accuracy rate"
+          "text": "The model's accuracy rate and associated activities"
         },
         {
           "id": "b",
@@ -3399,11 +3399,11 @@
         },
         {
           "id": "c",
-          "text": "The amount of data passing through the model"
+          "text": "The amount of data passing through the model and associated activities"
         },
         {
           "id": "d",
-          "text": "The speed of model training"
+          "text": "The speed of model training and associated activities"
         }
       ],
       "correct": "b",
@@ -3458,7 +3458,7 @@
       "options": [
         {
           "id": "a",
-          "text": "All AI systems are treated equally"
+          "text": "All AI systems are treated equally and associated activities"
         },
         {
           "id": "b",
@@ -3466,11 +3466,11 @@
         },
         {
           "id": "c",
-          "text": "Only high-risk AI is regulated"
+          "text": "Only high-risk AI is regulated and associated activities"
         },
         {
           "id": "d",
-          "text": "Risk is determined by company size"
+          "text": "Risk is determined by company size and associated activities"
         }
       ],
       "correct": "b",
@@ -3485,7 +3485,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Algorithms that track expenses"
+          "text": "Algorithms that track expenses and related processes"
         },
         {
           "id": "b",
@@ -3493,11 +3493,11 @@
         },
         {
           "id": "c",
-          "text": "Counting algorithm iterations"
+          "text": "Counting algorithm iterations and related processes"
         },
         {
           "id": "d",
-          "text": "Auditing algorithm code"
+          "text": "Auditing algorithm code and associated activities"
         }
       ],
       "correct": "b",
@@ -3512,7 +3512,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A company that provides funding"
+          "text": "A company that provides funding and associated activities"
         },
         {
           "id": "b",
@@ -3520,11 +3520,11 @@
         },
         {
           "id": "c",
-          "text": "A sponsor of AI conferences"
+          "text": "A sponsor of AI conferences and related processes"
         },
         {
           "id": "d",
-          "text": "The project manager"
+          "text": "The project manager and associated activities"
         }
       ],
       "correct": "b",
@@ -3539,7 +3539,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Programs are smaller than projects"
+          "text": "Programs are smaller than projects and related processes"
         },
         {
           "id": "b",
@@ -3547,11 +3547,11 @@
         },
         {
           "id": "c",
-          "text": "Programs don't have deadlines"
+          "text": "Programs don't have deadlines and related processes"
         },
         {
           "id": "d",
-          "text": "Programs are only for software development"
+          "text": "Programs are only for software development and associated activities"
         }
       ],
       "correct": "b",
@@ -3566,7 +3566,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Converting data between versions"
+          "text": "Converting data between versions and related processes"
         },
         {
           "id": "b",
@@ -3574,11 +3574,11 @@
         },
         {
           "id": "c",
-          "text": "Numbering data files sequentially"
+          "text": "Numbering data files sequentially and associated activities"
         },
         {
           "id": "d",
-          "text": "Creating data backups"
+          "text": "Creating data backups and related processes"
         }
       ],
       "correct": "b",
@@ -3593,7 +3593,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A water feature in data centers"
+          "text": "A water feature in data centers and related processes"
         },
         {
           "id": "b",
@@ -3601,11 +3601,11 @@
         },
         {
           "id": "c",
-          "text": "A small database"
+          "text": "A small database and associated activities"
         },
         {
           "id": "d",
-          "text": "A data visualization tool"
+          "text": "A data visualization tool and associated activities"
         }
       ],
       "correct": "b",
@@ -3620,19 +3620,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Stopping a project early"
+          "text": "Stopping a project early and associated activities"
         },
         {
           "id": "b",
-          "text": "Halting training when validation performance stops improving to prevent overfitting"
+          "text": "Halting training when validation performance stops improving to prevent"
         },
         {
           "id": "c",
-          "text": "Starting training early in the morning"
+          "text": "Starting training early in the morning and associated activities"
         },
         {
           "id": "d",
-          "text": "Reducing training data size"
+          "text": "Reducing training data size and associated activities"
         }
       ],
       "correct": "b",
@@ -3647,7 +3647,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How fast data scientists learn"
+          "text": "How fast data scientists learn and associated activities"
         },
         {
           "id": "b",
@@ -3655,11 +3655,11 @@
         },
         {
           "id": "c",
-          "text": "The speed of training hardware"
+          "text": "The speed of training hardware and associated activities"
         },
         {
           "id": "d",
-          "text": "How fast users learn to use the model"
+          "text": "How fast users learn to use the model and associated activities"
         }
       ],
       "correct": "b",
@@ -3674,7 +3674,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Automatically adjusting model weights"
+          "text": "Automatically adjusting model weights and related processes"
         },
         {
           "id": "b",
@@ -3682,11 +3682,11 @@
         },
         {
           "id": "c",
-          "text": "Scaling data automatically"
+          "text": "Scaling data automatically and associated activities"
         },
         {
           "id": "d",
-          "text": "Automatic feature scaling"
+          "text": "Automatic feature scaling and associated activities"
         }
       ],
       "correct": "b",
@@ -3701,7 +3701,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Customer service for AI products"
+          "text": "Customer service for AI products and related processes"
         },
         {
           "id": "b",
@@ -3709,11 +3709,11 @@
         },
         {
           "id": "c",
-          "text": "Training infrastructure"
+          "text": "Training infrastructure and associated activities"
         },
         {
           "id": "d",
-          "text": "Data storage systems"
+          "text": "Data storage systems and related processes"
         }
       ],
       "correct": "b",
@@ -3728,7 +3728,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To approve AI budgets"
+          "text": "To approve AI budgets and related processes"
         },
         {
           "id": "b",
@@ -3736,11 +3736,11 @@
         },
         {
           "id": "c",
-          "text": "To manage AI development teams"
+          "text": "To manage AI development teams and related processes"
         },
         {
           "id": "d",
-          "text": "To market AI products"
+          "text": "To market AI products and related processes"
         }
       ],
       "correct": "b",
@@ -3755,19 +3755,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A storage container for AI models"
+          "text": "A storage container for AI models and related processes"
         },
         {
           "id": "b",
-          "text": "A specific application scenario describing how users will interact with the AI system"
+          "text": "A specific application scenario describing how users will interact with"
         },
         {
           "id": "c",
-          "text": "A legal case study"
+          "text": "A legal case study and associated activities"
         },
         {
           "id": "d",
-          "text": "A test case in software testing"
+          "text": "A test case in software testing and associated activities"
         }
       ],
       "correct": "b",
@@ -3782,7 +3782,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Deleting all data"
+          "text": "Deleting all data and associated activities"
         },
         {
           "id": "b",
@@ -3790,11 +3790,11 @@
         },
         {
           "id": "c",
-          "text": "Making data anonymous to the team"
+          "text": "Making data anonymous to the team and associated activities"
         },
         {
           "id": "d",
-          "text": "Encrypting data"
+          "text": "Encrypting data and associated activities"
         }
       ],
       "correct": "b",
@@ -3809,15 +3809,15 @@
       "options": [
         {
           "id": "a",
-          "text": "Processing data in batches"
+          "text": "Processing data in batches and related processes"
         },
         {
           "id": "b",
-          "text": "A technique that normalizes layer inputs to accelerate training and improve stability"
+          "text": "A technique that normalizes layer inputs to accelerate training and"
         },
         {
           "id": "c",
-          "text": "Organizing batches of training jobs"
+          "text": "Organizing batches of training jobs and related processes"
         },
         {
           "id": "d",
@@ -3836,19 +3836,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Medical examination for AI team members"
+          "text": "Medical examination for AI team members and related processes"
         },
         {
           "id": "b",
-          "text": "Automated tests verifying the AI service is running correctly"
+          "text": "Automated tests verifying the AI service is running correctly and associated activities"
         },
         {
           "id": "c",
-          "text": "Health insurance for AI projects"
+          "text": "Health insurance for AI projects and related processes"
         },
         {
           "id": "d",
-          "text": "Wellness programs for data scientists"
+          "text": "Wellness programs for data scientists and related processes"
         }
       ],
       "correct": "b",
@@ -3863,19 +3863,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Compressing data to save storage"
+          "text": "Compressing data to save storage and associated activities"
         },
         {
           "id": "b",
-          "text": "Collecting only the data necessary for the specified purpose"
+          "text": "Collecting only the data necessary for the specified purpose and associated activities"
         },
         {
           "id": "c",
-          "text": "Using the smallest models possible"
+          "text": "Using the smallest models possible and associated activities"
         },
         {
           "id": "d",
-          "text": "Minimizing data costs"
+          "text": "Minimizing data costs and related processes"
         }
       ],
       "correct": "b",
@@ -3890,7 +3890,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To track model performance metrics"
+          "text": "To track model performance metrics and related processes"
         },
         {
           "id": "b",
@@ -3898,11 +3898,11 @@
         },
         {
           "id": "c",
-          "text": "To visualize data relationships"
+          "text": "To visualize data relationships and related processes"
         },
         {
           "id": "d",
-          "text": "To schedule training runs"
+          "text": "To schedule training runs and related processes"
         }
       ],
       "correct": "b",
@@ -3917,7 +3917,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Selecting product features to develop"
+          "text": "Selecting product features to develop and associated activities"
         },
         {
           "id": "b",
@@ -3925,11 +3925,11 @@
         },
         {
           "id": "c",
-          "text": "Choosing software features"
+          "text": "Choosing software features and related processes"
         },
         {
           "id": "d",
-          "text": "Selecting team members with specific features"
+          "text": "Selecting team members with specific features and related processes"
         }
       ],
       "correct": "b",
@@ -3944,19 +3944,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A decline in model quality"
+          "text": "A decline in model quality and associated activities"
         },
         {
           "id": "b",
-          "text": "An optimization algorithm that iteratively adjusts parameters to minimize loss"
+          "text": "An optimization algorithm that iteratively adjusts parameters to"
         },
         {
           "id": "c",
-          "text": "A downward trend in AI adoption"
+          "text": "A downward trend in AI adoption and associated activities"
         },
         {
           "id": "d",
-          "text": "Reducing computational resources"
+          "text": "Reducing computational resources and related processes"
         }
       ],
       "correct": "b",
@@ -3979,7 +3979,7 @@
         },
         {
           "id": "c",
-          "text": "Using color-coded deployment scripts"
+          "text": "Using color-coded deployment scripts and related processes"
         },
         {
           "id": "d",
@@ -3998,19 +3998,19 @@
       "options": [
         {
           "id": "a",
-          "text": "The right to access AI source code"
+          "text": "The right to access AI source code and associated activities"
         },
         {
           "id": "b",
-          "text": "An individual's right to understand how an automated decision affecting them was made"
+          "text": "An individual's right to understand how an automated decision affecting"
         },
         {
           "id": "c",
-          "text": "The right to AI training"
+          "text": "The right to AI training and associated activities"
         },
         {
           "id": "d",
-          "text": "The right to challenge AI developers"
+          "text": "The right to challenge AI developers and related processes"
         }
       ],
       "correct": "b",
@@ -4025,19 +4025,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A team organization chart"
+          "text": "A team organization chart and associated activities"
         },
         {
           "id": "b",
-          "text": "A hierarchical decomposition of project deliverables into manageable components"
+          "text": "A hierarchical decomposition of project deliverables into manageable"
         },
         {
           "id": "c",
-          "text": "A budget breakdown"
+          "text": "A budget breakdown and associated activities"
         },
         {
           "id": "d",
-          "text": "A risk analysis document"
+          "text": "A risk analysis document and associated activities"
         }
       ],
       "correct": "b",
@@ -4052,19 +4052,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Tracking data migration between systems"
+          "text": "Tracking data migration between systems and related processes"
         },
         {
           "id": "b",
-          "text": "Monitoring for changes in input data distributions that may affect model performance"
+          "text": "Monitoring for changes in input data distributions that may affect"
         },
         {
           "id": "c",
-          "text": "Detecting unauthorized data access"
+          "text": "Detecting unauthorized data access and related processes"
         },
         {
           "id": "d",
-          "text": "Finding lost data files"
+          "text": "Finding lost data files and related processes"
         }
       ],
       "correct": "b",
@@ -4079,11 +4079,11 @@
       "options": [
         {
           "id": "a",
-          "text": "A function tracking financial losses"
+          "text": "A function tracking financial losses and related processes"
         },
         {
           "id": "b",
-          "text": "A mathematical function measuring the difference between predictions and actual values"
+          "text": "A mathematical function measuring the difference between predictions"
         },
         {
           "id": "c",
@@ -4091,7 +4091,7 @@
         },
         {
           "id": "d",
-          "text": "A business impact function"
+          "text": "A business impact function and associated activities"
         }
       ],
       "correct": "b",
@@ -4106,7 +4106,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Making AI systems visible to users"
+          "text": "Making AI systems visible to users and related processes"
         },
         {
           "id": "b",
@@ -4114,11 +4114,11 @@
         },
         {
           "id": "c",
-          "text": "Watching AI system demos"
+          "text": "Watching AI system demos and related processes"
         },
         {
           "id": "d",
-          "text": "User interface visibility"
+          "text": "User interface visibility and associated activities"
         }
       ],
       "correct": "b",
@@ -4133,19 +4133,19 @@
       "options": [
         {
           "id": "a",
-          "text": "A corrupted model file"
+          "text": "A corrupted model file and associated activities"
         },
         {
           "id": "b",
-          "text": "An attack where malicious data is injected during training to compromise model behavior"
+          "text": "An attack where malicious data is injected during training to"
         },
         {
           "id": "c",
-          "text": "Toxic model outputs"
+          "text": "Toxic model outputs and related processes"
         },
         {
           "id": "d",
-          "text": "Environmental contamination from AI systems"
+          "text": "Environmental contamination from AI systems and related processes"
         }
       ],
       "correct": "b",
@@ -4160,7 +4160,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Physical barriers around AI hardware"
+          "text": "Physical barriers around AI hardware and associated activities"
         },
         {
           "id": "b",
@@ -4168,11 +4168,11 @@
         },
         {
           "id": "c",
-          "text": "Security fences around data centers"
+          "text": "Security fences around data centers and related processes"
         },
         {
           "id": "d",
-          "text": "Guidance for AI developers only"
+          "text": "Guidance for AI developers only and associated activities"
         }
       ],
       "correct": "b",
@@ -4195,7 +4195,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A map of AI vendors"
+          "text": "A map of AI vendors and related processes"
         },
         {
           "id": "b",
@@ -4203,11 +4203,11 @@
         },
         {
           "id": "c",
-          "text": "Directions to AI facilities"
+          "text": "Directions to AI facilities and related processes"
         },
         {
           "id": "d",
-          "text": "A visualization of AI algorithms"
+          "text": "A visualization of AI algorithms and related processes"
         }
       ],
       "correct": "b",
@@ -4222,7 +4222,7 @@
       "options": [
         {
           "id": "a",
-          "text": "To copy competitor solutions"
+          "text": "To copy competitor solutions and related processes"
         },
         {
           "id": "b",
@@ -4230,11 +4230,11 @@
         },
         {
           "id": "c",
-          "text": "To find competitor weaknesses"
+          "text": "To find competitor weaknesses and related processes"
         },
         {
           "id": "d",
-          "text": "To benchmark salaries"
+          "text": "To benchmark salaries and related processes"
         }
       ],
       "correct": "b",
@@ -4249,19 +4249,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Mapping revenue streams"
+          "text": "Mapping revenue streams and related processes"
         },
         {
           "id": "b",
-          "text": "Visualizing the end-to-end flow of activities to deliver AI value to customers"
+          "text": "Visualizing the end-to-end flow of activities to deliver AI value to"
         },
         {
           "id": "c",
-          "text": "Streaming AI data"
+          "text": "Streaming AI data and associated activities"
         },
         {
           "id": "d",
-          "text": "Mapping water resources"
+          "text": "Mapping water resources and related processes"
         }
       ],
       "correct": "b",
@@ -4284,7 +4284,7 @@
       "options": [
         {
           "id": "a",
-          "text": "An Estimated Time to Launch calculation"
+          "text": "An Estimated Time to Launch calculation and associated activities"
         },
         {
           "id": "b",
@@ -4292,11 +4292,11 @@
         },
         {
           "id": "c",
-          "text": "An External Team Link"
+          "text": "An External Team Link and associated activities"
         },
         {
           "id": "d",
-          "text": "An error tracking log"
+          "text": "An error tracking log and associated activities"
         }
       ],
       "correct": "b",
@@ -4311,7 +4311,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A physical building storing servers"
+          "text": "A physical building storing servers and related processes"
         },
         {
           "id": "b",
@@ -4319,11 +4319,11 @@
         },
         {
           "id": "c",
-          "text": "A warehouse management system"
+          "text": "A warehouse management system and associated activities"
         },
         {
           "id": "d",
-          "text": "A backup storage facility"
+          "text": "A backup storage facility and associated activities"
         }
       ],
       "correct": "b",
@@ -4338,19 +4338,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Management of master's degree programs"
+          "text": "Management of master's degree programs and related processes"
         },
         {
           "id": "b",
-          "text": "Processes ensuring consistent, accurate core business data across the organization"
+          "text": "Processes ensuring consistent, accurate core business data across the"
         },
         {
           "id": "c",
-          "text": "Managing database administrators"
+          "text": "Managing database administrators and related processes"
         },
         {
           "id": "d",
-          "text": "Primary data backup procedures"
+          "text": "Primary data backup procedures and related processes"
         }
       ],
       "correct": "b",
@@ -4373,7 +4373,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Brain surgery procedures"
+          "text": "Brain surgery procedures and related processes"
         },
         {
           "id": "b",
@@ -4381,11 +4381,11 @@
         },
         {
           "id": "c",
-          "text": "Building designs for AI labs"
+          "text": "Building designs for AI labs and related processes"
         },
         {
           "id": "d",
-          "text": "Network infrastructure for AI"
+          "text": "Network infrastructure for AI and associated activities"
         }
       ],
       "correct": "b",
@@ -4400,19 +4400,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Validating models k times"
+          "text": "Validating models k times and related processes"
         },
         {
           "id": "b",
-          "text": "Dividing data into k parts and training k models, each using a different part for validation"
+          "text": "Dividing data into k parts and training k models, each using a"
         },
         {
           "id": "c",
-          "text": "Folding data k times"
+          "text": "Folding data k times and related processes"
         },
         {
           "id": "d",
-          "text": "Cross-checking k team members"
+          "text": "Cross-checking k team members and related processes"
         }
       ],
       "correct": "b",
@@ -4427,7 +4427,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Return on Capital - AI Usage Calculation"
+          "text": "Return on Capital - AI Usage Calculation and associated activities"
         },
         {
           "id": "b",
@@ -4435,11 +4435,11 @@
         },
         {
           "id": "c",
-          "text": "Rate of Change - Automated Update Cycle"
+          "text": "Rate of Change - Automated Update Cycle and associated activities"
         },
         {
           "id": "d",
-          "text": "Research on Computing - AI Usage Committee"
+          "text": "Research on Computing - AI Usage Committee and associated activities"
         }
       ],
       "correct": "b",
@@ -4454,7 +4454,7 @@
       "options": [
         {
           "id": "a",
-          "text": "When team members leave the project"
+          "text": "When team members leave the project and associated activities"
         },
         {
           "id": "b",
@@ -4462,11 +4462,11 @@
         },
         {
           "id": "c",
-          "text": "Removing failed experiments"
+          "text": "Removing failed experiments and related processes"
         },
         {
           "id": "d",
-          "text": "Data loss during transfer"
+          "text": "Data loss during transfer and associated activities"
         }
       ],
       "correct": "b",
@@ -4489,19 +4489,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Shipping AI hardware in containers"
+          "text": "Shipping AI hardware in containers and related processes"
         },
         {
           "id": "b",
-          "text": "Packaging AI applications with dependencies for consistent deployment anywhere"
+          "text": "Packaging AI applications with dependencies for consistent deployment"
         },
         {
           "id": "c",
-          "text": "Containing AI within boundaries"
+          "text": "Containing AI within boundaries and related processes"
         },
         {
           "id": "d",
-          "text": "Storage containers for model files"
+          "text": "Storage containers for model files and related processes"
         }
       ],
       "correct": "b",
@@ -4516,7 +4516,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The end of an API cable"
+          "text": "The end of an API cable and associated activities"
         },
         {
           "id": "b",
@@ -4524,11 +4524,11 @@
         },
         {
           "id": "c",
-          "text": "An ending point for API development"
+          "text": "An ending point for API development and associated activities"
         },
         {
           "id": "d",
-          "text": "A termination of AI services"
+          "text": "A termination of AI services and related processes"
         }
       ],
       "correct": "b",
@@ -4543,19 +4543,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Deploying at the edge of a network perimeter"
+          "text": "Deploying at the edge of a network perimeter and associated activities"
         },
         {
           "id": "b",
-          "text": "Running AI models on devices close to data sources rather than in centralized servers"
+          "text": "Running AI models on devices close to data sources rather than in"
         },
         {
           "id": "c",
-          "text": "Cutting-edge deployment techniques"
+          "text": "Cutting-edge deployment techniques and related processes"
         },
         {
           "id": "d",
-          "text": "Deploying near geographic edges"
+          "text": "Deploying near geographic edges and related processes"
         }
       ],
       "correct": "b",
@@ -4570,19 +4570,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Zipping model files"
+          "text": "Zipping model files and related processes"
         },
         {
           "id": "b",
-          "text": "Techniques to reduce model size while maintaining performance"
+          "text": "Techniques to reduce model size while maintaining performance and associated activities"
         },
         {
           "id": "c",
-          "text": "Compressing training time"
+          "text": "Compressing training time and associated activities"
         },
         {
           "id": "d",
-          "text": "Reducing team size"
+          "text": "Reducing team size and associated activities"
         }
       ],
       "correct": "b",
@@ -4605,19 +4605,19 @@
       "options": [
         {
           "id": "a",
-          "text": "An assessment of data backup systems"
+          "text": "An assessment of data backup systems and related processes"
         },
         {
           "id": "b",
-          "text": "A process to identify and minimize privacy risks of data processing activities"
+          "text": "A process to identify and minimize privacy risks of data processing"
         },
         {
           "id": "c",
-          "text": "An evaluation of data center security"
+          "text": "An evaluation of data center security and associated activities"
         },
         {
           "id": "d",
-          "text": "A test of data encryption strength"
+          "text": "A test of data encryption strength and associated activities"
         }
       ],
       "correct": "b",
@@ -4632,19 +4632,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Physical safety of AI hardware"
+          "text": "Physical safety of AI hardware and associated activities"
         },
         {
           "id": "b",
-          "text": "Ensuring AI systems behave as intended without causing harm"
+          "text": "Ensuring AI systems behave as intended without causing harm and associated activities"
         },
         {
           "id": "c",
-          "text": "Safety training for AI developers"
+          "text": "Safety training for AI developers and related processes"
         },
         {
           "id": "d",
-          "text": "Fire safety in data centers"
+          "text": "Fire safety in data centers and related processes"
         }
       ],
       "correct": "b",
@@ -4659,7 +4659,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Training AI to pilot aircraft"
+          "text": "Training AI to pilot aircraft and associated activities"
         },
         {
           "id": "b",
@@ -4667,11 +4667,11 @@
         },
         {
           "id": "c",
-          "text": "A program for pilot staff"
+          "text": "A program for pilot staff and associated activities"
         },
         {
           "id": "d",
-          "text": "The first program in a series"
+          "text": "The first program in a series and related processes"
         }
       ],
       "correct": "b",
@@ -4686,19 +4686,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Whether the AI vendor is viable"
+          "text": "Whether the AI vendor is viable and associated activities"
         },
         {
           "id": "b",
-          "text": "Whether the proposed AI solution can be built with available technology and resources"
+          "text": "Whether the proposed AI solution can be built with available technology"
         },
         {
           "id": "c",
-          "text": "The lifespan of AI technology"
+          "text": "The lifespan of AI technology and associated activities"
         },
         {
           "id": "d",
-          "text": "Technical team availability"
+          "text": "Technical team availability and associated activities"
         }
       ],
       "correct": "b",
@@ -4713,19 +4713,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Encoding data once"
+          "text": "Encoding data once and associated activities"
         },
         {
           "id": "b",
-          "text": "Converting categorical variables into binary vectors"
+          "text": "Converting categorical variables into binary vectors and related processes"
         },
         {
           "id": "c",
-          "text": "Encryption at high temperatures"
+          "text": "Encryption at high temperatures and related processes"
         },
         {
           "id": "d",
-          "text": "A single encoding attempt"
+          "text": "A single encoding attempt and associated activities"
         }
       ],
       "correct": "b",
@@ -4740,19 +4740,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Accusing data of being incorrect"
+          "text": "Accusing data of being incorrect and associated activities"
         },
         {
           "id": "b",
-          "text": "Filling in missing values with estimated or calculated values"
+          "text": "Filling in missing values with estimated or calculated values and related processes"
         },
         {
           "id": "c",
-          "text": "Importing data from external sources"
+          "text": "Importing data from external sources and related processes"
         },
         {
           "id": "d",
-          "text": "Computing data statistics"
+          "text": "Computing data statistics and related processes"
         }
       ],
       "correct": "b",
@@ -4767,7 +4767,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A function that activates the AI system"
+          "text": "A function that activates the AI system and associated activities"
         },
         {
           "id": "b",
@@ -4775,11 +4775,11 @@
         },
         {
           "id": "c",
-          "text": "A startup function for models"
+          "text": "A startup function for models and related processes"
         },
         {
           "id": "d",
-          "text": "A function to activate team members"
+          "text": "A function to activate team members and related processes"
         }
       ],
       "correct": "b",
@@ -4794,7 +4794,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How precisely the model is built"
+          "text": "How precisely the model is built and associated activities"
         },
         {
           "id": "b",
@@ -4802,11 +4802,11 @@
         },
         {
           "id": "c",
-          "text": "Decimal places in predictions"
+          "text": "Decimal places in predictions and related processes"
         },
         {
           "id": "d",
-          "text": "Precision of training data"
+          "text": "Precision of training data and associated activities"
         }
       ],
       "correct": "b",
@@ -4821,7 +4821,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A flag marking important features"
+          "text": "A flag marking important features and related processes"
         },
         {
           "id": "b",
@@ -4829,11 +4829,11 @@
         },
         {
           "id": "c",
-          "text": "A feature request system"
+          "text": "A feature request system and associated activities"
         },
         {
           "id": "d",
-          "text": "A flag indicating feature completion"
+          "text": "A flag indicating feature completion and associated activities"
         }
       ],
       "correct": "b",
@@ -4848,7 +4848,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Balancing work among team members"
+          "text": "Balancing work among team members and related processes"
         },
         {
           "id": "b",
@@ -4856,11 +4856,11 @@
         },
         {
           "id": "c",
-          "text": "Balancing data loads"
+          "text": "Balancing data loads and related processes"
         },
         {
           "id": "d",
-          "text": "Loading balance from financial accounts"
+          "text": "Loading balance from financial accounts and related processes"
         }
       ],
       "correct": "b",
@@ -4915,7 +4915,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Limiting the purpose of AI projects"
+          "text": "Limiting the purpose of AI projects and related processes"
         },
         {
           "id": "b",
@@ -4923,11 +4923,11 @@
         },
         {
           "id": "c",
-          "text": "Limiting the number of AI use cases"
+          "text": "Limiting the number of AI use cases and related processes"
         },
         {
           "id": "d",
-          "text": "Restricting team purposes"
+          "text": "Restricting team purposes and related processes"
         }
       ],
       "correct": "b",
@@ -4942,7 +4942,7 @@
       "options": [
         {
           "id": "a",
-          "text": "The cost of opportunities"
+          "text": "The cost of opportunities and related processes"
         },
         {
           "id": "b",
@@ -4950,11 +4950,11 @@
         },
         {
           "id": "c",
-          "text": "Costs for finding opportunities"
+          "text": "Costs for finding opportunities and related processes"
         },
         {
           "id": "d",
-          "text": "Investment in opportunity discovery"
+          "text": "Investment in opportunity discovery and associated activities"
         }
       ],
       "correct": "b",
@@ -4969,19 +4969,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Ordering data catalogs"
+          "text": "Ordering data catalogs and related processes"
         },
         {
           "id": "b",
-          "text": "Creating an organized inventory of data assets with metadata"
+          "text": "Creating an organized inventory of data assets with metadata and associated activities"
         },
         {
           "id": "c",
-          "text": "Categorizing shopping catalogs"
+          "text": "Categorizing shopping catalogs and related processes"
         },
         {
           "id": "d",
-          "text": "Cataloging team data skills"
+          "text": "Cataloging team data skills and related processes"
         }
       ],
       "correct": "b",
@@ -4996,7 +4996,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Remembering previous experiments"
+          "text": "Remembering previous experiments and related processes"
         },
         {
           "id": "b",
@@ -5004,11 +5004,11 @@
         },
         {
           "id": "c",
-          "text": "Recalling deployed models"
+          "text": "Recalling deployed models and related processes"
         },
         {
           "id": "d",
-          "text": "Memory recall in neural networks"
+          "text": "Memory recall in neural networks and related processes"
         }
       ],
       "correct": "b",
@@ -5023,19 +5023,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Electrical safety for AI hardware"
+          "text": "Electrical safety for AI hardware and associated activities"
         },
         {
           "id": "b",
-          "text": "A pattern that stops requests to a failing service to prevent cascade failures"
+          "text": "A pattern that stops requests to a failing service to prevent cascade"
         },
         {
           "id": "c",
-          "text": "Breaking model training circuits"
+          "text": "Breaking model training circuits and related processes"
         },
         {
           "id": "d",
-          "text": "Disconnecting faulty servers"
+          "text": "Disconnecting faulty servers and related processes"
         }
       ],
       "correct": "b",
@@ -5050,7 +5050,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Consent from informed experts"
+          "text": "Consent from informed experts and related processes"
         },
         {
           "id": "b",
@@ -5058,11 +5058,11 @@
         },
         {
           "id": "c",
-          "text": "Information consent forms"
+          "text": "Information consent forms and related processes"
         },
         {
           "id": "d",
-          "text": "Consent to receive information"
+          "text": "Consent to receive information and associated activities"
         }
       ],
       "correct": "b",
@@ -5081,15 +5081,15 @@
         },
         {
           "id": "b",
-          "text": "Scope that moves slowly"
+          "text": "Scope that moves slowly and associated activities"
         },
         {
           "id": "c",
-          "text": "Creeping up on project scope"
+          "text": "Creeping up on project scope and associated activities"
         },
         {
           "id": "d",
-          "text": "Scope that creeps into other projects"
+          "text": "Scope that creeps into other projects and related processes"
         }
       ],
       "correct": "a",
@@ -5104,7 +5104,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Layering data storage"
+          "text": "Layering data storage and associated activities"
         },
         {
           "id": "b",
@@ -5112,11 +5112,11 @@
         },
         {
           "id": "c",
-          "text": "Strategic data planning"
+          "text": "Strategic data planning and associated activities"
         },
         {
           "id": "d",
-          "text": "Data strength testing"
+          "text": "Data strength testing and associated activities"
         }
       ],
       "correct": "b",
@@ -5131,7 +5131,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Formula One racing score"
+          "text": "Formula One racing score and associated activities"
         },
         {
           "id": "b",
@@ -5139,11 +5139,11 @@
         },
         {
           "id": "c",
-          "text": "First function score"
+          "text": "First function score and associated activities"
         },
         {
           "id": "d",
-          "text": "Feature importance score"
+          "text": "Feature importance score and associated activities"
         }
       ],
       "correct": "b",
@@ -5158,19 +5158,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Politely shutting down systems"
+          "text": "Politely shutting down systems and related processes"
         },
         {
           "id": "b",
-          "text": "Maintaining partial functionality when components fail rather than complete failure"
+          "text": "Maintaining partial functionality when components fail rather than"
         },
         {
           "id": "c",
-          "text": "Gradual model quality decline"
+          "text": "Gradual model quality decline and associated activities"
         },
         {
           "id": "d",
-          "text": "Elegant system transitions"
+          "text": "Elegant system transitions and related processes"
         }
       ],
       "correct": "b",
@@ -5185,7 +5185,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Royal ownership of data"
+          "text": "Royal ownership of data and associated activities"
         },
         {
           "id": "b",
@@ -5193,11 +5193,11 @@
         },
         {
           "id": "c",
-          "text": "Supreme data authority"
+          "text": "Supreme data authority and associated activities"
         },
         {
           "id": "d",
-          "text": "Data independence"
+          "text": "Data independence and associated activities"
         }
       ],
       "correct": "b",
@@ -5212,7 +5212,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Using proportional fonts in documentation"
+          "text": "Using proportional fonts in documentation and associated activities"
         },
         {
           "id": "b",
@@ -5220,11 +5220,11 @@
         },
         {
           "id": "c",
-          "text": "Proportional team sizes"
+          "text": "Proportional team sizes and related processes"
         },
         {
           "id": "d",
-          "text": "Proportional resource allocation"
+          "text": "Proportional resource allocation and associated activities"
         }
       ],
       "correct": "b",
@@ -5239,7 +5239,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Assessment of AI market impact"
+          "text": "Assessment of AI market impact and associated activities"
         },
         {
           "id": "b",
@@ -5247,11 +5247,11 @@
         },
         {
           "id": "c",
-          "text": "Impact of AI on budgets"
+          "text": "Impact of AI on budgets and related processes"
         },
         {
           "id": "d",
-          "text": "Physical impact testing of AI hardware"
+          "text": "Physical impact testing of AI hardware and associated activities"
         }
       ],
       "correct": "b",
@@ -5266,7 +5266,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A factor causing project criticism"
+          "text": "A factor causing project criticism and associated activities"
         },
         {
           "id": "b",
@@ -5274,11 +5274,11 @@
         },
         {
           "id": "c",
-          "text": "A critical team member"
+          "text": "A critical team member and associated activities"
         },
         {
           "id": "d",
-          "text": "A success rate calculation"
+          "text": "A success rate calculation and associated activities"
         }
       ],
       "correct": "b",
@@ -5293,19 +5293,19 @@
       "options": [
         {
           "id": "a",
-          "text": "To charter flights for team travel"
+          "text": "To charter flights for team travel and associated activities"
         },
         {
           "id": "b",
-          "text": "To formally authorize the project and document objectives, scope, and stakeholders"
+          "text": "To formally authorize the project and document objectives, scope, and"
         },
         {
           "id": "c",
-          "text": "To chart project timelines"
+          "text": "To chart project timelines and related processes"
         },
         {
           "id": "d",
-          "text": "To create organizational charts"
+          "text": "To create organizational charts and related processes"
         }
       ],
       "correct": "b",
@@ -5320,7 +5320,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Network performance value"
+          "text": "Network performance value and associated activities"
         },
         {
           "id": "b",
@@ -5328,11 +5328,11 @@
         },
         {
           "id": "c",
-          "text": "Current value of AI systems"
+          "text": "Current value of AI systems and related processes"
         },
         {
           "id": "d",
-          "text": "Net project variance"
+          "text": "Net project variance and associated activities"
         }
       ],
       "correct": "b",
@@ -5347,7 +5347,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Doubling data for backup"
+          "text": "Doubling data for backup and associated activities"
         },
         {
           "id": "b",
@@ -5355,11 +5355,11 @@
         },
         {
           "id": "c",
-          "text": "Duplicating important data"
+          "text": "Duplicating important data and associated activities"
         },
         {
           "id": "d",
-          "text": "Dedicating data to specific uses"
+          "text": "Dedicating data to specific uses and related processes"
         }
       ],
       "correct": "b",
@@ -5374,7 +5374,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Integrity of reference documents"
+          "text": "Integrity of reference documents and related processes"
         },
         {
           "id": "b",
@@ -5382,11 +5382,11 @@
         },
         {
           "id": "c",
-          "text": "References in research papers"
+          "text": "References in research papers and related processes"
         },
         {
           "id": "d",
-          "text": "Referring data to the correct team"
+          "text": "Referring data to the correct team and associated activities"
         }
       ],
       "correct": "b",
@@ -5401,7 +5401,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Creating profiles of data users"
+          "text": "Creating profiles of data users and related processes"
         },
         {
           "id": "b",
@@ -5409,11 +5409,11 @@
         },
         {
           "id": "c",
-          "text": "Profiling data center performance"
+          "text": "Profiling data center performance and associated activities"
         },
         {
           "id": "d",
-          "text": "Creating data portraits"
+          "text": "Creating data portraits and related processes"
         }
       ],
       "correct": "b",
@@ -5428,19 +5428,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Sampling from strategic sources"
+          "text": "Sampling from strategic sources and related processes"
         },
         {
           "id": "b",
-          "text": "Sampling that maintains the proportion of subgroups from the original population"
+          "text": "Sampling that maintains the proportion of subgroups from the original"
         },
         {
           "id": "c",
-          "text": "Layered data collection"
+          "text": "Layered data collection and associated activities"
         },
         {
           "id": "d",
-          "text": "Strategic sampling plans"
+          "text": "Strategic sampling plans and related processes"
         }
       ],
       "correct": "b",
@@ -5455,7 +5455,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Gradients that disappear from storage"
+          "text": "Gradients that disappear from storage and associated activities"
         },
         {
           "id": "b",
@@ -5463,11 +5463,11 @@
         },
         {
           "id": "c",
-          "text": "Gradients that vanish after training"
+          "text": "Gradients that vanish after training and associated activities"
         },
         {
           "id": "d",
-          "text": "Missing gradient calculations"
+          "text": "Missing gradient calculations and related processes"
         }
       ],
       "correct": "b",
@@ -5482,7 +5482,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Studying model removal"
+          "text": "Studying model removal and associated activities"
         },
         {
           "id": "b",
@@ -5490,11 +5490,11 @@
         },
         {
           "id": "c",
-          "text": "Ablating training data"
+          "text": "Ablating training data and associated activities"
         },
         {
           "id": "d",
-          "text": "Medical studies for AI"
+          "text": "Medical studies for AI and associated activities"
         }
       ],
       "correct": "b",
@@ -5509,19 +5509,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Counting model parameters"
+          "text": "Counting model parameters and related processes"
         },
         {
           "id": "b",
-          "text": "Reducing numerical precision of model weights to decrease size and increase speed"
+          "text": "Reducing numerical precision of model weights to decrease size and"
         },
         {
           "id": "c",
-          "text": "Quantum computing for models"
+          "text": "Quantum computing for models and related processes"
         },
         {
           "id": "d",
-          "text": "Quantifying model quality"
+          "text": "Quantifying model quality and associated activities"
         }
       ],
       "correct": "b",
@@ -5536,7 +5536,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Trimming model documentation"
+          "text": "Trimming model documentation and associated activities"
         },
         {
           "id": "b",
@@ -5544,11 +5544,11 @@
         },
         {
           "id": "c",
-          "text": "Pruning the model garden"
+          "text": "Pruning the model garden and associated activities"
         },
         {
           "id": "d",
-          "text": "Removing outdated models"
+          "text": "Removing outdated models and related processes"
         }
       ],
       "correct": "b",
@@ -5563,7 +5563,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Extracting model essence"
+          "text": "Extracting model essence and associated activities"
         },
         {
           "id": "b",
@@ -5571,11 +5571,11 @@
         },
         {
           "id": "c",
-          "text": "Distilling data for models"
+          "text": "Distilling data for models and related processes"
         },
         {
           "id": "d",
-          "text": "Chemical processing of model data"
+          "text": "Chemical processing of model data and associated activities"
         }
       ],
       "correct": "b",
@@ -5630,7 +5630,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A team-building exercise"
+          "text": "A team-building exercise and associated activities"
         },
         {
           "id": "b",
@@ -5638,11 +5638,11 @@
         },
         {
           "id": "c",
-          "text": "An emergency response drill"
+          "text": "An emergency response drill and associated activities"
         },
         {
           "id": "d",
-          "text": "A competitive coding challenge"
+          "text": "A competitive coding challenge and associated activities"
         }
       ],
       "correct": "b",
@@ -5657,7 +5657,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Training sessions for team members"
+          "text": "Training sessions for team members and related processes"
         },
         {
           "id": "b",
@@ -5665,11 +5665,11 @@
         },
         {
           "id": "c",
-          "text": "Learning AI techniques"
+          "text": "Learning AI techniques and related processes"
         },
         {
           "id": "d",
-          "text": "Reviewing educational materials"
+          "text": "Reviewing educational materials and related processes"
         }
       ],
       "correct": "b",
@@ -5684,7 +5684,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Scoring data scientists"
+          "text": "Scoring data scientists and related processes"
         },
         {
           "id": "b",
@@ -5692,11 +5692,11 @@
         },
         {
           "id": "c",
-          "text": "A scorecard for data games"
+          "text": "A scorecard for data games and related processes"
         },
         {
           "id": "d",
-          "text": "Quality ratings for data vendors"
+          "text": "Quality ratings for data vendors and related processes"
         }
       ],
       "correct": "b",
@@ -5711,7 +5711,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Data held by a vendor"
+          "text": "Data held by a vendor and associated activities"
         },
         {
           "id": "b",
@@ -5719,11 +5719,11 @@
         },
         {
           "id": "c",
-          "text": "Data on hold status"
+          "text": "Data on hold status and related processes"
         },
         {
           "id": "d",
-          "text": "Reserved storage capacity"
+          "text": "Reserved storage capacity and associated activities"
         }
       ],
       "correct": "b",
@@ -5738,15 +5738,15 @@
       "options": [
         {
           "id": "a",
-          "text": "Disorganized engineering practices"
+          "text": "Disorganized engineering practices and related processes"
         },
         {
           "id": "b",
-          "text": "Deliberately introducing failures to test system resilience"
+          "text": "Deliberately introducing failures to test system resilience and associated activities"
         },
         {
           "id": "c",
-          "text": "Chaotic model training"
+          "text": "Chaotic model training and associated activities"
         },
         {
           "id": "d",
@@ -5765,7 +5765,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A model architecture"
+          "text": "A model architecture and associated activities"
         },
         {
           "id": "b",
@@ -5773,11 +5773,11 @@
         },
         {
           "id": "c",
-          "text": "A training technique"
+          "text": "A training technique and associated activities"
         },
         {
           "id": "d",
-          "text": "A data format"
+          "text": "A data format and associated activities"
         }
       ],
       "correct": "b",
@@ -5792,7 +5792,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A citrus-flavored AI"
+          "text": "A citrus-flavored AI and associated activities"
         },
         {
           "id": "b",
@@ -5800,11 +5800,11 @@
         },
         {
           "id": "c",
-          "text": "A data visualization tool"
+          "text": "A data visualization tool and associated activities"
         },
         {
           "id": "d",
-          "text": "A training framework"
+          "text": "A training framework and associated activities"
         }
       ],
       "correct": "b",
@@ -5819,7 +5819,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A physical building for AI"
+          "text": "A physical building for AI and associated activities"
         },
         {
           "id": "b",
@@ -5827,11 +5827,11 @@
         },
         {
           "id": "c",
-          "text": "An award for AI excellence"
+          "text": "An award for AI excellence and associated activities"
         },
         {
           "id": "d",
-          "text": "The best AI model"
+          "text": "The best AI model and associated activities"
         }
       ],
       "correct": "b",
@@ -5846,19 +5846,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Data leaving the target system"
+          "text": "Data leaving the target system and associated activities"
         },
         {
           "id": "b",
-          "text": "When training data contains information that wouldn't be available at prediction time"
+          "text": "When training data contains information that wouldn't be available at"
         },
         {
           "id": "c",
-          "text": "Leaking target variable values"
+          "text": "Leaking target variable values and related processes"
         },
         {
           "id": "d",
-          "text": "Target audience information leakage"
+          "text": "Target audience information leakage and associated activities"
         }
       ],
       "correct": "b",
@@ -5873,7 +5873,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A path for learning ML"
+          "text": "A path for learning ML and associated activities"
         },
         {
           "id": "b",
@@ -5881,11 +5881,11 @@
         },
         {
           "id": "c",
-          "text": "Difficulty of learning algorithms"
+          "text": "Difficulty of learning algorithms and related processes"
         },
         {
           "id": "d",
-          "text": "Team learning progress"
+          "text": "Team learning progress and related processes"
         }
       ],
       "correct": "b",
@@ -5900,7 +5900,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Optimizing logical inference"
+          "text": "Optimizing logical inference and associated activities"
         },
         {
           "id": "b",
@@ -5908,11 +5908,11 @@
         },
         {
           "id": "c",
-          "text": "Optimizing inference documentation"
+          "text": "Optimizing inference documentation and associated activities"
         },
         {
           "id": "d",
-          "text": "Statistical inference improvements"
+          "text": "Statistical inference improvements and related processes"
         }
       ],
       "correct": "b",
@@ -5927,7 +5927,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Time spent valuing assets"
+          "text": "Time spent valuing assets and related processes"
         },
         {
           "id": "b",
@@ -5935,11 +5935,11 @@
         },
         {
           "id": "c",
-          "text": "Valuable time management"
+          "text": "Valuable time management and associated activities"
         },
         {
           "id": "d",
-          "text": "Time tracking for value billing"
+          "text": "Time tracking for value billing and associated activities"
         }
       ],
       "correct": "b",
@@ -5954,7 +5954,7 @@
       "options": [
         {
           "id": "a",
-          "text": "How recently data was backed up"
+          "text": "How recently data was backed up and associated activities"
         },
         {
           "id": "b",
@@ -5962,11 +5962,11 @@
         },
         {
           "id": "c",
-          "text": "Data storage temperature"
+          "text": "Data storage temperature and associated activities"
         },
         {
           "id": "d",
-          "text": "New data arrivals"
+          "text": "New data arrivals and related processes"
         }
       ],
       "correct": "b",
@@ -5981,7 +5981,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Unequal classroom sizes"
+          "text": "Unequal classroom sizes and related processes"
         },
         {
           "id": "b",
@@ -5989,11 +5989,11 @@
         },
         {
           "id": "c",
-          "text": "Imbalanced class schedules"
+          "text": "Imbalanced class schedules and related processes"
         },
         {
           "id": "d",
-          "text": "Unequal class participation"
+          "text": "Unequal class participation and associated activities"
         }
       ],
       "correct": "b",
@@ -6008,7 +6008,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Temperature-based model operation"
+          "text": "Temperature-based model operation and associated activities"
         },
         {
           "id": "b",
@@ -6016,11 +6016,11 @@
         },
         {
           "id": "c",
-          "text": "Warm weather vs. cold weather deployment"
+          "text": "Warm weather vs. cold weather deployment and associated activities"
         },
         {
           "id": "d",
-          "text": "Starting training from scratch vs. pretrained"
+          "text": "Starting training from scratch vs. pretrained and associated activities"
         }
       ],
       "correct": "b",
@@ -6035,7 +6035,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Explaining counter-terrorism AI"
+          "text": "Explaining counter-terrorism AI and associated activities"
         },
         {
           "id": "b",
@@ -6043,11 +6043,11 @@
         },
         {
           "id": "c",
-          "text": "Factual vs. fictional explanations"
+          "text": "Factual vs. fictional explanations and related processes"
         },
         {
           "id": "d",
-          "text": "Counting explanation factors"
+          "text": "Counting explanation factors and related processes"
         }
       ],
       "correct": "b",
@@ -6062,19 +6062,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Quick physical movements"
+          "text": "Quick physical movements and related processes"
         },
         {
           "id": "b",
-          "text": "An iterative approach emphasizing flexibility, collaboration, and incremental delivery"
+          "text": "An iterative approach emphasizing flexibility, collaboration, and"
         },
         {
           "id": "c",
-          "text": "Fast algorithm execution"
+          "text": "Fast algorithm execution and associated activities"
         },
         {
           "id": "d",
-          "text": "Agility testing for AI systems"
+          "text": "Agility testing for AI systems and related processes"
         }
       ],
       "correct": "b",
@@ -6089,7 +6089,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Resolving business entity structures"
+          "text": "Resolving business entity structures and related processes"
         },
         {
           "id": "b",
@@ -6097,11 +6097,11 @@
         },
         {
           "id": "c",
-          "text": "Entity relationship diagrams"
+          "text": "Entity relationship diagrams and related processes"
         },
         {
           "id": "d",
-          "text": "Legal entity registration"
+          "text": "Legal entity registration and associated activities"
         }
       ],
       "correct": "b",
@@ -6116,7 +6116,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A smoking detection model"
+          "text": "A smoking detection model and associated activities"
         },
         {
           "id": "b",
@@ -6124,11 +6124,11 @@
         },
         {
           "id": "c",
-          "text": "A smooth training technique"
+          "text": "A smooth training technique and associated activities"
         },
         {
           "id": "d",
-          "text": "Small model optimization"
+          "text": "Small model optimization and associated activities"
         }
       ],
       "correct": "b",
@@ -6143,19 +6143,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Speeding up GPU manufacturing"
+          "text": "Speeding up GPU manufacturing and associated activities"
         },
         {
           "id": "b",
-          "text": "Using graphics processing units to speed up model predictions"
+          "text": "Using graphics processing units to speed up model predictions and related processes"
         },
         {
           "id": "c",
-          "text": "GPU display acceleration"
+          "text": "GPU display acceleration and associated activities"
         },
         {
           "id": "d",
-          "text": "Accelerating GPU procurement"
+          "text": "Accelerating GPU procurement and associated activities"
         }
       ],
       "correct": "b",
@@ -6170,7 +6170,7 @@
       "options": [
         {
           "id": "a",
-          "text": "Business cards for model developers"
+          "text": "Business cards for model developers and related processes"
         },
         {
           "id": "b",
@@ -6178,11 +6178,11 @@
         },
         {
           "id": "c",
-          "text": "Credit card integration for models"
+          "text": "Credit card integration for models and related processes"
         },
         {
           "id": "d",
-          "text": "Model identification cards"
+          "text": "Model identification cards and related processes"
         }
       ],
       "correct": "b",
@@ -6197,19 +6197,19 @@
       "options": [
         {
           "id": "a",
-          "text": "Running quickly"
+          "text": "Running quickly and associated activities"
         },
         {
           "id": "b",
-          "text": "A fixed time period for completing a set of planned work"
+          "text": "A fixed time period for completing a set of planned work and associated activities"
         },
         {
           "id": "c",
-          "text": "Sprint phone carrier integration"
+          "text": "Sprint phone carrier integration and associated activities"
         },
         {
           "id": "d",
-          "text": "Fast model training"
+          "text": "Fast model training and associated activities"
         }
       ],
       "correct": "b",
@@ -6228,15 +6228,15 @@
         },
         {
           "id": "b",
-          "text": "Replacing sensitive data with realistic but fictional values"
+          "text": "Replacing sensitive data with realistic but fictional values and related processes"
         },
         {
           "id": "c",
-          "text": "Hiding data from view"
+          "text": "Hiding data from view and associated activities"
         },
         {
           "id": "d",
-          "text": "Mask-wearing detection in AI"
+          "text": "Mask-wearing detection in AI and associated activities"
         }
       ],
       "correct": "b",
@@ -6259,11 +6259,11 @@
         },
         {
           "id": "c",
-          "text": "A communication channel"
+          "text": "A communication channel and associated activities"
         },
         {
           "id": "d",
-          "text": "Water pipeline systems"
+          "text": "Water pipeline systems and related processes"
         }
       ],
       "correct": "b",
@@ -6278,7 +6278,7 @@
       "options": [
         {
           "id": "a",
-          "text": "A queue for undeliverable mail"
+          "text": "A queue for undeliverable mail and associated activities"
         },
         {
           "id": "b",
@@ -6286,11 +6286,11 @@
         },
         {
           "id": "c",
-          "text": "Outdated letters about AI"
+          "text": "Outdated letters about AI and associated activities"
         },
         {
           "id": "d",
-          "text": "A queue for expired messages"
+          "text": "A queue for expired messages and related processes"
         }
       ],
       "correct": "b",
